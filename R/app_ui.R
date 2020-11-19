@@ -9,9 +9,8 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
-    fluidPage(
-      h1("everestInsights")
-    )
+    mod_dashboard_ui("dashboard_ui_1")
+
   )
 }
 
