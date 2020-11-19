@@ -1,0 +1,24 @@
+{
+    "id": "FDC9C3F4",
+    "path": "~/Documents/everestInsights/R/golem_utils_server.R",
+    "project_path": "R/golem_utils_server.R",
+    "type": "r_source",
+    "hash": "3626749841",
+    "contents": "",
+    "dirty": false,
+    "created": 1605791925783.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "cursorPosition": "19,18",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1605791839,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1605791839,
+    "read_only": false,
+    "read_only_alternatives": []
+}

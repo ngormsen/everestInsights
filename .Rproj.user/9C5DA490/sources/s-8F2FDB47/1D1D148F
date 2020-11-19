@@ -1,0 +1,26 @@
+{
+    "id": "1D1D148F",
+    "path": "~/Documents/everestInsights/man/run_app.Rd",
+    "project_path": "man/run_app.Rd",
+    "type": "r_doc",
+    "hash": "3151629102",
+    "contents": "",
+    "dirty": false,
+    "created": 1605792037161.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "cursorPosition": "14,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1605791359,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1605791359,
+    "read_only": true,
+    "read_only_alternatives": [
+        "R/run_app.R"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "85366F01",
+    "path": "~/Documents/everestInsights/R/app_config.R",
+    "project_path": "R/app_config.R",
+    "type": "r_source",
+    "hash": "1120063579",
+    "contents": "",
+    "dirty": false,
+    "created": 1605792082855.0,
+    "source_on_save": false,
+    "relative_order": 13,
+    "properties": {
+        "cursorPosition": "31,3",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1605791359,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1605791359,
+    "read_only": false,
+    "read_only_alternatives": []
+}
