@@ -1,3 +1,4 @@
+library("glue")
 
 # Computations ------------------------------------------------------------
 PreprocessRawTransactionLog <- function(data, columns){
@@ -95,9 +96,9 @@ ComputeRecencyFrequency <- function(translog){
 
 GetDataCohortTableOfNumPurchases <- function(translog, x){
   data <- translog %>% 
-    group_by(cohort, get(x)) %>% 
+    group_by(cohort, base::get(x)) %>% 
     count() %>% 
-    rename(period = `get(x)`) %>% 
+    rename(period = `base::get(x)`) %>% 
     mutate(cohort = as.factor(cohort)) %>% 
     mutate(cohort = factor(cohort, levels = rev(levels(cohort))))
   return(data)
@@ -105,9 +106,9 @@ GetDataCohortTableOfNumPurchases <- function(translog, x){
 
 GetDataCohortTableCustom <- function(translog, x, var, fun, relativeTo = NULL){
   data <- translog %>% 
-    group_by(cohort, get(x)) %>% 
+    group_by(cohort, base::get(x)) %>% 
     summarise_at(.vars = var, .funs = fun) %>% 
-    rename(period = `get(x)`) %>%
+    rename(period = `base::get(x)`) %>%
     mutate(cohort = as.factor(cohort)) %>% 
     mutate(cohort = factor(cohort, levels = rev(levels(cohort)))) %>% 
     setDT()

@@ -9,7 +9,7 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
-    mod_dashboard_ui("dashboard_ui_1")
+    mod_dashboard_ui("dashboard_ui")
 
   )
 }
