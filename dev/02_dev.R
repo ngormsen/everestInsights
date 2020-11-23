@@ -20,6 +20,17 @@ usethis::use_package( "DT" )
 usethis::use_package( "plotly" )
 usethis::use_package( "data.table" )
 usethis::use_package( "glue" )
+usethis::use_package( "boot" )
+usethis::use_package("dplyr")
+usethis::use_package("shinipsum")
+usethis::use_package("tidyverse", type = "depends")
+usethis::use_package("lubridate")
+usethis::use_package("RColorBrewer")
+usethis::use_package("sjPlot")
+usethis::use_package("sjmisc")
+usethis::use_package("sjlabelled")
+usethis::use_package("R6")
+
 
 
 
@@ -28,7 +39,6 @@ usethis::use_package( "glue" )
 golem::add_module( name = "dashboard" ) # Name of the module
 golem::add_module( name = "tabDashboardMain" ) # Name of the module
 golem::add_module( name = "tabDashboardCohortAnalysis" ) # Name of the module
-
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

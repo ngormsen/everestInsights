@@ -5,7 +5,8 @@
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd 
-#'
+#' @import plotly lubridate
+#' @importFrom DT DTOutput renderDT
 #' @importFrom shiny NS tagList 
 mod_tabDashboardMain_ui <- function(id){
   ns <- NS(id)
@@ -24,7 +25,7 @@ mod_tabDashboardMain_ui <- function(id){
 }
     
 #' tabDashboardMain Server Function
-#'
+#' 
 #' @noRd 
 mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean){
   ns <- session$ns

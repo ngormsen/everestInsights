@@ -5,7 +5,7 @@
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd 
-#'
+#' @import sjPlot sjmisc sjlabelled
 #' @importFrom shiny NS tagList 
 mod_tabDashboardCohortAnalysis_ui <- function(id){
   ns <- NS(id)
@@ -50,7 +50,7 @@ mod_tabDashboardCohortAnalysis_ui <- function(id){
 }
     
 #' tabDashboardCohortAnalysis Server Function
-#'
+#' 
 #' @noRd 
 mod_tabDashboardCohortAnalysis_server <- function(input, output, session, translog, translogClean){
   ns <- session$ns

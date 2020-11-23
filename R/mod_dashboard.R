@@ -1,18 +1,6 @@
-library(shinydashboard)
-library(DT)
-library(plotly)
-library(data.table)
-library(tidyverse)
-library(lubridate)
-library(RColorBrewer)
-library(shinipsum)
-
-# For displaying Regression Output
-library(sjPlot)
-library(sjmisc)
-library(sjlabelled)
 
 
+# 
 #' dashboard UI Function
 #' 
 #' @description A shiny Module.
@@ -22,6 +10,8 @@ library(sjlabelled)
 #' @noRd 
 #'
 #' @import data.table
+#' @import utils RColorBrewer dplyr 
+#' @import shinydashboard
 #' @importFrom shiny NS tagList 
 mod_dashboard_ui <- function(id){
   ns <- NS(id)
@@ -35,7 +25,6 @@ mod_dashboard_ui <- function(id){
   )
 
   tabDashboard <- mod_tabDashboardMain_ui(ns("tabDashboardMain"))
-
   tabCohortAnalysis <- mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis"))
 
   tagList(
@@ -55,13 +44,21 @@ mod_dashboard_ui <- function(id){
 }
     
 #' dashboard Server Function
-#'
+#' 
 #' @noRd 
 mod_dashboard_server <- function(input, output, session){
   ns <- session$ns
   
   # Data Import + Preprocessing --------------------------------------------------------------------
-     translogRaw <- reactive({
+
+  createDataObject <- reactive({
+    dataHandler <- DataHandler$new()
+    dataHandler$preprocessTransactionLog()
+    dataHandler$createCohortStructure()
+  })
+  
+  translogRaw <- reactive({
+    dataObject <- createDataObject()
     csvTable <- as.data.table(read.csv("data/retail_relay2.csv"))
   })
 

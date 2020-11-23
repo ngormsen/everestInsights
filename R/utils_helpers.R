@@ -1,5 +1,5 @@
 library("glue")
-
+#' @export
 # Computations ------------------------------------------------------------
 PreprocessRawTransactionLog <- function(data, columns){
   # only select relevant columns

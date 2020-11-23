@@ -1,0 +1,10 @@
+name: everestinsights
+title:
+username:
+account: nils-gormsen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3272842
+bundleId: 3894367
+url: https://nils-gormsen.shinyapps.io/everestinsights/
+when: 1606124315.20323
