@@ -40,6 +40,9 @@ golem::add_module( name = "dashboard" ) # Name of the module
 golem::add_module( name = "tabDashboardData" ) # Name of the module
 golem::add_module( name = "tabDashboardMain" ) # Name of the module
 golem::add_module( name = "tabDashboardCohortAnalysis" ) # Name of the module
+golem::add_module( name = "tabDashboardReport" ) # Name of the module
+golem::add_module( name = "ReportCard" ) # Name of the module
+
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*

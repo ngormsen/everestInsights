@@ -20,14 +20,16 @@ mod_dashboard_ui <- function(id){
     sidebarMenu(
       menuItem("Data", tabName = "tabData"),
       menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
-      menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th"))
+      menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
+      menuItem("Reports", tabName = "tabReports", icon = icon("file-alt"))
     )
   )
   
   tabData <- mod_tabDashboardData_ui(ns("tabData"))
   tabDashboard <- mod_tabDashboardMain_ui(ns("tabDashboardMain"))
   tabCohortAnalysis <- mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis"))
-
+  tabReports <- mod_tabDashboardReport_ui(ns("tabDashboardReport"))
+  
   tagList(
     shinydashboard::dashboardPage(
       header = dashboardHeader( ),
@@ -36,7 +38,8 @@ mod_dashboard_ui <- function(id){
         tabItems(
           tabData,
           tabDashboard,
-          tabCohortAnalysis
+          tabCohortAnalysis,
+          tabReports
         )
       ),
       title = "Hello Dashboard"
@@ -81,6 +84,7 @@ mod_dashboard_server <- function(input, output, session){
   mydata <- callModule(mod_tabDashboardData_server, "tabData")
   callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, mydata=mydata)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
+  callModule(mod_tabDashboardReport_server, "tabDashboardReport")
 }
     
 ## To be copied in the UI

@@ -2,6 +2,7 @@
 
 export(DataHandler)
 export(PreprocessRawTransactionLog)
+export(Report)
 export(run_app)
 import(R6)
 import(RColorBrewer)
