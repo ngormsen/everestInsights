@@ -81,8 +81,8 @@ mod_dashboard_server <- function(input, output, session){
   })
 
   # Call to submodules
-  mydata <- callModule(mod_tabDashboardData_server, "tabData")
-  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, mydata=mydata)
+  data <- callModule(mod_tabDashboardData_server, "tabData")
+  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport")
 }

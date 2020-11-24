@@ -16,6 +16,7 @@ mod_tabDashboardData_ui <- function(id){
       box(
         fileInput(
           ns("csvFile"),
+          label = "Import Transaction Log",
           multiple = F,
           width = "250px",
           accept = ".csv"
@@ -73,7 +74,7 @@ mod_tabDashboardData_server <- function(input, output, session){
     updateSelectizeInput(session, "amountSpent",    choices = newChoices, selected = newChoices[1])
     updateSelectizeInput(session, "orderTimestamp", choices = newChoices, selected = newChoices[1])
     updateSelectizeInput(session, "adSpent",        choices = newChoices, selected = newChoices[1])
-    updateSelectizeInput(session, "productName",        choices = newChoices, selected = newChoices[1])
+    updateSelectizeInput(session, "productName",    choices = newChoices, selected = newChoices[1])
   })
   
   output$colnames <- renderUI({
@@ -84,7 +85,7 @@ mod_tabDashboardData_server <- function(input, output, session){
   })
   
   output$rawData <- renderDT({
-    DT::datatable(data()[1:20])
+    DT::datatable(data()[1:20]) 
   })
   
   return(data)

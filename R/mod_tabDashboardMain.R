@@ -28,15 +28,11 @@ mod_tabDashboardMain_ui <- function(id){
 #' tabDashboardMain Server Function
 #' 
 #' @noRd 
-mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean, mydata){
+mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean){
   ns <- session$ns
   
   output$plotTranslogRaw <- renderDT({
     PlotTranslog(translogClean())
-  })
-  
-  output$mydata <- renderText({
-    mydata()
   })
   
   output$myvaluebox <- renderValueBox({
@@ -87,7 +83,6 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
       icon = icon("credit-card")
     )
   })
-  
   
   output$plotC3 <- renderPlot({
     PlotC3(dt(), "Monthly Cohorts")
