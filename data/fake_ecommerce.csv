@@ -1,0 +1,2891 @@
+orderTimestamp,customerId,amountSpent,productName,productCategory
+2009-01-20,47,26.6,Step and Distance Pedometer TL Pro,Industrial
+2009-02-03,47,38.71,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-02-06,47,53.38,Wearable Transmitter KR,Lifestyle
+2009-02-06,47,14.28,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-17,47,29.5,Action Camera Pro,Lifestyle
+2009-02-23,47,18.91,Strapless Heart Rate Monitor,Medical
+2009-03-01,47,64.41,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-09,47,18.03,Microcontroller ES,Fitness
+2009-03-17,47,25.55,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-03-17,47,13.64,Wearable AUSG with Calorie Counter,Medical
+2009-03-24,47,47.83,Step and Distance Pedometer TL Pro,Industrial
+2009-03-31,47,42.14,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-14,47,21.73,Wearable Transmitter KR,Lifestyle
+2009-04-16,47,21.73,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-23,47,17.97,Action Camera Pro,Lifestyle
+2009-04-28,47,28.85,Strapless Heart Rate Monitor,Medical
+2009-04-28,47,7.15,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-01,47,57.75,Microcontroller ES,Fitness
+2009-05-04,47,40.98,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-12,47,14.93,Wearable AUSG with Calorie Counter,Medical
+2009-05-14,47,14.32,Step and Distance Pedometer TL Pro,Industrial
+2009-05-19,47,40.76,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-26,47,83.41,Wearable Transmitter KR,Lifestyle
+2009-06-01,47,47.39,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-05,47,16.76,Action Camera Pro,Lifestyle
+2009-06-12,47,26.71,Strapless Heart Rate Monitor,Medical
+2009-06-16,47,18.66,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-23,47,46.65,Microcontroller ES,Fitness
+2009-07-02,47,20.27,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-06,47,44.88,Wearable AUSG with Calorie Counter,Medical
+2009-07-08,47,17.61,Step and Distance Pedometer TL Pro,Industrial
+2009-07-13,47,23.15,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-19,47,71.09,Wearable Transmitter KR,Lifestyle
+2009-07-24,47,50.66,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-30,47,69.11,Action Camera Pro,Lifestyle
+2009-07-30,47,41,Strapless Heart Rate Monitor,Medical
+2009-08-10,47,51.42,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-10,47,14.76,Microcontroller ES,Fitness
+2009-08-10,47,15.64,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-18,47,12.9555,Wearable AUSG with Calorie Counter,Medical
+2009-08-25,47,50.29,Step and Distance Pedometer TL Pro,Industrial
+2009-08-25,47,4.09,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-25,47,3.08,Wearable Transmitter KR,Lifestyle
+2009-08-28,47,66.25,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-28,47,7.56,Action Camera Pro,Lifestyle
+2009-09-02,47,70.1302,Strapless Heart Rate Monitor,Medical
+2009-09-03,47,12.27,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-07,47,106.89,Microcontroller ES,Fitness
+2009-09-17,47,92.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-21,47,40.125,Wearable AUSG with Calorie Counter,Medical
+2009-09-29,47,61.74,Step and Distance Pedometer TL Pro,Industrial
+2009-10-05,47,51.78,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-11,47,3.74,Wearable Transmitter KR,Lifestyle
+2009-10-20,47,40.11,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-26,47,45.4838,Action Camera Pro,Lifestyle
+2009-11-05,47,41.78,Strapless Heart Rate Monitor,Medical
+2009-11-12,47,23.1,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-17,47,48.25,Microcontroller ES,Fitness
+2009-11-18,47,5,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-29,47,60.14,Wearable AUSG with Calorie Counter,Medical
+2009-12-06,47,70.72,Step and Distance Pedometer TL Pro,Industrial
+2009-12-14,47,172.534,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-03,47,62.3497,Wearable Transmitter KR,Lifestyle
+2010-01-04,47,18.39,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-24,47,52.0292,Action Camera Pro,Lifestyle
+2010-01-31,47,47.6325,Strapless Heart Rate Monitor,Medical
+2010-01-31,47,23.629,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-01,47,6.638,Microcontroller ES,Fitness
+2010-02-16,47,79.9095,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-22,47,51.15,Wearable AUSG with Calorie Counter,Medical
+2010-02-23,47,27.97,Step and Distance Pedometer TL Pro,Industrial
+2010-02-25,47,15.5025,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,47,48.152,Wearable Transmitter KR,Lifestyle
+2010-03-02,47,34.13,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-05,47,7.22,Action Camera Pro,Lifestyle
+2009-03-10,95,7.47,Strapless Heart Rate Monitor,Medical
+2009-04-07,95,3.68,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-29,98,16.96,Microcontroller ES,Fitness
+2009-02-16,98,6.74,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-03-03,98,3.68,Wearable AUSG with Calorie Counter,Medical
+2009-03-17,98,4.09,Step and Distance Pedometer TL Pro,Industrial
+2009-03-18,98,3.59,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-03-18,98,3.59,Wearable Transmitter KR,Lifestyle
+2009-04-01,98,2.03,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-10,98,3.59,Action Camera Pro,Lifestyle
+2009-04-10,98,5.11,Strapless Heart Rate Monitor,Medical
+2009-05-05,98,3.59,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-19,112,17.76,Microcontroller ES,Fitness
+2009-11-13,141,30.87,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-14,147,23.26,Wearable AUSG with Calorie Counter,Medical
+2009-12-13,160,37.46,Step and Distance Pedometer TL Pro,Industrial
+2010-01-10,160,65.09,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-08,177,44.7928,Wearable Transmitter KR,Lifestyle
+2010-02-09,177,41.6928,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-19,180,66.21,Action Camera Pro,Lifestyle
+2009-09-21,180,46.0502,Strapless Heart Rate Monitor,Medical
+2009-01-27,182,291.64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-18,182,390.0692,Microcontroller ES,Fitness
+2010-02-22,182,79.4442,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-04,182,260.122,Wearable AUSG with Calorie Counter,Medical
+2010-03-08,182,270.1352,Step and Distance Pedometer TL Pro,Industrial
+2009-04-07,200,29.8,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-14,200,6.26,Wearable Transmitter KR,Lifestyle
+2009-07-13,200,2.24,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-02,200,13.67,Action Camera Pro,Lifestyle
+2009-10-12,200,13.58,Strapless Heart Rate Monitor,Medical
+2009-10-19,200,6.54,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-18,200,7.443,Microcontroller ES,Fitness
+2009-03-22,202,101.83,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-08,202,206.32,Wearable AUSG with Calorie Counter,Medical
+2009-04-30,202,142.04,Step and Distance Pedometer TL Pro,Industrial
+2009-05-05,202,111.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-12,202,96.14,Wearable Transmitter KR,Lifestyle
+2009-05-20,202,162.41,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-27,202,144.73,Action Camera Pro,Lifestyle
+2009-06-03,202,81.82,Strapless Heart Rate Monitor,Medical
+2009-06-29,202,208.52,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-11,202,142.86,Microcontroller ES,Fitness
+2009-08-20,202,230.71,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-01,202,164.3,Wearable AUSG with Calorie Counter,Medical
+2009-09-08,202,243.9302,Step and Distance Pedometer TL Pro,Industrial
+2009-10-15,202,173.65,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-19,202,87.6505,Wearable Transmitter KR,Lifestyle
+2009-10-27,202,206.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-04,202,115.9505,Action Camera Pro,Lifestyle
+2009-11-11,202,216.3905,Strapless Heart Rate Monitor,Medical
+2009-11-18,202,158.94,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-26,202,161.77,Microcontroller ES,Fitness
+2009-01-13,207,32.96,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-01-20,207,24.24,Wearable AUSG with Calorie Counter,Medical
+2009-02-05,207,22.6,Step and Distance Pedometer TL Pro,Industrial
+2009-02-12,207,55.4,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-02-12,207,3.02,Wearable Transmitter KR,Lifestyle
+2009-02-19,207,28.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-19,207,2.65,Action Camera Pro,Lifestyle
+2009-02-19,207,2.8,Strapless Heart Rate Monitor,Medical
+2009-02-26,207,29.22,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-02-26,207,28.34,Microcontroller ES,Fitness
+2009-03-10,207,17.81,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-03-17,207,45.3,Wearable AUSG with Calorie Counter,Medical
+2009-03-24,207,39.3,Step and Distance Pedometer TL Pro,Industrial
+2009-04-14,207,14.42,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-23,207,28.17,Wearable Transmitter KR,Lifestyle
+2009-05-14,207,38.95,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-21,207,31.77,Action Camera Pro,Lifestyle
+2009-05-28,207,34.24,Strapless Heart Rate Monitor,Medical
+2009-06-04,207,41.12,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-11,207,22.67,Microcontroller ES,Fitness
+2009-06-16,207,46.38,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-25,207,14.66,Wearable AUSG with Calorie Counter,Medical
+2009-06-30,207,9.25,Step and Distance Pedometer TL Pro,Industrial
+2009-07-23,207,29.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-27,207,30.6,Wearable Transmitter KR,Lifestyle
+2009-08-11,207,83.24,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-18,207,57.41,Action Camera Pro,Lifestyle
+2009-08-25,207,75.6252,Strapless Heart Rate Monitor,Medical
+2009-09-03,207,82.7055,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-15,207,60.77,Microcontroller ES,Fitness
+2009-09-22,207,55.27,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-08,207,38.15,Wearable AUSG with Calorie Counter,Medical
+2009-11-03,207,58.52,Step and Distance Pedometer TL Pro,Industrial
+2009-11-10,207,37.72,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-01,207,53.44,Wearable Transmitter KR,Lifestyle
+2009-12-08,207,31.399,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-15,207,41.51,Action Camera Pro,Lifestyle
+2009-12-21,207,81.22,Strapless Heart Rate Monitor,Medical
+2010-01-26,207,76.44,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-02,207,72.0175,Microcontroller ES,Fitness
+2010-02-16,207,71.8068,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-22,207,22.98,Wearable AUSG with Calorie Counter,Medical
+2010-02-26,207,21.88,Step and Distance Pedometer TL Pro,Industrial
+2010-03-02,207,64.94,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-08,207,57.05,Wearable Transmitter KR,Lifestyle
+2009-01-28,225,16.99,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-10,230,16.66,Action Camera Pro,Lifestyle
+2009-03-05,230,18.7,Strapless Heart Rate Monitor,Medical
+2009-04-14,230,21.34,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-06,253,57.51,Microcontroller ES,Fitness
+2009-01-15,253,64.83,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-01-20,253,80.48,Wearable AUSG with Calorie Counter,Medical
+2009-01-27,253,91.53,Step and Distance Pedometer TL Pro,Industrial
+2009-02-02,253,54.86,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-02-04,253,50.12,Wearable Transmitter KR,Lifestyle
+2009-02-11,253,76.89,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-11,253,18.75,Action Camera Pro,Lifestyle
+2009-03-09,253,93.34,Strapless Heart Rate Monitor,Medical
+2009-03-19,253,88.84,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-24,253,83.93,Microcontroller ES,Fitness
+2009-03-26,253,21.29,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-03-31,253,72.7,Wearable AUSG with Calorie Counter,Medical
+2009-04-02,253,47.92,Step and Distance Pedometer TL Pro,Industrial
+2009-04-07,253,115.56,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-09,253,32.34,Wearable Transmitter KR,Lifestyle
+2009-04-09,253,5.45,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-14,253,67.21,Action Camera Pro,Lifestyle
+2009-04-16,253,16.96,Strapless Heart Rate Monitor,Medical
+2009-04-23,253,85.9,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-30,253,102.09,Microcontroller ES,Fitness
+2009-05-05,253,53.73,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-07,253,78.98,Wearable AUSG with Calorie Counter,Medical
+2009-05-12,253,81.41,Step and Distance Pedometer TL Pro,Industrial
+2009-05-20,253,40.97,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-21,253,59.61,Wearable Transmitter KR,Lifestyle
+2009-05-26,253,104.19,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-04,253,91.58,Action Camera Pro,Lifestyle
+2009-06-04,253,13.27,Strapless Heart Rate Monitor,Medical
+2009-06-09,253,25.33,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-16,253,141.65,Microcontroller ES,Fitness
+2009-06-19,253,38.99,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-25,253,105.84,Wearable AUSG with Calorie Counter,Medical
+2009-06-26,253,36.05,Step and Distance Pedometer TL Pro,Industrial
+2009-07-02,253,68.47,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-07,253,167.73,Wearable Transmitter KR,Lifestyle
+2009-07-14,253,243.92,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-21,253,67.33,Action Camera Pro,Lifestyle
+2009-07-23,253,78.3,Strapless Heart Rate Monitor,Medical
+2009-07-31,253,73.45,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-04,253,112.51,Microcontroller ES,Fitness
+2009-08-11,253,275.94,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-17,253,93.54,Wearable AUSG with Calorie Counter,Medical
+2009-08-18,253,8.55,Step and Distance Pedometer TL Pro,Industrial
+2009-08-25,253,117.2805,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-01,253,133.1505,Wearable Transmitter KR,Lifestyle
+2009-09-01,253,15.1,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-08,253,77.8405,Action Camera Pro,Lifestyle
+2009-09-15,253,120.7102,Strapless Heart Rate Monitor,Medical
+2009-09-23,253,183.559,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-24,253,12.89,Microcontroller ES,Fitness
+2009-09-29,253,64.6677,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-08,253,193.0202,Wearable AUSG with Calorie Counter,Medical
+2009-10-14,253,136.45,Step and Distance Pedometer TL Pro,Industrial
+2009-10-15,253,23.74,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-03,253,141.1412,Wearable Transmitter KR,Lifestyle
+2009-11-05,253,33.3537,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-12,253,58.2455,Action Camera Pro,Lifestyle
+2009-12-04,253,184.1292,Strapless Heart Rate Monitor,Medical
+2009-12-09,253,82.6957,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-11,253,14.9875,Microcontroller ES,Fitness
+2009-12-18,253,78.28,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-28,253,198.7354,Wearable AUSG with Calorie Counter,Medical
+2009-12-28,253,5.115,Step and Distance Pedometer TL Pro,Industrial
+2010-01-05,253,65.1562,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-07,253,31.1478,Wearable Transmitter KR,Lifestyle
+2010-01-12,253,210.89,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-19,253,105.739,Action Camera Pro,Lifestyle
+2010-01-26,253,166.457,Strapless Heart Rate Monitor,Medical
+2010-01-30,253,42.3975,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-01,253,136.1052,Microcontroller ES,Fitness
+2010-02-09,253,203.433,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-15,253,129.07,Wearable AUSG with Calorie Counter,Medical
+2010-02-22,253,166.3652,Step and Distance Pedometer TL Pro,Industrial
+2010-03-01,253,165.1375,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-08,253,294.2708,Wearable Transmitter KR,Lifestyle
+2009-01-14,277,127.47,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-01-28,277,146.085,Action Camera Pro,Lifestyle
+2009-02-15,277,89.295,Strapless Heart Rate Monitor,Medical
+2009-02-25,277,169.72,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-11,277,104.45,Microcontroller ES,Fitness
+2009-03-19,277,187.81,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-02,277,117.76,Wearable AUSG with Calorie Counter,Medical
+2009-04-09,277,64.8,Step and Distance Pedometer TL Pro,Industrial
+2009-04-15,277,47.03,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-20,277,94.87,Wearable Transmitter KR,Lifestyle
+2009-05-12,277,181.295,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-21,277,118.76,Action Camera Pro,Lifestyle
+2009-06-09,277,177.12,Strapless Heart Rate Monitor,Medical
+2009-06-18,277,120.61,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-02,277,137.01,Microcontroller ES,Fitness
+2009-07-13,277,179.49,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-29,277,100.05,Wearable AUSG with Calorie Counter,Medical
+2009-08-17,277,269.125,Step and Distance Pedometer TL Pro,Industrial
+2009-09-02,277,234.591,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-22,277,136.5805,Wearable Transmitter KR,Lifestyle
+2009-09-29,277,105.6752,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-20,277,153.09,Action Camera Pro,Lifestyle
+2009-11-03,277,212.5655,Strapless Heart Rate Monitor,Medical
+2009-11-11,277,199.8052,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-16,277,336.717,Microcontroller ES,Fitness
+2009-12-22,277,100.1412,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-12,277,263.4845,Wearable AUSG with Calorie Counter,Medical
+2010-01-25,277,286.3177,Step and Distance Pedometer TL Pro,Industrial
+2010-02-02,277,214.04,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,277,210.296,Wearable Transmitter KR,Lifestyle
+2010-03-08,277,200.38,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-09,407,20.55,Action Camera Pro,Lifestyle
+2009-01-13,457,50.21,Strapless Heart Rate Monitor,Medical
+2009-03-05,457,39.44,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-21,457,50.67,Microcontroller ES,Fitness
+2009-12-14,457,92.2452,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-11,457,56.07,Wearable AUSG with Calorie Counter,Medical
+2010-01-18,457,28.81,Step and Distance Pedometer TL Pro,Industrial
+2010-01-25,457,53.89,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,457,37.13,Wearable Transmitter KR,Lifestyle
+2010-03-03,457,60.235,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,457,42.56,Action Camera Pro,Lifestyle
+2009-02-19,464,12.6,Strapless Heart Rate Monitor,Medical
+2009-01-12,550,87.63,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-02-09,550,89.33,Microcontroller ES,Fitness
+2009-02-23,550,177.63,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-31,550,101.09,Wearable AUSG with Calorie Counter,Medical
+2009-06-22,550,94.34,Step and Distance Pedometer TL Pro,Industrial
+2010-01-06,550,113.771,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-01-24,616,101.22,Wearable Transmitter KR,Lifestyle
+2009-03-17,616,93.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-20,616,191.62,Action Camera Pro,Lifestyle
+2009-05-19,807,89.56,Strapless Heart Rate Monitor,Medical
+2009-06-11,807,32.7,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-14,807,41.79,Microcontroller ES,Fitness
+2009-12-21,825,52.39,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-01-13,891,131.98,Wearable AUSG with Calorie Counter,Medical
+2009-01-27,891,105.73,Step and Distance Pedometer TL Pro,Industrial
+2009-02-10,891,136.07,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-02-25,891,117.51,Wearable Transmitter KR,Lifestyle
+2009-03-10,891,134,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-01,891,155.35,Action Camera Pro,Lifestyle
+2009-04-14,891,67.66,Strapless Heart Rate Monitor,Medical
+2009-04-27,891,145.37,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-18,891,117.51,Microcontroller ES,Fitness
+2009-05-28,891,127.47,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-10,891,66.28,Wearable AUSG with Calorie Counter,Medical
+2009-06-15,891,66.08,Step and Distance Pedometer TL Pro,Industrial
+2009-06-22,891,54.13,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-14,891,47.88,Wearable Transmitter KR,Lifestyle
+2009-07-20,891,44.42,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-08,891,114.02,Action Camera Pro,Lifestyle
+2009-10-21,891,56.0252,Strapless Heart Rate Monitor,Medical
+2009-11-05,891,130.41,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-18,891,51.33,Microcontroller ES,Fitness
+2009-12-06,891,60.92,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-22,891,45.7102,Wearable AUSG with Calorie Counter,Medical
+2009-12-23,891,63.31,Step and Distance Pedometer TL Pro,Industrial
+2010-01-21,891,69.55,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-04,891,132.97,Wearable Transmitter KR,Lifestyle
+2009-01-20,899,12.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,937,41.35,Action Camera Pro,Lifestyle
+2010-01-19,937,35.5402,Strapless Heart Rate Monitor,Medical
+2010-01-27,937,48.6488,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,937,56.3302,Microcontroller ES,Fitness
+2010-01-04,940,116.4058,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-10,1023,28.82,Wearable AUSG with Calorie Counter,Medical
+2009-05-15,1023,26.37,Step and Distance Pedometer TL Pro,Industrial
+2009-05-21,1023,46,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-11,1023,36.99,Wearable Transmitter KR,Lifestyle
+2009-10-01,1023,76.52,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-27,1027,42.82,Action Camera Pro,Lifestyle
+2009-03-01,1409,25.93,Strapless Heart Rate Monitor,Medical
+2009-05-19,1409,27.01,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-22,1409,53.66,Microcontroller ES,Fitness
+2009-01-06,1558,62.74,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-01-27,1558,71.88,Wearable AUSG with Calorie Counter,Medical
+2009-03-17,1558,44.01,Step and Distance Pedometer TL Pro,Industrial
+2009-03-26,1558,37.78,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-19,1558,46.98,Wearable Transmitter KR,Lifestyle
+2009-11-03,1558,138.56,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-17,1558,76.85,Action Camera Pro,Lifestyle
+2009-11-23,1558,236.45,Strapless Heart Rate Monitor,Medical
+2009-11-30,1558,102.9042,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-08,1558,50.47,Microcontroller ES,Fitness
+2009-12-08,1558,14.21,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-15,1558,281.6052,Wearable AUSG with Calorie Counter,Medical
+2010-01-05,1558,112.77,Step and Distance Pedometer TL Pro,Industrial
+2009-02-10,1588,18.32,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-01-14,1625,33.22,Wearable Transmitter KR,Lifestyle
+2009-05-08,1625,48.49,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-22,1625,36.4,Action Camera Pro,Lifestyle
+2009-07-31,1625,50.07,Strapless Heart Rate Monitor,Medical
+2009-08-21,1625,27.39,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-24,1625,35.5602,Microcontroller ES,Fitness
+2009-10-30,1625,50.38,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-29,1625,33.814,Wearable AUSG with Calorie Counter,Medical
+2009-08-18,1701,57.33,Step and Distance Pedometer TL Pro,Industrial
+2009-09-09,1701,50.493,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-24,1701,91.76,Wearable Transmitter KR,Lifestyle
+2009-10-08,1701,28.39,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-15,1701,28.79,Action Camera Pro,Lifestyle
+2009-10-30,1701,53.12,Strapless Heart Rate Monitor,Medical
+2009-11-24,1701,51.63,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-18,1701,106.2787,Microcontroller ES,Fitness
+2009-12-30,1701,116.423,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-30,1844,53.1402,Wearable AUSG with Calorie Counter,Medical
+2009-10-24,1925,87.581,Step and Distance Pedometer TL Pro,Industrial
+2009-03-10,2195,49.15,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-03-17,2195,23.27,Wearable Transmitter KR,Lifestyle
+2009-05-27,2195,53.77,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-01,2195,47.58,Action Camera Pro,Lifestyle
+2010-01-31,2195,95.4563,Strapless Heart Rate Monitor,Medical
+2010-02-16,2195,64.84,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-07,2235,25.7177,Microcontroller ES,Fitness
+2010-01-13,2235,16.54,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-19,2235,14.35,Wearable AUSG with Calorie Counter,Medical
+2010-02-12,2235,35.5677,Step and Distance Pedometer TL Pro,Industrial
+2009-02-04,2583,21.37,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-11,2583,25.19,Wearable Transmitter KR,Lifestyle
+2009-06-18,2583,15.41,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-25,2583,31.34,Action Camera Pro,Lifestyle
+2009-07-02,2583,21.86,Strapless Heart Rate Monitor,Medical
+2009-07-23,2583,17.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-20,2583,35.86,Microcontroller ES,Fitness
+2009-09-03,2583,34.83,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-10,2583,59.49,Wearable AUSG with Calorie Counter,Medical
+2009-09-17,2583,21.72,Step and Distance Pedometer TL Pro,Industrial
+2009-09-24,2583,15.76,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-01,2583,34.94,Wearable Transmitter KR,Lifestyle
+2009-10-08,2583,28.88,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-22,2583,19.76,Action Camera Pro,Lifestyle
+2009-11-11,2583,29.8002,Strapless Heart Rate Monitor,Medical
+2009-12-07,2583,57.6245,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-28,2583,69.1302,Microcontroller ES,Fitness
+2010-02-10,2583,33.4,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-26,2583,30.4472,Wearable AUSG with Calorie Counter,Medical
+2009-02-21,2930,69.84,Step and Distance Pedometer TL Pro,Industrial
+2009-02-17,3181,18.35,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-16,3181,26.24,Wearable Transmitter KR,Lifestyle
+2009-04-23,3181,14.37,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-01-06,3190,35.48,Action Camera Pro,Lifestyle
+2009-05-07,3190,15.05,Strapless Heart Rate Monitor,Medical
+2009-05-07,3190,2.99,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-06,3194,7.37,Microcontroller ES,Fitness
+2009-06-17,3194,20.62,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-30,3194,8.18,Wearable AUSG with Calorie Counter,Medical
+2010-01-31,3194,20.82,Step and Distance Pedometer TL Pro,Industrial
+2010-01-05,3197,73.8033,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-07,3197,62.9018,Wearable Transmitter KR,Lifestyle
+2010-01-11,3197,56.9508,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-21,3197,91.104,Action Camera Pro,Lifestyle
+2010-01-29,3197,74.07,Strapless Heart Rate Monitor,Medical
+2009-01-13,3355,3.68,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-14,3385,47.56,Microcontroller ES,Fitness
+2009-04-14,3385,41.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-19,3385,51.56,Wearable AUSG with Calorie Counter,Medical
+2009-01-15,3394,13.64,Step and Distance Pedometer TL Pro,Industrial
+2009-02-17,3394,37.05,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-03-18,3394,27.52,Wearable Transmitter KR,Lifestyle
+2009-04-15,3394,53.96,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-15,3394,34.52,Action Camera Pro,Lifestyle
+2009-08-25,3394,28.3552,Strapless Heart Rate Monitor,Medical
+2009-01-28,3616,8.06,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-01-29,3640,31.84,Microcontroller ES,Fitness
+2009-07-21,3640,44.27,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-07,3640,59.91,Wearable AUSG with Calorie Counter,Medical
+2009-09-15,3640,43.96,Step and Distance Pedometer TL Pro,Industrial
+2009-09-24,3640,43.65,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-14,3640,35.04,Wearable Transmitter KR,Lifestyle
+2009-10-20,3640,33.32,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-03,3640,82.9,Action Camera Pro,Lifestyle
+2009-11-10,3640,40.39,Strapless Heart Rate Monitor,Medical
+2009-11-24,3640,42.4,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-03,3640,92.0219,Microcontroller ES,Fitness
+2010-01-05,3640,34.6185,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-12,3640,52.27,Wearable AUSG with Calorie Counter,Medical
+2010-01-21,3640,55.78,Step and Distance Pedometer TL Pro,Industrial
+2009-02-04,3733,15.01,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-02-10,3767,73.87,Wearable Transmitter KR,Lifestyle
+2009-10-26,3767,33.15,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-12,3889,65.18,Action Camera Pro,Lifestyle
+2009-04-25,3889,230.17,Strapless Heart Rate Monitor,Medical
+2009-06-02,3889,113.42,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-16,3889,187.54,Microcontroller ES,Fitness
+2009-06-30,3889,77.88,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-09,3889,89.9,Wearable AUSG with Calorie Counter,Medical
+2009-07-16,3889,91.38,Step and Distance Pedometer TL Pro,Industrial
+2009-07-29,3889,159.28,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-12,3889,68.5,Wearable Transmitter KR,Lifestyle
+2009-08-27,3889,100.7952,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-08,3889,60.2862,Action Camera Pro,Lifestyle
+2009-09-17,3889,139.4495,Strapless Heart Rate Monitor,Medical
+2009-09-30,3889,99.1,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-15,3889,157.6,Microcontroller ES,Fitness
+2009-11-03,3889,140.8005,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-25,3889,183.1745,Wearable AUSG with Calorie Counter,Medical
+2009-12-30,3889,74.7622,Step and Distance Pedometer TL Pro,Industrial
+2010-01-15,3889,39.38,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-31,3889,143.2598,Wearable Transmitter KR,Lifestyle
+2010-02-19,3889,148.8822,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-16,4058,31.53,Action Camera Pro,Lifestyle
+2009-10-22,4058,34.72,Strapless Heart Rate Monitor,Medical
+2009-02-18,4152,189.37,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-01,4152,171.15,Microcontroller ES,Fitness
+2009-03-08,4152,160.44,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-03-29,4152,72.22,Wearable AUSG with Calorie Counter,Medical
+2009-04-06,4152,137.08,Step and Distance Pedometer TL Pro,Industrial
+2009-04-22,4152,282.35,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-29,4152,143.98,Wearable Transmitter KR,Lifestyle
+2009-04-30,4152,45.15,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-04,4152,175.24,Action Camera Pro,Lifestyle
+2009-06-29,4152,101.05,Strapless Heart Rate Monitor,Medical
+2009-07-13,4152,103.62,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-19,4152,104.45,Microcontroller ES,Fitness
+2009-08-23,4152,70.27,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-17,4152,48.29,Wearable AUSG with Calorie Counter,Medical
+2009-09-19,4152,6.03,Step and Distance Pedometer TL Pro,Industrial
+2009-11-01,4152,134.01,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-29,4152,231.9207,Wearable Transmitter KR,Lifestyle
+2010-01-03,4152,262.93,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-24,4152,80.65,Action Camera Pro,Lifestyle
+2010-02-01,4152,210.1167,Strapless Heart Rate Monitor,Medical
+2010-02-04,4152,45.96,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-28,4152,180.02,Microcontroller ES,Fitness
+2009-02-18,4160,43.52,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-02-20,4244,20.04,Wearable AUSG with Calorie Counter,Medical
+2009-03-04,4244,24.88,Step and Distance Pedometer TL Pro,Industrial
+2009-03-09,4244,13.4,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-03-17,4244,27.19,Wearable Transmitter KR,Lifestyle
+2009-03-25,4244,13.63,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-12,4244,37,Action Camera Pro,Lifestyle
+2009-04-29,4244,31.1,Strapless Heart Rate Monitor,Medical
+2009-05-14,4244,20.03,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-27,4244,33.33,Microcontroller ES,Fitness
+2009-06-23,4244,31.45,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-07,4244,18.39,Wearable AUSG with Calorie Counter,Medical
+2009-07-14,4244,23.47,Step and Distance Pedometer TL Pro,Industrial
+2009-07-21,4244,13.04,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-27,4244,24.57,Wearable Transmitter KR,Lifestyle
+2009-08-11,4244,27.63,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-25,4244,11.12,Action Camera Pro,Lifestyle
+2009-09-07,4244,30.29,Strapless Heart Rate Monitor,Medical
+2009-09-29,4244,31.21,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-19,4244,19.23,Microcontroller ES,Fitness
+2009-11-09,4244,19.23,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,4244,43.09,Wearable AUSG with Calorie Counter,Medical
+2009-12-20,4244,18.5902,Step and Distance Pedometer TL Pro,Industrial
+2010-01-05,4244,23.79,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-14,4244,46.2,Wearable Transmitter KR,Lifestyle
+2010-02-22,4244,21.089,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-02-22,4270,50.1,Action Camera Pro,Lifestyle
+2009-09-21,4270,21.05,Strapless Heart Rate Monitor,Medical
+2010-02-15,4270,18.6462,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-01,4433,20.22,Microcontroller ES,Fitness
+2009-04-12,4516,173.07,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-29,4516,52.78,Wearable AUSG with Calorie Counter,Medical
+2009-05-22,4516,41.41,Step and Distance Pedometer TL Pro,Industrial
+2009-07-17,4516,16.73,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-07,4516,73.35,Wearable Transmitter KR,Lifestyle
+2009-11-23,4516,59.7372,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-24,4516,95.97,Action Camera Pro,Lifestyle
+2009-05-22,4577,51.19,Strapless Heart Rate Monitor,Medical
+2009-05-29,4577,39,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-01,4577,43.43,Microcontroller ES,Fitness
+2009-06-12,4577,60.17,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-07,4577,51.02,Wearable AUSG with Calorie Counter,Medical
+2009-10-02,4577,91.59,Step and Distance Pedometer TL Pro,Industrial
+2009-10-16,4577,76.47,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-23,4577,37.83,Wearable Transmitter KR,Lifestyle
+2009-11-04,4577,70.06,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-03,4577,69.359,Action Camera Pro,Lifestyle
+2009-12-28,4577,61.0937,Strapless Heart Rate Monitor,Medical
+2010-01-29,4577,53.2397,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-08,4577,99.3255,Microcontroller ES,Fitness
+2010-02-19,4577,72.046,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-24,4577,81.7752,Wearable AUSG with Calorie Counter,Medical
+2009-03-09,4622,49.36,Step and Distance Pedometer TL Pro,Industrial
+2009-04-02,4622,28.76,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-23,4622,12.53,Wearable Transmitter KR,Lifestyle
+2009-05-08,4622,27.36,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-14,4622,56.53,Action Camera Pro,Lifestyle
+2009-05-14,4622,9.8,Strapless Heart Rate Monitor,Medical
+2009-05-15,4622,81.07,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-19,4622,43.01,Microcontroller ES,Fitness
+2009-05-22,4622,59.43,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-26,4622,58.25,Wearable AUSG with Calorie Counter,Medical
+2009-05-28,4622,52.04,Step and Distance Pedometer TL Pro,Industrial
+2009-06-02,4622,55.71,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-09,4622,68.54,Wearable Transmitter KR,Lifestyle
+2009-06-11,4622,70.22,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-15,4622,59.48,Action Camera Pro,Lifestyle
+2009-06-16,4622,20.65,Strapless Heart Rate Monitor,Medical
+2009-06-17,4622,3.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-23,4622,80.73,Microcontroller ES,Fitness
+2009-06-23,4622,13.84,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-29,4622,124,Wearable AUSG with Calorie Counter,Medical
+2009-07-02,4622,46.5,Step and Distance Pedometer TL Pro,Industrial
+2009-07-07,4622,67.14,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-07,4622,5.73,Wearable Transmitter KR,Lifestyle
+2009-07-21,4622,41.88,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-04,4622,34.25,Action Camera Pro,Lifestyle
+2009-08-14,4622,48.58,Strapless Heart Rate Monitor,Medical
+2009-08-18,4622,54.86,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-25,4622,109.14,Microcontroller ES,Fitness
+2009-08-25,4622,86.13,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-28,4622,259.34,Wearable AUSG with Calorie Counter,Medical
+2009-08-28,4622,44.93,Step and Distance Pedometer TL Pro,Industrial
+2009-09-01,4622,98.28,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-03,4622,85.74,Wearable Transmitter KR,Lifestyle
+2009-09-03,4622,63.91,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-04,4622,75.15,Action Camera Pro,Lifestyle
+2009-09-08,4622,88.3428,Strapless Heart Rate Monitor,Medical
+2009-09-15,4622,84.795,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-18,4622,79.15,Microcontroller ES,Fitness
+2009-09-22,4622,151.3605,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-22,4622,43.15,Wearable AUSG with Calorie Counter,Medical
+2009-09-25,4622,28.37,Step and Distance Pedometer TL Pro,Industrial
+2009-09-29,4622,49.9887,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-06,4622,78.2412,Wearable Transmitter KR,Lifestyle
+2009-10-13,4622,68.82,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-13,4622,16.45,Action Camera Pro,Lifestyle
+2009-10-13,4622,12.63,Strapless Heart Rate Monitor,Medical
+2009-10-15,4622,19.64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-20,4622,118.42,Microcontroller ES,Fitness
+2009-10-23,4622,30.433,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-23,4622,26.82,Wearable AUSG with Calorie Counter,Medical
+2009-10-27,4622,74.45,Step and Distance Pedometer TL Pro,Industrial
+2009-10-27,4622,6.9,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-30,4622,93.87,Wearable Transmitter KR,Lifestyle
+2009-11-03,4622,95.13,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-05,4622,24.05,Action Camera Pro,Lifestyle
+2009-11-10,4622,62.39,Strapless Heart Rate Monitor,Medical
+2009-11-11,4622,145.79,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-16,4622,86.72,Microcontroller ES,Fitness
+2009-12-01,4622,95.35,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,4622,109.9877,Wearable AUSG with Calorie Counter,Medical
+2009-12-11,4622,46.77,Step and Distance Pedometer TL Pro,Industrial
+2009-12-14,4622,139.2897,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-14,4622,94.5992,Wearable Transmitter KR,Lifestyle
+2010-01-04,4622,104.73,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,4622,120.2362,Action Camera Pro,Lifestyle
+2010-01-20,4622,99.27,Strapless Heart Rate Monitor,Medical
+2010-01-20,4622,169.8175,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-25,4622,145.8802,Microcontroller ES,Fitness
+2010-02-01,4622,122.04,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-05,4622,81.5277,Wearable AUSG with Calorie Counter,Medical
+2010-02-11,4622,141.0612,Step and Distance Pedometer TL Pro,Industrial
+2010-02-12,4622,76.3978,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-19,4622,73.875,Wearable Transmitter KR,Lifestyle
+2010-02-23,4622,82.41,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-02,4622,76.31,Action Camera Pro,Lifestyle
+2009-04-17,4640,69.19,Strapless Heart Rate Monitor,Medical
+2009-04-17,4640,90.18,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-24,4640,53.24,Microcontroller ES,Fitness
+2009-05-01,4640,17.13,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-08,4640,18.37,Wearable AUSG with Calorie Counter,Medical
+2009-05-15,4640,42.88,Step and Distance Pedometer TL Pro,Industrial
+2009-05-22,4640,36.13,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-09,4640,43.24,Wearable Transmitter KR,Lifestyle
+2009-06-19,4640,65.11,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-26,4640,60.64,Action Camera Pro,Lifestyle
+2009-07-02,4640,36.53,Strapless Heart Rate Monitor,Medical
+2009-07-10,4640,40.6,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-04,4640,66.94,Microcontroller ES,Fitness
+2009-09-11,4640,34.4825,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-22,4640,61.88,Wearable AUSG with Calorie Counter,Medical
+2009-09-25,4640,16.92,Step and Distance Pedometer TL Pro,Industrial
+2009-10-16,4640,60.79,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-06,4640,52.4352,Wearable Transmitter KR,Lifestyle
+2009-12-16,4640,52.08,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-28,4640,43.51,Action Camera Pro,Lifestyle
+2010-01-08,4640,62.36,Strapless Heart Rate Monitor,Medical
+2010-01-15,4640,73.81,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-26,4640,45.5012,Microcontroller ES,Fitness
+2010-01-29,4640,67.4165,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-04,4640,97.63,Wearable AUSG with Calorie Counter,Medical
+2010-02-05,4640,93.23,Step and Distance Pedometer TL Pro,Industrial
+2010-02-12,4640,93.49,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-26,4640,84.73,Wearable Transmitter KR,Lifestyle
+2009-06-16,4642,30.22,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-03-10,4658,187.73,Action Camera Pro,Lifestyle
+2009-03-16,4658,45.05,Strapless Heart Rate Monitor,Medical
+2009-03-24,4658,43.43,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-24,4658,8.79,Microcontroller ES,Fitness
+2009-03-30,4658,67.13,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-21,4658,70.47,Wearable AUSG with Calorie Counter,Medical
+2009-05-19,4658,49.28,Step and Distance Pedometer TL Pro,Industrial
+2009-05-29,4658,75.97,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-23,4658,68.48,Wearable Transmitter KR,Lifestyle
+2009-03-15,4851,24.53,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-03-15,4862,104.58,Action Camera Pro,Lifestyle
+2009-03-16,4903,7.14,Strapless Heart Rate Monitor,Medical
+2009-03-19,4973,17.17,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-03-19,4976,10.6,Microcontroller ES,Fitness
+2009-03-31,5378,12.93,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-17,5408,25.56,Wearable AUSG with Calorie Counter,Medical
+2009-04-24,5408,43.9,Step and Distance Pedometer TL Pro,Industrial
+2009-05-01,5408,38.67,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-08,5408,36.76,Wearable Transmitter KR,Lifestyle
+2009-05-15,5408,48.5,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-22,5408,29.92,Action Camera Pro,Lifestyle
+2009-04-01,5423,84.33,Strapless Heart Rate Monitor,Medical
+2009-04-02,5441,38.75,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-09,5441,171.5,Microcontroller ES,Fitness
+2009-04-16,5441,72.92,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-21,5441,17.02,Wearable AUSG with Calorie Counter,Medical
+2009-04-21,5441,18.21,Step and Distance Pedometer TL Pro,Industrial
+2009-04-23,5441,72.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-28,5441,38.36,Wearable Transmitter KR,Lifestyle
+2009-04-30,5441,62.03,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-30,5441,11.1,Action Camera Pro,Lifestyle
+2009-05-07,5441,77.96,Strapless Heart Rate Monitor,Medical
+2009-05-12,5441,21.75,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-14,5441,69.18,Microcontroller ES,Fitness
+2009-05-21,5441,74.34,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-21,5441,7.85,Wearable AUSG with Calorie Counter,Medical
+2009-05-27,5441,79.18,Step and Distance Pedometer TL Pro,Industrial
+2009-06-03,5441,57.26,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-08,5441,41.02,Wearable Transmitter KR,Lifestyle
+2009-06-15,5441,65.02,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-22,5441,58.46,Action Camera Pro,Lifestyle
+2009-06-29,5441,60.37,Strapless Heart Rate Monitor,Medical
+2009-07-06,5441,82.99,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-13,5441,118.21,Microcontroller ES,Fitness
+2009-07-21,5441,56.83,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-28,5441,81.01,Wearable AUSG with Calorie Counter,Medical
+2009-08-04,5441,91.77,Step and Distance Pedometer TL Pro,Industrial
+2009-08-18,5441,25.37,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-18,5441,15.54,Wearable Transmitter KR,Lifestyle
+2009-08-25,5441,29.24,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-22,5441,21.01,Action Camera Pro,Lifestyle
+2009-11-09,5441,22.2,Strapless Heart Rate Monitor,Medical
+2009-11-16,5441,26.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-02,5449,20.89,Microcontroller ES,Fitness
+2009-04-07,5449,25.06,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-14,5449,63.11,Wearable AUSG with Calorie Counter,Medical
+2009-04-21,5449,42.49,Step and Distance Pedometer TL Pro,Industrial
+2009-05-07,5449,64.19,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-26,5449,49.28,Wearable Transmitter KR,Lifestyle
+2009-06-04,5449,54.86,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-16,5449,44.09,Action Camera Pro,Lifestyle
+2010-02-17,5449,107.8228,Strapless Heart Rate Monitor,Medical
+2010-02-21,5449,121.7487,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-01,5449,121.8278,Microcontroller ES,Fitness
+2010-03-08,5449,101.2878,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-08,5534,37,Wearable AUSG with Calorie Counter,Medical
+2009-04-23,5534,15.12,Step and Distance Pedometer TL Pro,Industrial
+2009-07-01,5534,37.71,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-08,5534,13.91,Wearable Transmitter KR,Lifestyle
+2009-06-09,5564,23.08,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-23,5564,23.55,Action Camera Pro,Lifestyle
+2009-07-30,5564,20.94,Strapless Heart Rate Monitor,Medical
+2009-10-20,5564,63.41,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-27,5564,33.11,Microcontroller ES,Fitness
+2010-02-22,5564,24.6253,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-30,5638,104.29,Wearable AUSG with Calorie Counter,Medical
+2009-06-16,5638,190.03,Step and Distance Pedometer TL Pro,Industrial
+2009-07-13,5638,123.25,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-01,5654,11.5,Wearable Transmitter KR,Lifestyle
+2009-05-07,5656,20.55,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-24,5657,61.17,Action Camera Pro,Lifestyle
+2009-06-17,5657,57.91,Strapless Heart Rate Monitor,Medical
+2009-07-15,5657,72.87,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-29,5657,68.96,Microcontroller ES,Fitness
+2009-08-19,5657,64.06,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-30,5657,120.13,Wearable AUSG with Calorie Counter,Medical
+2009-04-17,5664,43.33,Step and Distance Pedometer TL Pro,Industrial
+2009-04-23,5664,43.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-08,5682,83.79,Wearable Transmitter KR,Lifestyle
+2009-04-23,5686,57.22,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-17,5708,44.6,Action Camera Pro,Lifestyle
+2009-04-24,5708,47.14,Strapless Heart Rate Monitor,Medical
+2009-05-08,5708,33.64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-22,5708,28.92,Microcontroller ES,Fitness
+2009-04-17,5805,42.91,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-07,5805,18.2,Wearable AUSG with Calorie Counter,Medical
+2009-04-10,5831,13.71,Step and Distance Pedometer TL Pro,Industrial
+2009-05-14,5831,9.75,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-01,5894,24.63,Wearable Transmitter KR,Lifestyle
+2010-02-26,5894,112.55,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-13,5977,19.28,Action Camera Pro,Lifestyle
+2009-07-28,5977,26.53,Strapless Heart Rate Monitor,Medical
+2009-04-17,5983,30.19,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-13,6003,21.84,Microcontroller ES,Fitness
+2009-06-25,6003,16.54,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-10,6003,17.85,Wearable AUSG with Calorie Counter,Medical
+2009-04-13,6012,14.12,Step and Distance Pedometer TL Pro,Industrial
+2009-12-03,6016,27.55,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-13,6019,17.53,Wearable Transmitter KR,Lifestyle
+2009-05-12,6069,7.41,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-29,6069,17.31,Action Camera Pro,Lifestyle
+2009-04-24,6097,34.53,Strapless Heart Rate Monitor,Medical
+2009-07-15,6097,19.61,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-16,6153,35.77,Microcontroller ES,Fitness
+2009-05-19,6224,20.66,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-10,6224,12.99,Wearable AUSG with Calorie Counter,Medical
+2009-08-05,6224,41.65,Step and Distance Pedometer TL Pro,Industrial
+2009-08-26,6224,45.02,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-01,6224,17.6605,Wearable Transmitter KR,Lifestyle
+2009-12-28,6224,75.059,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-28,6225,21.69,Action Camera Pro,Lifestyle
+2009-07-01,6225,11.87,Strapless Heart Rate Monitor,Medical
+2009-07-08,6225,6.53,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-30,6225,14.52,Microcontroller ES,Fitness
+2009-10-22,6225,15.67,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-14,6225,16.94,Wearable AUSG with Calorie Counter,Medical
+2009-04-17,6245,24.42,Step and Distance Pedometer TL Pro,Industrial
+2009-04-17,6249,31.17,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-17,6249,19.52,Wearable Transmitter KR,Lifestyle
+2009-05-01,6249,8.87,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-01,6249,29.29,Action Camera Pro,Lifestyle
+2009-05-14,6249,3.07,Strapless Heart Rate Monitor,Medical
+2009-05-14,6249,13.16,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-12,6249,7.36,Microcontroller ES,Fitness
+2009-06-12,6249,6.03,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-12,6249,20.1,Wearable AUSG with Calorie Counter,Medical
+2009-06-26,6249,8.26,Step and Distance Pedometer TL Pro,Industrial
+2009-06-26,6249,19.55,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-26,6249,5.3,Wearable Transmitter KR,Lifestyle
+2009-07-10,6249,4.27,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-10,6249,21.27,Action Camera Pro,Lifestyle
+2009-09-04,6249,11.74,Strapless Heart Rate Monitor,Medical
+2009-09-04,6249,4.67,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-04,6249,12.26,Microcontroller ES,Fitness
+2009-09-04,6249,4.08,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-13,6249,16.91,Wearable AUSG with Calorie Counter,Medical
+2009-11-13,6249,7.98,Step and Distance Pedometer TL Pro,Industrial
+2009-04-17,6251,33.15,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-17,6261,6.43,Wearable Transmitter KR,Lifestyle
+2010-01-24,6370,161.464,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-08,6370,286.2702,Action Camera Pro,Lifestyle
+2010-03-07,6370,88.26,Strapless Heart Rate Monitor,Medical
+2009-05-27,6379,49.27,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-07,6384,27.41,Microcontroller ES,Fitness
+2009-05-08,6384,19.5,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-28,6384,59.4,Wearable AUSG with Calorie Counter,Medical
+2009-06-05,6384,16.39,Step and Distance Pedometer TL Pro,Industrial
+2009-06-05,6384,2.85,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-21,6401,74.89,Wearable Transmitter KR,Lifestyle
+2009-05-27,6408,41.66,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-24,6447,24.17,Action Camera Pro,Lifestyle
+2009-05-01,6447,46.78,Strapless Heart Rate Monitor,Medical
+2009-05-08,6447,13.39,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-15,6447,37.14,Microcontroller ES,Fitness
+2009-05-21,6447,37.11,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-05,6447,39.14,Wearable AUSG with Calorie Counter,Medical
+2009-06-18,6447,33.8,Step and Distance Pedometer TL Pro,Industrial
+2009-06-26,6447,35.96,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-10,6447,22.75,Wearable Transmitter KR,Lifestyle
+2009-07-17,6447,37.12,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-24,6447,31.29,Action Camera Pro,Lifestyle
+2009-08-20,6447,56.47,Strapless Heart Rate Monitor,Medical
+2009-08-28,6447,58.71,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-17,6447,47.11,Microcontroller ES,Fitness
+2009-10-09,6447,32.15,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-16,6447,30.036,Wearable AUSG with Calorie Counter,Medical
+2009-10-29,6447,37.9905,Step and Distance Pedometer TL Pro,Industrial
+2009-11-06,6447,52.93,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-20,6447,82.9315,Wearable Transmitter KR,Lifestyle
+2009-12-04,6447,51.735,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-04,6447,50,Action Camera Pro,Lifestyle
+2010-01-22,6447,43.044,Strapless Heart Rate Monitor,Medical
+2010-02-19,6447,36.0435,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-05,6447,56.7577,Microcontroller ES,Fitness
+2010-02-14,6476,128.378,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-14,6476,9.2,Wearable AUSG with Calorie Counter,Medical
+2010-02-14,6476,18.079,Step and Distance Pedometer TL Pro,Industrial
+2009-04-22,6578,3.43,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-01,6602,21.03,Wearable Transmitter KR,Lifestyle
+2009-05-08,6602,80.8,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-15,6602,29.38,Action Camera Pro,Lifestyle
+2009-05-22,6602,24.29,Strapless Heart Rate Monitor,Medical
+2009-06-12,6602,35.81,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-04-23,6646,10.6,Microcontroller ES,Fitness
+2009-04-24,6664,50.89,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-04-23,6696,16.49,Wearable AUSG with Calorie Counter,Medical
+2009-04-23,6821,24.78,Step and Distance Pedometer TL Pro,Industrial
+2009-05-01,6821,24.62,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-08,6821,25.01,Wearable Transmitter KR,Lifestyle
+2009-05-20,6821,23.7,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-29,6821,20.03,Action Camera Pro,Lifestyle
+2009-06-04,6821,22.23,Strapless Heart Rate Monitor,Medical
+2009-06-11,6821,27.55,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-26,6821,19.02,Microcontroller ES,Fitness
+2009-07-09,6821,24.61,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-31,6821,29.64,Wearable AUSG with Calorie Counter,Medical
+2009-08-20,6821,34.21,Step and Distance Pedometer TL Pro,Industrial
+2009-10-02,6821,28.36,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-24,6901,49.75,Wearable Transmitter KR,Lifestyle
+2009-04-30,6901,60.26,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-08,6901,14.04,Action Camera Pro,Lifestyle
+2009-06-19,6901,26.53,Strapless Heart Rate Monitor,Medical
+2009-08-06,6901,63.1,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-28,6901,21.87,Microcontroller ES,Fitness
+2009-09-04,6901,27.73,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-18,6901,29.08,Wearable AUSG with Calorie Counter,Medical
+2009-04-24,6946,9.5,Step and Distance Pedometer TL Pro,Industrial
+2009-04-24,6948,14.1,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-04-27,8843,21.45,Wearable Transmitter KR,Lifestyle
+2009-05-01,9840,30.23,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-04-30,10855,136.8,Action Camera Pro,Lifestyle
+2009-04-30,10858,20.82,Strapless Heart Rate Monitor,Medical
+2009-04-30,10859,44.81,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-07,10859,61.3,Microcontroller ES,Fitness
+2009-05-01,10876,40.85,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-31,10876,50.22,Wearable AUSG with Calorie Counter,Medical
+2009-05-01,10901,31.75,Step and Distance Pedometer TL Pro,Industrial
+2009-05-08,10901,19.15,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-09,10938,68.6,Wearable Transmitter KR,Lifestyle
+2009-05-04,12173,55.56,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-06,13043,23.39,Action Camera Pro,Lifestyle
+2009-05-19,13043,44.76,Strapless Heart Rate Monitor,Medical
+2009-06-02,13043,30.57,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-13,13043,31.27,Microcontroller ES,Fitness
+2009-12-01,13043,26.74,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-08,13043,43.34,Wearable AUSG with Calorie Counter,Medical
+2009-05-07,13202,28.9,Step and Distance Pedometer TL Pro,Industrial
+2009-05-08,13229,20.79,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-07,13232,9.85,Wearable Transmitter KR,Lifestyle
+2009-05-07,13278,15.14,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-27,13278,27.65,Action Camera Pro,Lifestyle
+2009-07-02,13278,15.06,Strapless Heart Rate Monitor,Medical
+2009-07-23,13278,18.19,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-29,13278,21.3,Microcontroller ES,Fitness
+2009-08-06,13278,21.68,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-22,13278,9.18,Wearable AUSG with Calorie Counter,Medical
+2010-01-04,13278,13.29,Step and Distance Pedometer TL Pro,Industrial
+2010-03-05,13278,21.0078,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-07,13284,39.88,Wearable Transmitter KR,Lifestyle
+2009-05-14,13284,48.72,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-04,13284,63.87,Action Camera Pro,Lifestyle
+2009-06-11,13284,37.5,Strapless Heart Rate Monitor,Medical
+2009-06-23,13284,45.94,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-28,13290,11.29,Microcontroller ES,Fitness
+2009-05-08,13301,25.23,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-22,13301,26.87,Wearable AUSG with Calorie Counter,Medical
+2009-06-26,13301,33.25,Step and Distance Pedometer TL Pro,Industrial
+2009-07-23,13301,23.66,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-24,13301,9.78,Wearable Transmitter KR,Lifestyle
+2009-05-08,13304,17.85,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-09,13304,30.29,Action Camera Pro,Lifestyle
+2009-05-12,13341,46.68,Strapless Heart Rate Monitor,Medical
+2009-12-22,13361,86.25,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-07,13361,38.9127,Microcontroller ES,Fitness
+2010-01-29,13361,61.96,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-05-14,14027,38.45,Wearable AUSG with Calorie Counter,Medical
+2009-07-21,14027,38.81,Step and Distance Pedometer TL Pro,Industrial
+2009-08-06,14027,51.12,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-19,14027,49.03,Wearable Transmitter KR,Lifestyle
+2009-05-15,14056,35.31,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-12,14056,48.23,Action Camera Pro,Lifestyle
+2009-05-14,14057,8.09,Strapless Heart Rate Monitor,Medical
+2009-05-15,14246,53.28,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-22,14246,63.92,Microcontroller ES,Fitness
+2009-05-29,14246,59.71,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-17,14246,14.07,Wearable AUSG with Calorie Counter,Medical
+2009-06-17,14246,3.37,Step and Distance Pedometer TL Pro,Industrial
+2009-06-17,14246,4.29,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-19,14246,56.17,Wearable Transmitter KR,Lifestyle
+2009-07-01,14246,80.79,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-09,14246,64.38,Action Camera Pro,Lifestyle
+2009-05-17,14600,21.89,Strapless Heart Rate Monitor,Medical
+2009-05-20,14600,72.72,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-26,14600,72.72,Microcontroller ES,Fitness
+2009-06-02,14600,79.6,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-04,14600,79.6,Wearable AUSG with Calorie Counter,Medical
+2009-06-12,14600,79.6,Step and Distance Pedometer TL Pro,Industrial
+2009-06-16,14600,79.6,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-19,14600,79.6,Wearable Transmitter KR,Lifestyle
+2009-06-29,14600,69.65,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-23,14600,69.19,Action Camera Pro,Lifestyle
+2009-05-18,14635,93.36,Strapless Heart Rate Monitor,Medical
+2009-06-22,14635,66.87,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-09,14635,75.2,Microcontroller ES,Fitness
+2009-09-01,14635,83.3105,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-08,14635,54.9155,Wearable AUSG with Calorie Counter,Medical
+2009-09-15,14635,109.47,Step and Distance Pedometer TL Pro,Industrial
+2009-09-22,14635,68.6407,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-10,14635,160.67,Wearable Transmitter KR,Lifestyle
+2010-02-23,14635,30.76,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-18,14842,40.59,Action Camera Pro,Lifestyle
+2009-08-07,14887,27.97,Strapless Heart Rate Monitor,Medical
+2009-08-28,14887,67.58,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-11,14887,58.78,Microcontroller ES,Fitness
+2010-01-08,14887,42.6,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-14,14887,30.3237,Wearable AUSG with Calorie Counter,Medical
+2009-05-19,14913,53.43,Step and Distance Pedometer TL Pro,Industrial
+2010-01-29,14913,22.0092,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-19,14924,16.12,Wearable Transmitter KR,Lifestyle
+2009-05-22,15529,55.68,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-23,15529,70.71,Action Camera Pro,Lifestyle
+2009-08-03,15529,121.63,Strapless Heart Rate Monitor,Medical
+2009-05-20,15889,65.63,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-02,15893,11.49,Microcontroller ES,Fitness
+2009-05-21,15914,50.87,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-02,15914,45.36,Wearable AUSG with Calorie Counter,Medical
+2010-03-04,15914,17.4805,Step and Distance Pedometer TL Pro,Industrial
+2009-09-30,15986,17.88,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-05-21,15987,7.32,Wearable Transmitter KR,Lifestyle
+2009-05-22,16173,64.05,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-05-25,16314,44.25,Action Camera Pro,Lifestyle
+2009-05-24,16614,3.21,Strapless Heart Rate Monitor,Medical
+2009-05-25,17040,29.12,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-05-27,17416,44,Microcontroller ES,Fitness
+2009-05-27,17533,61.02,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,17533,74.2625,Wearable AUSG with Calorie Counter,Medical
+2009-05-29,17928,25.96,Step and Distance Pedometer TL Pro,Industrial
+2009-09-02,17928,16.22,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-02,17928,24.78,Wearable Transmitter KR,Lifestyle
+2009-10-23,17928,39.36,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-05,17928,31.89,Action Camera Pro,Lifestyle
+2009-11-12,17928,89.06,Strapless Heart Rate Monitor,Medical
+2009-12-03,17928,64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-10,17928,35.68,Microcontroller ES,Fitness
+2009-12-17,17928,14.09,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-14,17928,88.33,Wearable AUSG with Calorie Counter,Medical
+2010-01-28,17928,29.76,Step and Distance Pedometer TL Pro,Industrial
+2010-02-11,17928,106.47,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-18,17928,94.07,Wearable Transmitter KR,Lifestyle
+2010-02-25,17928,16.8255,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-15,18943,8.01,Action Camera Pro,Lifestyle
+2009-09-23,18943,8.01,Strapless Heart Rate Monitor,Medical
+2009-11-11,18943,8.01,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-16,18943,8.01,Microcontroller ES,Fitness
+2010-01-14,18943,8.01,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-24,18943,8.01,Wearable AUSG with Calorie Counter,Medical
+2009-06-03,19271,81.34,Step and Distance Pedometer TL Pro,Industrial
+2009-08-24,19271,51.7455,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-03,19347,47.82,Wearable Transmitter KR,Lifestyle
+2009-12-28,19347,128.06,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-14,19347,45.4878,Action Camera Pro,Lifestyle
+2010-01-22,19347,95.36,Strapless Heart Rate Monitor,Medical
+2010-01-29,19347,114.9777,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-11,19347,112.5255,Microcontroller ES,Fitness
+2010-02-18,19347,111.6805,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-19,19347,5.63,Wearable AUSG with Calorie Counter,Medical
+2009-06-03,19579,41.72,Step and Distance Pedometer TL Pro,Industrial
+2009-06-04,19768,27.3,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-05,19891,9.53,Wearable Transmitter KR,Lifestyle
+2009-06-10,19892,16.55,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-17,19892,76.79,Action Camera Pro,Lifestyle
+2009-06-25,19892,14.86,Strapless Heart Rate Monitor,Medical
+2009-06-06,20515,16.9,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-08,20805,38.96,Microcontroller ES,Fitness
+2009-06-16,20805,23.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-24,20805,50.98,Wearable AUSG with Calorie Counter,Medical
+2009-07-01,20805,46.05,Step and Distance Pedometer TL Pro,Industrial
+2009-07-08,20805,28.18,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-15,20805,47.21,Wearable Transmitter KR,Lifestyle
+2009-08-03,20805,66.13,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-25,20805,44.39,Action Camera Pro,Lifestyle
+2009-09-22,20805,80.03,Strapless Heart Rate Monitor,Medical
+2009-09-22,20805,66.58,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-21,20805,44.99,Microcontroller ES,Fitness
+2009-10-21,20805,8.44,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-30,20805,68.22,Wearable AUSG with Calorie Counter,Medical
+2010-02-03,20805,63.23,Step and Distance Pedometer TL Pro,Industrial
+2010-02-24,20805,74.62,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-09,20994,7.36,Wearable Transmitter KR,Lifestyle
+2009-06-10,21194,27.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-24,21194,21.59,Action Camera Pro,Lifestyle
+2009-08-17,21243,56.77,Strapless Heart Rate Monitor,Medical
+2010-03-04,21243,53.26,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-11,21254,48.78,Microcontroller ES,Fitness
+2009-06-17,21254,56.49,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-01,21254,33.03,Wearable AUSG with Calorie Counter,Medical
+2009-06-15,21267,21.38,Step and Distance Pedometer TL Pro,Industrial
+2009-06-29,21267,22.39,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-06,21267,9.63,Wearable Transmitter KR,Lifestyle
+2009-06-11,21275,39.98,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-18,21275,28.63,Action Camera Pro,Lifestyle
+2009-07-16,21275,85.72,Strapless Heart Rate Monitor,Medical
+2009-07-23,21275,63.7,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-30,21275,52.23,Microcontroller ES,Fitness
+2010-02-04,21275,115.8095,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-11,21385,63.73,Wearable AUSG with Calorie Counter,Medical
+2009-07-08,21385,67.03,Step and Distance Pedometer TL Pro,Industrial
+2009-07-30,21385,69.53,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-04,21718,18.27,Wearable Transmitter KR,Lifestyle
+2010-01-06,21718,9.18,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-17,21718,21.63,Action Camera Pro,Lifestyle
+2010-01-31,21718,80.16,Strapless Heart Rate Monitor,Medical
+2009-06-12,21750,6.09,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-14,21943,41.65,Microcontroller ES,Fitness
+2009-06-15,22186,18.03,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-20,22186,23.92,Wearable AUSG with Calorie Counter,Medical
+2009-08-10,22186,25.35,Step and Distance Pedometer TL Pro,Industrial
+2009-09-07,22186,31.36,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-20,22186,57.08,Wearable Transmitter KR,Lifestyle
+2009-11-10,22186,25.63,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,22186,45.0855,Action Camera Pro,Lifestyle
+2010-02-15,22186,29.5695,Strapless Heart Rate Monitor,Medical
+2010-03-07,22186,47.19,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-06-17,22418,34.78,Microcontroller ES,Fitness
+2009-07-02,22446,87.78,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-08,22446,112.9962,Wearable AUSG with Calorie Counter,Medical
+2009-06-17,22494,89.87,Step and Distance Pedometer TL Pro,Industrial
+2009-07-16,22494,21,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-05,22494,22.76,Wearable Transmitter KR,Lifestyle
+2009-06-17,22682,38.36,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-06-17,22684,7.05,Action Camera Pro,Lifestyle
+2009-07-16,22684,17.46,Strapless Heart Rate Monitor,Medical
+2009-07-28,22684,37.32,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-28,22684,5.12,Microcontroller ES,Fitness
+2009-07-28,22684,5.12,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-13,22684,33.37,Wearable AUSG with Calorie Counter,Medical
+2009-08-27,22684,25.48,Step and Distance Pedometer TL Pro,Industrial
+2009-11-05,22684,28.11,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-06-17,22705,30.9,Wearable Transmitter KR,Lifestyle
+2009-06-25,22717,18.73,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-01,22717,13.53,Action Camera Pro,Lifestyle
+2009-07-16,22717,17.04,Strapless Heart Rate Monitor,Medical
+2009-06-17,22722,17.07,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-01,22722,22.95,Microcontroller ES,Fitness
+2009-07-06,22722,31.11,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-14,22722,30.16,Wearable AUSG with Calorie Counter,Medical
+2009-07-26,22722,20.28,Step and Distance Pedometer TL Pro,Industrial
+2009-07-27,22722,24.86,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-04,22722,20.98,Wearable Transmitter KR,Lifestyle
+2009-08-26,22722,13.0712,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-20,22722,16.76,Action Camera Pro,Lifestyle
+2009-10-14,22722,14.71,Strapless Heart Rate Monitor,Medical
+2010-02-17,22722,36.84,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,22722,22.06,Microcontroller ES,Fitness
+2009-06-18,22745,198.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-02,22745,129.56,Wearable AUSG with Calorie Counter,Medical
+2009-07-16,22745,89.29,Step and Distance Pedometer TL Pro,Industrial
+2009-09-03,22745,247.9057,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-10,22745,122.64,Wearable Transmitter KR,Lifestyle
+2009-09-17,22745,94.8,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-16,22745,126.4107,Action Camera Pro,Lifestyle
+2010-02-04,22745,127.15,Strapless Heart Rate Monitor,Medical
+2009-06-17,22761,38.5,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-05,22761,40.7,Microcontroller ES,Fitness
+2009-06-21,23323,41.27,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-28,23323,55.08,Wearable AUSG with Calorie Counter,Medical
+2009-07-09,23323,55.42,Step and Distance Pedometer TL Pro,Industrial
+2009-08-13,23323,61.07,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-21,23323,70.96,Wearable Transmitter KR,Lifestyle
+2009-08-27,23323,174.3262,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-04,23323,51.32,Action Camera Pro,Lifestyle
+2009-09-11,23323,76.32,Strapless Heart Rate Monitor,Medical
+2009-09-17,23323,51.24,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-08,23323,70.2,Microcontroller ES,Fitness
+2009-10-15,23323,64.42,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-10,23323,133.83,Wearable AUSG with Calorie Counter,Medical
+2010-01-28,23323,214.0777,Step and Distance Pedometer TL Pro,Industrial
+2010-02-03,23323,143.2725,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-11,23323,129.386,Wearable Transmitter KR,Lifestyle
+2010-02-25,23323,104.4095,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-04,23323,92.87,Action Camera Pro,Lifestyle
+2009-07-13,23334,21.97,Strapless Heart Rate Monitor,Medical
+2009-12-13,23405,72.8895,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-27,23405,55.1545,Microcontroller ES,Fitness
+2009-12-30,23405,57.9302,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-06-25,26788,45.22,Wearable AUSG with Calorie Counter,Medical
+2009-07-02,26788,12.57,Step and Distance Pedometer TL Pro,Industrial
+2009-07-23,26788,33.4,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-30,26788,20.51,Wearable Transmitter KR,Lifestyle
+2009-08-27,26788,16.8,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-03,26788,18.45,Action Camera Pro,Lifestyle
+2009-09-10,26788,34.62,Strapless Heart Rate Monitor,Medical
+2009-09-17,26788,30.7505,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-08,26788,25.6452,Microcontroller ES,Fitness
+2009-10-22,26788,7.05,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-29,26788,22.06,Wearable AUSG with Calorie Counter,Medical
+2009-11-05,26788,14.47,Step and Distance Pedometer TL Pro,Industrial
+2009-11-17,26788,23.72,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-16,26788,41.2545,Wearable Transmitter KR,Lifestyle
+2009-07-02,27169,10.78,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-29,27169,15.43,Action Camera Pro,Lifestyle
+2009-11-12,27169,14.25,Strapless Heart Rate Monitor,Medical
+2009-07-13,27428,54.12,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-31,27428,29.61,Microcontroller ES,Fitness
+2009-08-04,27428,34.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-16,27428,38.14,Wearable AUSG with Calorie Counter,Medical
+2009-12-30,27428,17.24,Step and Distance Pedometer TL Pro,Industrial
+2010-01-08,27428,50.3278,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-12,27428,29.659,Wearable Transmitter KR,Lifestyle
+2010-01-21,27428,34.66,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-01,27428,54.1795,Action Camera Pro,Lifestyle
+2010-02-04,27428,20.97,Strapless Heart Rate Monitor,Medical
+2010-02-11,27428,86.4852,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-17,27428,27.6545,Microcontroller ES,Fitness
+2010-02-23,27428,38.9195,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-26,27428,38.8898,Wearable AUSG with Calorie Counter,Medical
+2010-03-05,27428,14.35,Step and Distance Pedometer TL Pro,Industrial
+2010-03-08,27428,27.68,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-19,27585,21.56,Wearable Transmitter KR,Lifestyle
+2009-08-26,27585,21.04,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-10,28318,117.55,Action Camera Pro,Lifestyle
+2009-07-24,28318,85.13,Strapless Heart Rate Monitor,Medical
+2009-08-07,28318,137.41,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-21,28318,86.15,Microcontroller ES,Fitness
+2009-09-09,28318,96.23,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-31,28511,95.88,Wearable AUSG with Calorie Counter,Medical
+2010-02-03,28511,52.0902,Step and Distance Pedometer TL Pro,Industrial
+2009-06-30,29284,14.05,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-02,29284,8.48,Wearable Transmitter KR,Lifestyle
+2009-08-06,29284,43.84,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-02,29284,91.4727,Action Camera Pro,Lifestyle
+2009-08-27,29605,31.09,Strapless Heart Rate Monitor,Medical
+2009-10-16,29605,2.76,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-23,29605,4.2902,Microcontroller ES,Fitness
+2009-10-24,29605,2.92,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-24,29605,8.35,Wearable AUSG with Calorie Counter,Medical
+2009-10-28,29605,4.4,Step and Distance Pedometer TL Pro,Industrial
+2009-10-28,29605,43.8479,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-02,29605,3.06,Wearable Transmitter KR,Lifestyle
+2009-12-30,29605,8.5,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-02,29605,7.36,Action Camera Pro,Lifestyle
+2010-01-25,29605,14.68,Strapless Heart Rate Monitor,Medical
+2010-01-25,29605,1.83,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-05,29605,34.73,Microcontroller ES,Fitness
+2010-02-05,29605,15.35,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-01,29816,9.76,Wearable AUSG with Calorie Counter,Medical
+2009-07-01,29855,23.72,Step and Distance Pedometer TL Pro,Industrial
+2009-07-01,29878,20.44,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-02,30131,23.32,Wearable Transmitter KR,Lifestyle
+2009-07-30,30131,17.68,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-27,30131,27.26,Action Camera Pro,Lifestyle
+2009-09-16,30131,17.86,Strapless Heart Rate Monitor,Medical
+2009-09-24,30131,19.5,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-22,30131,21.42,Microcontroller ES,Fitness
+2009-11-20,30131,21.2765,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-09,30131,33.29,Wearable AUSG with Calorie Counter,Medical
+2010-02-25,30131,39.5788,Step and Distance Pedometer TL Pro,Industrial
+2010-03-04,30131,28.81,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-02,30222,11.35,Wearable Transmitter KR,Lifestyle
+2009-07-02,30225,4.96,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-03,30554,38.99,Action Camera Pro,Lifestyle
+2009-07-31,30554,29.48,Strapless Heart Rate Monitor,Medical
+2009-08-28,30554,18.79,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-19,30554,65.6362,Microcontroller ES,Fitness
+2009-11-20,30554,9.4492,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-05,31492,40.8,Wearable AUSG with Calorie Counter,Medical
+2009-07-17,31492,47.07,Step and Distance Pedometer TL Pro,Industrial
+2009-07-30,31492,34.27,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-12,31492,51.85,Wearable Transmitter KR,Lifestyle
+2009-08-12,31492,55.84,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-10,31492,45.98,Action Camera Pro,Lifestyle
+2009-07-05,31971,10.08,Strapless Heart Rate Monitor,Medical
+2009-07-10,31971,6.84,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-15,31971,31.53,Microcontroller ES,Fitness
+2009-07-29,31971,27.5,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-04,31971,16.02,Wearable AUSG with Calorie Counter,Medical
+2009-08-13,31971,20.6,Step and Distance Pedometer TL Pro,Industrial
+2009-08-27,31971,18.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-13,31971,29.96,Wearable Transmitter KR,Lifestyle
+2009-07-06,32014,28.35,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-08,33104,35.31,Action Camera Pro,Lifestyle
+2009-07-14,33104,18.29,Strapless Heart Rate Monitor,Medical
+2009-07-15,33104,7,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,33104,40.11,Microcontroller ES,Fitness
+2009-07-09,33227,12.55,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-09,33309,96.53,Wearable AUSG with Calorie Counter,Medical
+2009-10-21,33309,105.4,Step and Distance Pedometer TL Pro,Industrial
+2009-10-29,33309,119.19,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-19,33309,100.6165,Wearable Transmitter KR,Lifestyle
+2009-12-14,33309,42.12,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-09,33428,16.82,Action Camera Pro,Lifestyle
+2009-08-09,33428,2.1,Strapless Heart Rate Monitor,Medical
+2009-07-20,33434,15.12,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-05,33434,2.94,Microcontroller ES,Fitness
+2009-07-09,33468,57.03,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-09,33534,108.06,Wearable AUSG with Calorie Counter,Medical
+2009-07-30,33534,120.96,Step and Distance Pedometer TL Pro,Industrial
+2009-07-10,33561,28.19,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-10,33566,154.779,Wearable Transmitter KR,Lifestyle
+2009-11-19,33566,195.58,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-24,33566,124.29,Action Camera Pro,Lifestyle
+2009-12-13,33566,80.03,Strapless Heart Rate Monitor,Medical
+2010-01-13,33566,212.09,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-10,33581,60.99,Microcontroller ES,Fitness
+2010-01-29,33581,102.3995,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-07-10,33590,54.82,Wearable AUSG with Calorie Counter,Medical
+2009-07-16,33590,43.36,Step and Distance Pedometer TL Pro,Industrial
+2009-08-21,33590,56.36,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-13,33590,60.84,Wearable Transmitter KR,Lifestyle
+2010-01-29,33590,46.18,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-10,33600,22.63,Action Camera Pro,Lifestyle
+2009-07-24,33600,43.99,Strapless Heart Rate Monitor,Medical
+2009-07-31,33600,22.09,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-13,33600,24.54,Microcontroller ES,Fitness
+2009-10-23,33600,28.39,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-05,33600,40.2552,Wearable AUSG with Calorie Counter,Medical
+2009-11-13,33600,18.83,Step and Distance Pedometer TL Pro,Industrial
+2009-11-23,33600,52.12,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-27,33600,23.77,Wearable Transmitter KR,Lifestyle
+2010-02-04,33600,62.2802,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-12,33600,47.9,Action Camera Pro,Lifestyle
+2010-02-18,33600,55.7607,Strapless Heart Rate Monitor,Medical
+2009-10-29,33829,95.32,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-26,33829,89.6,Microcontroller ES,Fitness
+2009-07-12,34042,70.33,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-13,34042,82.99,Wearable AUSG with Calorie Counter,Medical
+2009-08-21,34042,61.9,Step and Distance Pedometer TL Pro,Industrial
+2009-09-11,34042,85.0155,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-13,35051,46.65,Wearable Transmitter KR,Lifestyle
+2009-07-20,35051,50.49,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-26,35051,26.54,Action Camera Pro,Lifestyle
+2009-08-11,35051,29.67,Strapless Heart Rate Monitor,Medical
+2009-12-22,35051,61.1875,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-20,35051,41.0878,Microcontroller ES,Fitness
+2010-02-28,35051,44.2378,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-06,35051,26.1,Wearable AUSG with Calorie Counter,Medical
+2009-07-12,35068,11.46,Step and Distance Pedometer TL Pro,Industrial
+2009-07-13,36090,27.13,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-14,36090,2.56,Wearable Transmitter KR,Lifestyle
+2009-07-21,36090,62.68,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-05,36090,48.23,Action Camera Pro,Lifestyle
+2009-07-13,36175,12.88,Strapless Heart Rate Monitor,Medical
+2009-07-14,36350,20.06,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-14,36360,51.73,Microcontroller ES,Fitness
+2010-01-26,36360,49.62,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-26,36360,11.74,Wearable AUSG with Calorie Counter,Medical
+2009-07-18,36662,53.77,Step and Distance Pedometer TL Pro,Industrial
+2009-08-20,36695,35.04,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-20,36695,90.1378,Wearable Transmitter KR,Lifestyle
+2009-11-05,36695,53.593,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-12,36695,60.04,Action Camera Pro,Lifestyle
+2009-07-20,37855,66.15,Strapless Heart Rate Monitor,Medical
+2009-08-18,37855,49.77,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-25,37855,63.2062,Microcontroller ES,Fitness
+2009-09-01,37855,50.0988,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-08,37855,52.26,Wearable AUSG with Calorie Counter,Medical
+2009-09-22,37855,28.8355,Step and Distance Pedometer TL Pro,Industrial
+2009-09-29,37855,74.69,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-18,38520,16.58,Wearable Transmitter KR,Lifestyle
+2009-07-28,38520,24.79,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-23,38520,5.7,Action Camera Pro,Lifestyle
+2010-01-05,38520,5.84,Strapless Heart Rate Monitor,Medical
+2009-07-19,38721,99.17,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-19,38721,70.39,Microcontroller ES,Fitness
+2009-09-02,38721,89.84,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-10,38721,27.89,Wearable AUSG with Calorie Counter,Medical
+2009-10-22,38721,29.49,Step and Distance Pedometer TL Pro,Industrial
+2009-10-22,38721,20.09,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-17,38721,92.535,Wearable Transmitter KR,Lifestyle
+2009-07-22,38740,25.91,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-07-31,38740,55.08,Action Camera Pro,Lifestyle
+2009-08-07,38740,24.82,Strapless Heart Rate Monitor,Medical
+2009-08-14,38740,14.16,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-21,38740,11.51,Microcontroller ES,Fitness
+2009-09-03,38740,48.1002,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-11,38740,11.71,Wearable AUSG with Calorie Counter,Medical
+2009-09-24,38740,10.17,Step and Distance Pedometer TL Pro,Industrial
+2009-10-22,38740,6.92,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-11,38740,11.513,Wearable Transmitter KR,Lifestyle
+2010-01-08,38740,28.57,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-21,38740,10.1672,Action Camera Pro,Lifestyle
+2009-08-10,38857,52.99,Strapless Heart Rate Monitor,Medical
+2009-08-11,38857,11.92,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-17,38857,53.42,Microcontroller ES,Fitness
+2009-08-25,38857,27.04,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-01,38857,34.91,Wearable AUSG with Calorie Counter,Medical
+2009-09-11,38857,55.56,Step and Distance Pedometer TL Pro,Industrial
+2009-09-15,38857,31.35,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-22,38857,38.05,Wearable Transmitter KR,Lifestyle
+2009-09-28,38857,64.36,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-05,38857,23.83,Action Camera Pro,Lifestyle
+2009-10-12,38857,29.7127,Strapless Heart Rate Monitor,Medical
+2009-10-20,38857,36.81,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-26,38857,23.75,Microcontroller ES,Fitness
+2009-10-28,38857,19.92,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-03,38857,18.69,Wearable AUSG with Calorie Counter,Medical
+2009-11-10,38857,43.32,Step and Distance Pedometer TL Pro,Industrial
+2009-11-17,38857,59.6505,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-24,38857,91.064,Wearable Transmitter KR,Lifestyle
+2009-12-01,38857,37.08,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-08,38857,22.98,Action Camera Pro,Lifestyle
+2009-12-15,38857,58.471,Strapless Heart Rate Monitor,Medical
+2009-12-22,38857,33.355,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-25,38857,23.75,Microcontroller ES,Fitness
+2009-12-30,38857,28.0065,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-05,38857,37.78,Wearable AUSG with Calorie Counter,Medical
+2010-03-02,38857,21.42,Step and Distance Pedometer TL Pro,Industrial
+2009-07-20,38909,31.65,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-25,38909,38.0102,Wearable Transmitter KR,Lifestyle
+2010-03-02,38909,55.22,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-01,39241,5.67,Action Camera Pro,Lifestyle
+2009-10-15,39241,12.48,Strapless Heart Rate Monitor,Medical
+2009-10-29,39241,13.41,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-04,39241,12.47,Microcontroller ES,Fitness
+2009-11-12,39241,11.73,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-19,39241,8.2968,Wearable AUSG with Calorie Counter,Medical
+2009-12-10,39241,10.56,Step and Distance Pedometer TL Pro,Industrial
+2009-12-31,39241,23.93,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-14,39241,17.088,Wearable Transmitter KR,Lifestyle
+2010-01-27,39241,21.1027,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-10,39241,13.66,Action Camera Pro,Lifestyle
+2010-02-24,39241,20.4082,Strapless Heart Rate Monitor,Medical
+2009-08-10,39588,105.4,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-20,39588,133.76,Microcontroller ES,Fitness
+2009-08-27,39588,144.2827,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-03,39588,144.29,Wearable AUSG with Calorie Counter,Medical
+2009-09-11,39588,135.3102,Step and Distance Pedometer TL Pro,Industrial
+2009-09-17,39588,141.4905,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-08,39588,150.16,Wearable Transmitter KR,Lifestyle
+2009-10-23,39588,126.48,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-29,39588,174.64,Action Camera Pro,Lifestyle
+2009-11-20,39588,244.3702,Strapless Heart Rate Monitor,Medical
+2009-12-03,39588,147.2397,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-10,39588,176.48,Microcontroller ES,Fitness
+2009-12-18,39588,178.3777,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-21,39588,129.6275,Wearable AUSG with Calorie Counter,Medical
+2010-01-22,39588,167.76,Step and Distance Pedometer TL Pro,Industrial
+2010-01-29,39588,156.8335,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-04,39588,179.2877,Wearable Transmitter KR,Lifestyle
+2010-02-12,39588,167.7917,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-19,39588,196.675,Action Camera Pro,Lifestyle
+2010-02-26,39588,169.298,Strapless Heart Rate Monitor,Medical
+2010-03-05,39588,214.7327,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-27,39693,27.09,Microcontroller ES,Fitness
+2009-08-16,39693,27.6,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-26,39693,42.1,Wearable AUSG with Calorie Counter,Medical
+2009-09-06,39693,38.09,Step and Distance Pedometer TL Pro,Industrial
+2009-07-25,40100,81.66,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-24,40100,51.28,Wearable Transmitter KR,Lifestyle
+2009-12-20,40100,20.5277,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-03,40432,26.69,Action Camera Pro,Lifestyle
+2009-08-04,40432,7.67,Strapless Heart Rate Monitor,Medical
+2009-08-10,40432,12.18,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-18,40432,22.72,Microcontroller ES,Fitness
+2009-08-19,40432,13.13,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-19,40432,9.03,Wearable AUSG with Calorie Counter,Medical
+2009-07-27,41246,86.87,Step and Distance Pedometer TL Pro,Industrial
+2009-08-06,41246,91.54,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-13,41246,119.49,Wearable Transmitter KR,Lifestyle
+2009-08-21,41246,82.04,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-28,41246,70.37,Action Camera Pro,Lifestyle
+2009-09-04,41246,63.5877,Strapless Heart Rate Monitor,Medical
+2009-09-11,41246,80.3,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-25,41246,53.74,Microcontroller ES,Fitness
+2009-10-02,41246,58.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-09,41246,50.68,Wearable AUSG with Calorie Counter,Medical
+2009-10-15,41246,64.54,Step and Distance Pedometer TL Pro,Industrial
+2009-10-28,41246,75.02,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-11,41246,75.4087,Wearable Transmitter KR,Lifestyle
+2009-11-23,41246,44.816,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-30,41246,58.2072,Action Camera Pro,Lifestyle
+2009-12-10,41246,110.5752,Strapless Heart Rate Monitor,Medical
+2010-01-07,41246,117.0157,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-18,41246,45.5865,Microcontroller ES,Fitness
+2010-01-25,41246,37.1235,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-29,41246,46.6165,Wearable AUSG with Calorie Counter,Medical
+2010-02-08,41246,91.4,Step and Distance Pedometer TL Pro,Industrial
+2010-02-19,41246,85.345,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-26,41246,140.7492,Wearable Transmitter KR,Lifestyle
+2010-03-03,41246,103.1428,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,41246,73.4462,Action Camera Pro,Lifestyle
+2009-07-28,42270,40.62,Strapless Heart Rate Monitor,Medical
+2009-08-04,42270,34.22,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-12,42270,45.9,Microcontroller ES,Fitness
+2009-08-20,42270,39.15,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-27,42270,62.7305,Wearable AUSG with Calorie Counter,Medical
+2009-09-03,42270,76.77,Step and Distance Pedometer TL Pro,Industrial
+2009-09-10,42270,66.3025,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-17,42270,90.07,Wearable Transmitter KR,Lifestyle
+2009-10-01,42270,109.9105,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-08,42270,57.36,Action Camera Pro,Lifestyle
+2009-10-15,42270,67.88,Strapless Heart Rate Monitor,Medical
+2009-10-29,42270,79.9832,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-05,42270,91.6185,Microcontroller ES,Fitness
+2009-11-13,42270,73.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-10,42270,41.1005,Wearable AUSG with Calorie Counter,Medical
+2009-12-17,42270,84.617,Step and Distance Pedometer TL Pro,Industrial
+2010-01-04,42270,45.7295,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-13,42270,64.75,Wearable Transmitter KR,Lifestyle
+2010-02-03,42270,120.9878,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-11,42270,83.3122,Action Camera Pro,Lifestyle
+2010-02-25,42270,75.3802,Strapless Heart Rate Monitor,Medical
+2010-03-04,42270,32.86,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-07-29,42704,10.05,Microcontroller ES,Fitness
+2009-07-29,42890,19.79,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-06,42890,42.58,Wearable AUSG with Calorie Counter,Medical
+2009-08-27,42890,39.43,Step and Distance Pedometer TL Pro,Industrial
+2009-09-03,42890,14.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-16,42890,31.02,Wearable Transmitter KR,Lifestyle
+2009-07-29,42964,12.94,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-03,43317,114.19,Action Camera Pro,Lifestyle
+2009-07-29,43350,27.35,Strapless Heart Rate Monitor,Medical
+2009-08-05,43350,37.46,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-27,43350,25.063,Microcontroller ES,Fitness
+2009-09-03,43350,24.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-17,43350,66.73,Wearable AUSG with Calorie Counter,Medical
+2009-09-17,43350,7.01,Step and Distance Pedometer TL Pro,Industrial
+2009-09-24,43350,34.12,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-07-31,43937,82.35,Wearable Transmitter KR,Lifestyle
+2009-12-28,43937,37.92,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-29,43937,35.29,Action Camera Pro,Lifestyle
+2009-08-01,44291,2.93,Strapless Heart Rate Monitor,Medical
+2010-01-24,44991,72.06,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-07,45389,83.31,Microcontroller ES,Fitness
+2010-01-11,45389,33.17,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-06,45949,87.79,Wearable AUSG with Calorie Counter,Medical
+2009-08-11,45949,105.54,Step and Distance Pedometer TL Pro,Industrial
+2009-08-19,45949,138.82,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-26,45949,100.3102,Wearable Transmitter KR,Lifestyle
+2009-09-02,45949,58.6,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-10,45949,110.6032,Action Camera Pro,Lifestyle
+2009-09-16,45949,96.8552,Strapless Heart Rate Monitor,Medical
+2009-09-24,45949,120.86,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-12,45949,106.1805,Microcontroller ES,Fitness
+2009-10-19,45949,137.44,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-26,45949,104.37,Wearable AUSG with Calorie Counter,Medical
+2009-11-04,45949,165.9552,Step and Distance Pedometer TL Pro,Industrial
+2009-11-10,45949,81.31,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-23,45949,170.98,Wearable Transmitter KR,Lifestyle
+2009-11-30,45949,136.317,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-08,45949,129.1162,Action Camera Pro,Lifestyle
+2009-12-15,45949,159.53,Strapless Heart Rate Monitor,Medical
+2009-12-22,45949,175.235,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-29,45949,170.3597,Microcontroller ES,Fitness
+2010-01-05,45949,90.7135,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-11,45949,123.276,Wearable AUSG with Calorie Counter,Medical
+2010-01-19,45949,155.4207,Step and Distance Pedometer TL Pro,Industrial
+2010-01-26,45949,107.79,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-02,45949,141.7272,Wearable Transmitter KR,Lifestyle
+2010-02-10,45949,221.3212,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-15,45949,101.3435,Action Camera Pro,Lifestyle
+2010-02-22,45949,137.59,Strapless Heart Rate Monitor,Medical
+2010-03-01,45949,107.933,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-08,45949,81.433,Microcontroller ES,Fitness
+2009-08-10,46256,45.39,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-17,46256,28.95,Wearable AUSG with Calorie Counter,Medical
+2009-08-25,46256,33.98,Step and Distance Pedometer TL Pro,Industrial
+2009-09-01,46256,30.27,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-08,46256,39.08,Wearable Transmitter KR,Lifestyle
+2009-09-22,46256,29.2,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-29,46256,36.96,Action Camera Pro,Lifestyle
+2009-10-20,46256,22.92,Strapless Heart Rate Monitor,Medical
+2009-10-27,46256,27.31,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-01,46256,22.5875,Microcontroller ES,Fitness
+2009-08-06,46297,61.84,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-11,46297,38.95,Wearable AUSG with Calorie Counter,Medical
+2009-09-11,46297,1.54,Step and Distance Pedometer TL Pro,Industrial
+2009-08-07,46321,20.33,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-11,46321,36.49,Wearable Transmitter KR,Lifestyle
+2009-09-18,46321,38.05,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-15,46321,48.76,Action Camera Pro,Lifestyle
+2009-08-07,46370,39.87,Strapless Heart Rate Monitor,Medical
+2009-08-07,46548,91.68,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-19,47415,22.18,Microcontroller ES,Fitness
+2009-08-12,48039,16.54,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-20,48039,21.52,Wearable AUSG with Calorie Counter,Medical
+2009-11-11,48426,3.76,Step and Distance Pedometer TL Pro,Industrial
+2009-08-14,49086,41.68,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-18,50065,75.91,Wearable Transmitter KR,Lifestyle
+2009-08-17,50406,112.41,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-08-27,50406,109.84,Action Camera Pro,Lifestyle
+2009-09-21,50406,145.8455,Strapless Heart Rate Monitor,Medical
+2009-09-08,50451,32.92,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-09,50451,6.95,Microcontroller ES,Fitness
+2009-09-25,50451,25.09,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-08,50451,29.88,Wearable AUSG with Calorie Counter,Medical
+2009-11-17,50451,30.82,Step and Distance Pedometer TL Pro,Industrial
+2010-01-29,50451,37.2905,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-23,51374,34.1952,Wearable Transmitter KR,Lifestyle
+2009-09-07,51374,37.67,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-22,51374,33.46,Action Camera Pro,Lifestyle
+2009-09-22,51374,12.6,Strapless Heart Rate Monitor,Medical
+2009-08-23,53025,28.4,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-24,53420,19.39,Microcontroller ES,Fitness
+2009-08-25,53420,26.78,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-10,53420,47.7875,Wearable AUSG with Calorie Counter,Medical
+2010-01-24,53420,20.4898,Step and Distance Pedometer TL Pro,Industrial
+2009-08-25,54175,56.78,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-26,54175,19.15,Wearable Transmitter KR,Lifestyle
+2009-09-01,54175,64.07,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-07,54175,91.98,Action Camera Pro,Lifestyle
+2009-11-21,54551,65.18,Strapless Heart Rate Monitor,Medical
+2009-11-21,54551,23.58,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-08-26,54885,29,Microcontroller ES,Fitness
+2009-08-26,54930,21.14,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-21,55829,36.408,Wearable AUSG with Calorie Counter,Medical
+2010-02-28,55829,29.5627,Step and Distance Pedometer TL Pro,Industrial
+2010-03-07,55829,18.325,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-08-27,56227,29.36,Wearable Transmitter KR,Lifestyle
+2009-09-01,58238,24.95,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-15,58238,15.63,Action Camera Pro,Lifestyle
+2009-10-20,58238,39.6,Strapless Heart Rate Monitor,Medical
+2009-11-04,58238,65.42,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-18,58238,24.77,Microcontroller ES,Fitness
+2010-01-12,58238,30.05,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-08-31,59066,57.21,Wearable AUSG with Calorie Counter,Medical
+2009-10-01,59066,54.21,Step and Distance Pedometer TL Pro,Industrial
+2010-01-15,59066,92.362,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-28,59066,82.9612,Wearable Transmitter KR,Lifestyle
+2010-02-11,59066,77.3068,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-19,59066,153.5695,Action Camera Pro,Lifestyle
+2009-09-01,59561,45.7355,Strapless Heart Rate Monitor,Medical
+2010-01-29,59561,51.9582,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-18,59575,15.45,Microcontroller ES,Fitness
+2009-10-27,59579,38.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-11,59579,27.92,Wearable AUSG with Calorie Counter,Medical
+2010-01-15,59579,28.26,Step and Distance Pedometer TL Pro,Industrial
+2010-02-03,59579,30.55,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-03,61089,92.28,Wearable Transmitter KR,Lifestyle
+2010-01-28,61089,184.2767,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-08,61628,35.42,Action Camera Pro,Lifestyle
+2009-09-22,61628,46.92,Strapless Heart Rate Monitor,Medical
+2009-10-02,61628,59.01,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-06,61628,22.98,Microcontroller ES,Fitness
+2009-10-09,61628,29.56,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-13,61628,28.9,Wearable AUSG with Calorie Counter,Medical
+2009-10-16,61628,23.42,Step and Distance Pedometer TL Pro,Industrial
+2009-10-21,61628,21.11,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-28,61628,40.9,Wearable Transmitter KR,Lifestyle
+2009-11-04,61628,18.14,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-12,61628,43.68,Action Camera Pro,Lifestyle
+2009-11-25,61628,48.9038,Strapless Heart Rate Monitor,Medical
+2009-12-06,61628,49.4765,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-13,61628,27.3224,Microcontroller ES,Fitness
+2009-12-18,61628,34.4252,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-31,61628,52.2997,Wearable AUSG with Calorie Counter,Medical
+2010-01-08,61628,25.61,Step and Distance Pedometer TL Pro,Industrial
+2010-01-20,61628,51.169,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,61628,20.08,Wearable Transmitter KR,Lifestyle
+2010-02-11,61628,72.78,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-19,61628,44.309,Action Camera Pro,Lifestyle
+2010-03-04,61628,46.1485,Strapless Heart Rate Monitor,Medical
+2009-11-21,63469,59.98,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-09,65466,9.48,Microcontroller ES,Fitness
+2009-09-11,65502,36.15,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-18,65502,20.68,Wearable AUSG with Calorie Counter,Medical
+2009-10-02,65502,55.4687,Step and Distance Pedometer TL Pro,Industrial
+2009-10-23,65502,35.8787,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-09,65502,49.7775,Wearable Transmitter KR,Lifestyle
+2010-02-18,65502,30.8615,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-24,65502,14.37,Action Camera Pro,Lifestyle
+2010-03-04,65502,31.1448,Strapless Heart Rate Monitor,Medical
+2009-09-29,66363,38.36,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-06,66363,32.36,Microcontroller ES,Fitness
+2009-10-13,66363,5.03,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-20,66363,32.43,Wearable AUSG with Calorie Counter,Medical
+2009-10-27,66363,34.92,Step and Distance Pedometer TL Pro,Industrial
+2009-10-27,66363,6.73,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-03,66363,36.15,Wearable Transmitter KR,Lifestyle
+2009-11-10,66363,47.91,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-10,66363,40.72,Action Camera Pro,Lifestyle
+2009-11-17,66363,45.1525,Strapless Heart Rate Monitor,Medical
+2009-11-23,66363,8.49,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-30,66363,39.6965,Microcontroller ES,Fitness
+2009-12-09,66363,42.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-15,66363,45.24,Wearable AUSG with Calorie Counter,Medical
+2009-12-29,66363,38.79,Step and Distance Pedometer TL Pro,Industrial
+2010-01-12,66363,37.0965,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-20,66363,33.43,Wearable Transmitter KR,Lifestyle
+2010-01-26,66363,34.75,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-16,66363,33.79,Action Camera Pro,Lifestyle
+2009-09-15,66479,115.5582,Strapless Heart Rate Monitor,Medical
+2009-10-01,66479,54.7102,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-09,66479,52.13,Microcontroller ES,Fitness
+2009-10-22,66479,48.52,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-11,66479,59.1755,Wearable AUSG with Calorie Counter,Medical
+2009-12-02,66479,74.9387,Step and Distance Pedometer TL Pro,Industrial
+2009-12-10,66479,55.7021,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-21,66479,74.9682,Wearable Transmitter KR,Lifestyle
+2009-12-30,66479,53.8385,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-11,66479,86.6105,Action Camera Pro,Lifestyle
+2010-02-05,66479,61.25,Strapless Heart Rate Monitor,Medical
+2010-02-21,66479,65.9288,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-08,66479,32.9972,Microcontroller ES,Fitness
+2009-09-11,66768,53.46,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-17,66768,183.76,Wearable AUSG with Calorie Counter,Medical
+2009-09-11,66777,34.63,Step and Distance Pedometer TL Pro,Industrial
+2010-01-07,66777,38.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-11,67453,4.61,Wearable Transmitter KR,Lifestyle
+2009-09-14,68962,35.5702,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-23,70788,25.91,Action Camera Pro,Lifestyle
+2009-11-11,70788,36.77,Strapless Heart Rate Monitor,Medical
+2009-12-16,70788,43.6885,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-09-17,70857,25.54,Microcontroller ES,Fitness
+2009-10-06,71059,36.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-22,71059,23.62,Wearable AUSG with Calorie Counter,Medical
+2009-09-17,71130,25.14,Step and Distance Pedometer TL Pro,Industrial
+2009-09-24,71130,18.7,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-30,72429,23.01,Wearable Transmitter KR,Lifestyle
+2009-11-05,72429,19,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-20,73087,4.4,Action Camera Pro,Lifestyle
+2010-02-10,73651,13.0785,Strapless Heart Rate Monitor,Medical
+2009-11-05,74393,47.8202,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-28,74393,62.886,Microcontroller ES,Fitness
+2009-09-28,74435,78.41,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-05,74435,59.94,Wearable AUSG with Calorie Counter,Medical
+2009-10-12,74435,60.3902,Step and Distance Pedometer TL Pro,Industrial
+2009-11-16,74435,116.18,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-23,75134,47.55,Wearable Transmitter KR,Lifestyle
+2009-09-23,75240,5.92,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-23,75547,58.59,Action Camera Pro,Lifestyle
+2009-09-24,75600,64.35,Strapless Heart Rate Monitor,Medical
+2009-09-30,75600,91.64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-27,75600,101.03,Microcontroller ES,Fitness
+2009-12-11,75600,38.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-18,75600,108.48,Wearable AUSG with Calorie Counter,Medical
+2010-01-14,75600,77.7927,Step and Distance Pedometer TL Pro,Industrial
+2010-01-21,75600,103.82,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-29,75600,203.07,Wearable Transmitter KR,Lifestyle
+2010-02-05,75600,89.4,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-11,75600,104.2,Action Camera Pro,Lifestyle
+2010-02-12,75600,74.99,Strapless Heart Rate Monitor,Medical
+2010-02-18,75600,75.6,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-05,75600,91.72,Microcontroller ES,Fitness
+2009-09-24,75603,60.8305,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-26,75603,93.56,Wearable AUSG with Calorie Counter,Medical
+2009-09-24,75629,37.76,Step and Distance Pedometer TL Pro,Industrial
+2009-09-30,75649,118.3805,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-07,75649,94.1727,Wearable Transmitter KR,Lifestyle
+2009-10-14,75649,132.17,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-22,75649,174.3552,Action Camera Pro,Lifestyle
+2009-10-29,75649,135.03,Strapless Heart Rate Monitor,Medical
+2009-11-05,75649,212.5285,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-12,75649,192.1,Microcontroller ES,Fitness
+2009-11-18,75649,197.8927,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-30,75649,101.6855,Wearable AUSG with Calorie Counter,Medical
+2009-12-06,75649,93.0162,Step and Distance Pedometer TL Pro,Industrial
+2009-12-15,75649,155.4002,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-04,75649,260.71,Wearable Transmitter KR,Lifestyle
+2010-01-11,75649,239.1515,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-25,75649,188.5455,Action Camera Pro,Lifestyle
+2010-02-03,75649,258.4172,Strapless Heart Rate Monitor,Medical
+2010-02-15,75649,254.1147,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-23,75649,281.9337,Microcontroller ES,Fitness
+2010-03-03,75649,251.4452,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-09-25,75730,70.84,Wearable AUSG with Calorie Counter,Medical
+2009-09-24,75739,72.74,Step and Distance Pedometer TL Pro,Industrial
+2009-10-01,75739,49.3547,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-08,75739,53.5,Wearable Transmitter KR,Lifestyle
+2009-10-23,75739,60.72,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-12,75739,66.59,Action Camera Pro,Lifestyle
+2010-01-08,75739,61.1088,Strapless Heart Rate Monitor,Medical
+2010-01-15,75739,35.619,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-22,75739,23.29,Microcontroller ES,Fitness
+2010-01-29,75739,19.37,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-19,75739,21.745,Wearable AUSG with Calorie Counter,Medical
+2010-03-04,75739,27.1465,Step and Distance Pedometer TL Pro,Industrial
+2009-09-25,76463,2.76,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-29,77026,117.8802,Wearable Transmitter KR,Lifestyle
+2009-09-27,77207,30.62,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-09-27,77555,42.21,Action Camera Pro,Lifestyle
+2009-10-29,77915,43.54,Strapless Heart Rate Monitor,Medical
+2009-09-28,78451,23.3,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-05,78451,84.8412,Microcontroller ES,Fitness
+2009-10-12,78451,83.62,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-19,78451,51.73,Wearable AUSG with Calorie Counter,Medical
+2009-10-27,78451,58.7805,Step and Distance Pedometer TL Pro,Industrial
+2009-11-02,78451,72.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-07,78451,63.12,Wearable Transmitter KR,Lifestyle
+2009-11-15,78451,88.7112,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-07,78451,74.73,Action Camera Pro,Lifestyle
+2009-12-19,78451,54.4355,Strapless Heart Rate Monitor,Medical
+2009-12-28,78451,69.1982,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-04,78451,70.2445,Microcontroller ES,Fitness
+2010-01-11,78451,40.7182,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-18,78451,82.1975,Wearable AUSG with Calorie Counter,Medical
+2010-01-24,78451,73.4455,Step and Distance Pedometer TL Pro,Industrial
+2010-02-15,78451,52.066,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,78451,56.74,Wearable Transmitter KR,Lifestyle
+2010-03-01,78451,102.09,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,78451,52.2,Action Camera Pro,Lifestyle
+2009-09-29,79512,48.69,Strapless Heart Rate Monitor,Medical
+2009-10-07,79512,63.0912,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-19,79512,42.23,Microcontroller ES,Fitness
+2009-10-26,79512,62.69,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-09,79512,42.23,Wearable AUSG with Calorie Counter,Medical
+2010-01-11,79512,58.93,Step and Distance Pedometer TL Pro,Industrial
+2010-01-17,79512,60.78,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-18,79512,5.06,Wearable Transmitter KR,Lifestyle
+2010-01-28,79512,47.88,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-04,79512,56.01,Action Camera Pro,Lifestyle
+2010-02-09,79512,50.61,Strapless Heart Rate Monitor,Medical
+2010-02-17,79512,73.97,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-07,79512,53.79,Microcontroller ES,Fitness
+2009-09-30,79570,73.19,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-06,79570,54.9202,Wearable AUSG with Calorie Counter,Medical
+2009-10-21,79570,64.74,Step and Distance Pedometer TL Pro,Industrial
+2009-11-11,79570,126.91,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-23,79570,27.32,Wearable Transmitter KR,Lifestyle
+2009-10-12,79637,138.2878,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-22,79637,129.17,Action Camera Pro,Lifestyle
+2009-10-29,79637,154.59,Strapless Heart Rate Monitor,Medical
+2009-11-03,79637,50.83,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-10,79637,108.16,Microcontroller ES,Fitness
+2010-01-25,79637,259.3777,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-11,79637,148.3387,Wearable AUSG with Calorie Counter,Medical
+2010-02-19,79637,102.4672,Step and Distance Pedometer TL Pro,Industrial
+2010-03-05,79637,152.0352,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-09-30,80006,97.87,Wearable Transmitter KR,Lifestyle
+2009-10-14,80006,73.35,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-22,80006,86.53,Action Camera Pro,Lifestyle
+2009-10-28,80006,39.0178,Strapless Heart Rate Monitor,Medical
+2009-11-12,80006,80.75,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-12,80791,135.2275,Microcontroller ES,Fitness
+2010-02-03,80791,187.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-22,80791,132.53,Wearable AUSG with Calorie Counter,Medical
+2009-10-03,81013,78.3682,Step and Distance Pedometer TL Pro,Industrial
+2009-10-17,81013,55.2,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-26,81013,13.53,Wearable Transmitter KR,Lifestyle
+2009-11-02,81013,20.47,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-17,81013,18.3,Action Camera Pro,Lifestyle
+2009-12-01,81013,28.11,Strapless Heart Rate Monitor,Medical
+2009-12-08,81013,21.522,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-15,81013,31.69,Microcontroller ES,Fitness
+2009-12-22,81013,16.925,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-11,81453,77.1152,Wearable AUSG with Calorie Counter,Medical
+2009-10-17,81453,80.5605,Step and Distance Pedometer TL Pro,Industrial
+2009-10-26,81453,60.54,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-04,81453,69.91,Wearable Transmitter KR,Lifestyle
+2009-11-13,81453,54.68,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-21,81453,107.7447,Action Camera Pro,Lifestyle
+2009-12-03,81453,92.4587,Strapless Heart Rate Monitor,Medical
+2009-12-11,81453,56.7125,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-02,81453,89.125,Microcontroller ES,Fitness
+2010-01-25,81453,37.67,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-29,81453,53.76,Wearable AUSG with Calorie Counter,Medical
+2010-02-15,81453,112.224,Step and Distance Pedometer TL Pro,Industrial
+2010-02-22,81453,94.1897,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-05,81453,56.3672,Wearable Transmitter KR,Lifestyle
+2009-10-02,81629,25.8,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-06,83462,75.0462,Action Camera Pro,Lifestyle
+2009-10-06,83561,31.67,Strapless Heart Rate Monitor,Medical
+2009-10-12,83561,49.22,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-27,83561,37.4037,Microcontroller ES,Fitness
+2009-11-02,83561,56.49,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-10,83561,31.95,Wearable AUSG with Calorie Counter,Medical
+2009-12-01,83561,21.74,Step and Distance Pedometer TL Pro,Industrial
+2009-12-08,83561,47.9625,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-22,83561,62.0632,Wearable Transmitter KR,Lifestyle
+2010-01-05,83561,30.68,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-25,83561,49.1072,Action Camera Pro,Lifestyle
+2010-02-05,83561,35.6,Strapless Heart Rate Monitor,Medical
+2010-02-16,83561,18.04,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-22,83561,63.2612,Microcontroller ES,Fitness
+2009-10-07,84028,77.468,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-16,84028,148.01,Wearable AUSG with Calorie Counter,Medical
+2009-10-22,84028,156.52,Step and Distance Pedometer TL Pro,Industrial
+2009-10-29,84028,106.24,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-05,84028,94.52,Wearable Transmitter KR,Lifestyle
+2009-11-12,84028,150.78,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-05,84028,125.6625,Action Camera Pro,Lifestyle
+2009-10-13,85204,74.74,Strapless Heart Rate Monitor,Medical
+2009-10-07,85510,164.3105,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-08,86278,5.51,Microcontroller ES,Fitness
+2009-10-19,86307,28.74,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-08,86412,12.8,Wearable AUSG with Calorie Counter,Medical
+2009-10-10,87172,8.16,Step and Distance Pedometer TL Pro,Industrial
+2009-10-19,89010,14.66,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-13,89123,11.25,Wearable Transmitter KR,Lifestyle
+2009-10-14,89359,70.26,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-09,89359,47.07,Action Camera Pro,Lifestyle
+2009-10-15,90419,28.39,Strapless Heart Rate Monitor,Medical
+2009-10-16,90848,47.8502,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-01,90848,121.52,Microcontroller ES,Fitness
+2009-11-11,90848,87.4002,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-16,90848,37.52,Wearable AUSG with Calorie Counter,Medical
+2009-11-30,90848,88.98,Step and Distance Pedometer TL Pro,Industrial
+2009-12-06,90848,133.1252,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-16,90848,84.3405,Wearable Transmitter KR,Lifestyle
+2009-12-23,90848,225.6698,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-25,90848,18.56,Action Camera Pro,Lifestyle
+2010-01-10,90848,70.27,Strapless Heart Rate Monitor,Medical
+2010-01-17,90848,59.2767,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-24,90848,78.8747,Microcontroller ES,Fitness
+2010-01-31,90848,105.2,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-07,90848,30.023,Wearable AUSG with Calorie Counter,Medical
+2010-02-15,90848,113.0575,Step and Distance Pedometer TL Pro,Industrial
+2010-02-22,90848,128.0117,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,90848,6.29,Wearable Transmitter KR,Lifestyle
+2010-03-01,90848,28.38,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-07,90848,75.6752,Action Camera Pro,Lifestyle
+2010-03-07,90848,2.96,Strapless Heart Rate Monitor,Medical
+2009-10-16,90916,14.8,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-16,90971,81.57,Microcontroller ES,Fitness
+2009-10-21,90971,25.39,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-16,90979,6.44,Wearable AUSG with Calorie Counter,Medical
+2009-10-17,92802,7.88,Step and Distance Pedometer TL Pro,Industrial
+2009-10-18,93097,20.45,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-28,94734,43.6492,Wearable Transmitter KR,Lifestyle
+2010-02-01,94734,97.8117,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-14,94734,61.07,Action Camera Pro,Lifestyle
+2009-12-28,95448,31.45,Strapless Heart Rate Monitor,Medical
+2010-01-10,95448,38.3,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-18,95448,6.9,Microcontroller ES,Fitness
+2010-01-24,95448,23.22,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-01,95448,10.9425,Wearable AUSG with Calorie Counter,Medical
+2010-02-08,95448,28.7,Step and Distance Pedometer TL Pro,Industrial
+2009-10-19,97042,3.17,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-22,97042,4.58,Wearable Transmitter KR,Lifestyle
+2009-11-06,97042,8.3,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-07,97042,17.5,Action Camera Pro,Lifestyle
+2009-12-30,97042,20.86,Strapless Heart Rate Monitor,Medical
+2010-03-08,97042,24.16,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-18,97603,40.51,Microcontroller ES,Fitness
+2010-01-13,97603,35.23,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-26,97865,48.82,Wearable AUSG with Calorie Counter,Medical
+2009-11-19,97865,32.8,Step and Distance Pedometer TL Pro,Industrial
+2009-11-02,99036,16.41,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-18,99036,9.03,Wearable Transmitter KR,Lifestyle
+2009-11-30,99036,26.7,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-26,99036,24.8875,Action Camera Pro,Lifestyle
+2010-02-03,99390,39.55,Strapless Heart Rate Monitor,Medical
+2010-02-10,99390,62.97,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-17,99390,58.2352,Microcontroller ES,Fitness
+2010-02-24,99390,31.99,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-22,99601,77.08,Wearable AUSG with Calorie Counter,Medical
+2010-01-11,99601,184.3237,Step and Distance Pedometer TL Pro,Industrial
+2009-10-22,99880,35.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,99914,47.05,Wearable Transmitter KR,Lifestyle
+2009-10-22,100264,18.9,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-22,100269,35.2105,Action Camera Pro,Lifestyle
+2010-01-04,100269,48.2643,Strapless Heart Rate Monitor,Medical
+2009-11-05,100580,25.7484,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-13,100580,20.22,Microcontroller ES,Fitness
+2009-10-23,100720,181.2055,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-03,100720,103.5375,Wearable AUSG with Calorie Counter,Medical
+2009-11-23,100720,208.59,Step and Distance Pedometer TL Pro,Industrial
+2009-12-01,100720,153.28,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-08,100720,527.1597,Wearable Transmitter KR,Lifestyle
+2009-12-15,100720,456.3455,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-23,100720,200.1732,Action Camera Pro,Lifestyle
+2010-01-11,100720,172.13,Strapless Heart Rate Monitor,Medical
+2010-01-26,100720,160.0052,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-02,100720,61.6,Microcontroller ES,Fitness
+2010-02-08,100720,91.37,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-28,100720,185.0218,Wearable AUSG with Calorie Counter,Medical
+2009-10-23,101048,94.25,Step and Distance Pedometer TL Pro,Industrial
+2009-10-23,101054,36.59,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-27,101284,51.14,Wearable Transmitter KR,Lifestyle
+2009-10-27,101284,26.4,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-14,101284,37.14,Action Camera Pro,Lifestyle
+2009-11-14,101284,42.24,Strapless Heart Rate Monitor,Medical
+2009-11-18,101939,6.16,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-23,101939,32.98,Microcontroller ES,Fitness
+2009-12-23,101939,3.14,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-13,101939,13.14,Wearable AUSG with Calorie Counter,Medical
+2010-02-11,101939,14.16,Step and Distance Pedometer TL Pro,Industrial
+2010-02-17,101939,5.64,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-29,101944,16.32,Wearable Transmitter KR,Lifestyle
+2009-11-05,101944,17.72,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-06,101944,23.32,Action Camera Pro,Lifestyle
+2009-11-10,101944,14.75,Strapless Heart Rate Monitor,Medical
+2009-11-10,101944,12.1302,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-11,101944,10.5278,Microcontroller ES,Fitness
+2009-11-20,101944,16.36,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-25,101944,6.1,Wearable AUSG with Calorie Counter,Medical
+2009-12-02,101944,7.74,Step and Distance Pedometer TL Pro,Industrial
+2010-01-05,101944,19.361,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-08,101944,25.67,Wearable Transmitter KR,Lifestyle
+2010-01-20,101944,24.85,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-02,101944,37.2402,Action Camera Pro,Lifestyle
+2010-02-05,101944,4.2065,Strapless Heart Rate Monitor,Medical
+2010-02-12,101944,43.3275,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-12,101944,19.46,Microcontroller ES,Fitness
+2010-02-19,101944,29.885,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-26,101944,36.03,Wearable AUSG with Calorie Counter,Medical
+2010-03-05,101944,51.0015,Step and Distance Pedometer TL Pro,Industrial
+2009-11-06,101947,27.12,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-11,101947,17.71,Wearable Transmitter KR,Lifestyle
+2009-11-19,101947,23.77,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-02,101947,16.67,Action Camera Pro,Lifestyle
+2009-12-06,101947,49.589,Strapless Heart Rate Monitor,Medical
+2009-12-13,101947,48.03,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-14,101947,18.74,Microcontroller ES,Fitness
+2009-12-29,101947,18.832,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-07,101947,13.2078,Wearable AUSG with Calorie Counter,Medical
+2010-01-19,101947,22.82,Step and Distance Pedometer TL Pro,Industrial
+2010-01-21,101947,472.32,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-25,101947,30.91,Wearable Transmitter KR,Lifestyle
+2010-01-27,101947,49.2,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-01,101947,31.5452,Action Camera Pro,Lifestyle
+2010-02-11,101947,22.4995,Strapless Heart Rate Monitor,Medical
+2010-02-16,101947,31.21,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-18,101947,10.88,Microcontroller ES,Fitness
+2010-02-19,101947,30.1292,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-24,101947,23.33,Wearable AUSG with Calorie Counter,Medical
+2010-03-03,101947,9.79,Step and Distance Pedometer TL Pro,Industrial
+2010-03-06,101947,20.99,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-24,103227,24.9452,Wearable Transmitter KR,Lifestyle
+2009-10-27,103714,123.36,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-26,104602,40.5,Action Camera Pro,Lifestyle
+2009-11-11,104602,40.1,Strapless Heart Rate Monitor,Medical
+2009-12-01,104602,17.5795,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-26,105321,62.27,Microcontroller ES,Fitness
+2009-12-15,105321,28.5885,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-30,105321,34.7495,Wearable AUSG with Calorie Counter,Medical
+2010-01-11,105321,21.95,Step and Distance Pedometer TL Pro,Industrial
+2010-01-18,105321,20.11,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-28,105321,27.55,Wearable Transmitter KR,Lifestyle
+2010-02-10,105321,35.71,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-18,105321,43.57,Action Camera Pro,Lifestyle
+2010-03-04,105321,29.8275,Strapless Heart Rate Monitor,Medical
+2009-10-27,107271,22.04,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-04,107970,31.57,Microcontroller ES,Fitness
+2009-11-18,107970,43.64,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-28,108062,27.35,Wearable AUSG with Calorie Counter,Medical
+2009-12-02,108062,29.7585,Step and Distance Pedometer TL Pro,Industrial
+2010-01-13,108062,69.75,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-13,108062,8.99,Wearable Transmitter KR,Lifestyle
+2010-01-20,108062,62.65,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-27,108062,68.24,Action Camera Pro,Lifestyle
+2010-02-10,108062,41.1975,Strapless Heart Rate Monitor,Medical
+2010-02-24,108062,81.89,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-10-29,108734,94.69,Microcontroller ES,Fitness
+2009-11-03,108734,51.83,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-04,108734,95,Wearable AUSG with Calorie Counter,Medical
+2010-01-05,108734,138.4212,Step and Distance Pedometer TL Pro,Industrial
+2010-02-04,108734,43.2525,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-10-28,108736,41.36,Wearable Transmitter KR,Lifestyle
+2009-12-28,108736,25.43,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-10-28,109150,49.46,Action Camera Pro,Lifestyle
+2009-10-29,109787,37.2,Strapless Heart Rate Monitor,Medical
+2009-10-29,109859,39.94,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-22,109859,30.7,Microcontroller ES,Fitness
+2009-10-30,110795,79.95,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-10-31,113262,20.91,Wearable AUSG with Calorie Counter,Medical
+2009-11-02,114774,13.51,Step and Distance Pedometer TL Pro,Industrial
+2009-12-05,114774,5.36,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-14,114774,9.76,Wearable Transmitter KR,Lifestyle
+2009-12-20,114774,10.52,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-21,114774,13.5637,Action Camera Pro,Lifestyle
+2010-01-02,114774,31.66,Strapless Heart Rate Monitor,Medical
+2010-02-04,114774,28.06,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-22,114774,15.22,Microcontroller ES,Fitness
+2009-11-02,114804,35.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-02,115599,81.9,Wearable AUSG with Calorie Counter,Medical
+2009-11-02,115671,123.1207,Step and Distance Pedometer TL Pro,Industrial
+2009-11-17,115671,106.03,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-29,115671,114.9482,Wearable Transmitter KR,Lifestyle
+2009-11-02,115791,2.0452,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-03,116373,14.72,Action Camera Pro,Lifestyle
+2009-11-04,116373,10.81,Strapless Heart Rate Monitor,Medical
+2009-11-11,116373,23.33,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-15,116373,23.84,Microcontroller ES,Fitness
+2009-11-21,116373,25.93,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-28,116373,26.16,Wearable AUSG with Calorie Counter,Medical
+2009-12-09,116373,46.59,Step and Distance Pedometer TL Pro,Industrial
+2009-12-17,116373,17.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-04,116454,90.495,Wearable Transmitter KR,Lifestyle
+2009-11-04,116490,26.0002,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-22,118028,70.0458,Action Camera Pro,Lifestyle
+2009-11-06,118975,18.97,Strapless Heart Rate Monitor,Medical
+2009-11-09,120470,18.43,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-19,120470,19.13,Microcontroller ES,Fitness
+2009-12-04,120470,23.374,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-04,120470,29.69,Wearable AUSG with Calorie Counter,Medical
+2010-02-04,120470,10.0228,Step and Distance Pedometer TL Pro,Industrial
+2009-11-07,125168,47.66,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-28,125168,60.92,Wearable Transmitter KR,Lifestyle
+2009-11-08,128006,70.35,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-29,128006,84.21,Action Camera Pro,Lifestyle
+2010-02-21,128006,96.953,Strapless Heart Rate Monitor,Medical
+2010-02-28,128006,75.2378,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-10,129006,14.87,Microcontroller ES,Fitness
+2009-11-12,129748,45.72,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-10,129748,78.7,Wearable AUSG with Calorie Counter,Medical
+2009-12-17,129748,56.48,Step and Distance Pedometer TL Pro,Industrial
+2009-12-22,129748,127.74,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-23,129748,11.96,Wearable Transmitter KR,Lifestyle
+2010-01-07,129748,115.45,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-14,129748,96.5402,Action Camera Pro,Lifestyle
+2010-01-28,129748,80.95,Strapless Heart Rate Monitor,Medical
+2010-02-11,129748,70.5,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-25,129748,55.21,Microcontroller ES,Fitness
+2009-12-09,129792,18.25,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-14,129792,26.55,Wearable AUSG with Calorie Counter,Medical
+2009-11-09,130175,18.9,Step and Distance Pedometer TL Pro,Industrial
+2010-02-14,130175,17.7,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-10,130284,20.74,Wearable Transmitter KR,Lifestyle
+2009-12-13,130284,20.75,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-10,130316,4.97,Action Camera Pro,Lifestyle
+2010-01-28,130316,35.28,Strapless Heart Rate Monitor,Medical
+2010-02-09,130316,45.99,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-26,130316,21.9228,Microcontroller ES,Fitness
+2010-03-04,130316,34.625,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-10,130332,3.54,Wearable AUSG with Calorie Counter,Medical
+2009-11-10,130335,8.81,Step and Distance Pedometer TL Pro,Industrial
+2009-11-15,130335,86.12,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-02,130335,33.2397,Wearable Transmitter KR,Lifestyle
+2009-12-13,130335,155.959,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-14,130335,29.02,Action Camera Pro,Lifestyle
+2009-12-20,130335,145.58,Strapless Heart Rate Monitor,Medical
+2010-01-06,130335,49.2952,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-13,130335,122.11,Microcontroller ES,Fitness
+2010-01-22,130335,79.9957,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-29,130335,130.4,Wearable AUSG with Calorie Counter,Medical
+2010-02-11,130335,79.868,Step and Distance Pedometer TL Pro,Industrial
+2010-02-19,130335,95.69,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-24,130335,20.1625,Wearable Transmitter KR,Lifestyle
+2010-03-02,130335,18.1435,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-10,130345,4.98,Action Camera Pro,Lifestyle
+2009-11-10,130348,5.06,Strapless Heart Rate Monitor,Medical
+2009-11-10,130435,3.2,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-10,130465,44.74,Microcontroller ES,Fitness
+2009-11-10,130484,6.34,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-10,130489,6.48,Wearable AUSG with Calorie Counter,Medical
+2009-11-10,130503,3.68,Step and Distance Pedometer TL Pro,Industrial
+2009-11-10,130560,2.2,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-11,130692,4.77,Wearable Transmitter KR,Lifestyle
+2009-11-13,130725,2.54,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-10,130756,24.63,Action Camera Pro,Lifestyle
+2009-11-10,130812,8.87,Strapless Heart Rate Monitor,Medical
+2009-11-10,130836,1.79,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-10,130841,15.3575,Microcontroller ES,Fitness
+2009-11-17,130841,44.46,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-14,130841,44.9,Wearable AUSG with Calorie Counter,Medical
+2009-11-10,130949,2.14,Step and Distance Pedometer TL Pro,Industrial
+2009-11-10,130964,1.39,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-10,131036,41.72,Wearable Transmitter KR,Lifestyle
+2009-11-10,131043,4.12,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-10,131073,28.07,Action Camera Pro,Lifestyle
+2009-11-11,131086,23.6,Strapless Heart Rate Monitor,Medical
+2009-11-10,131095,3.33,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-11,131115,39.84,Microcontroller ES,Fitness
+2009-11-23,131115,47.587,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-07,131115,62.75,Wearable AUSG with Calorie Counter,Medical
+2010-02-12,131115,59.1145,Step and Distance Pedometer TL Pro,Industrial
+2010-03-01,131115,36.262,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-10,131133,2.3802,Wearable Transmitter KR,Lifestyle
+2009-11-11,131159,2.09,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-11,131170,1.7,Action Camera Pro,Lifestyle
+2009-11-11,131211,15.25,Strapless Heart Rate Monitor,Medical
+2009-11-11,131217,2.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-08,131217,17.74,Microcontroller ES,Fitness
+2010-02-28,131217,3.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-11,131218,31.83,Wearable AUSG with Calorie Counter,Medical
+2009-11-11,131226,27.21,Step and Distance Pedometer TL Pro,Industrial
+2010-02-08,131226,26.9588,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-11,131231,12.88,Wearable Transmitter KR,Lifestyle
+2009-11-11,131236,22.26,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-29,131236,30.25,Action Camera Pro,Lifestyle
+2009-11-11,131255,22.41,Strapless Heart Rate Monitor,Medical
+2010-01-25,131255,16.54,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-01,131255,15.0577,Microcontroller ES,Fitness
+2010-02-13,131255,26.47,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-28,131255,10.85,Wearable AUSG with Calorie Counter,Medical
+2009-11-11,131261,2.51,Step and Distance Pedometer TL Pro,Industrial
+2009-11-11,131262,8.09,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-11,131396,21.5,Wearable Transmitter KR,Lifestyle
+2009-12-11,131396,98.83,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-31,131396,64.75,Action Camera Pro,Lifestyle
+2010-01-07,131396,108.0585,Strapless Heart Rate Monitor,Medical
+2010-03-05,131396,95.75,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-11,131441,29.94,Microcontroller ES,Fitness
+2009-11-11,131471,4.29,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-30,131471,13.76,Wearable AUSG with Calorie Counter,Medical
+2009-11-11,131498,17.84,Step and Distance Pedometer TL Pro,Industrial
+2009-12-30,131498,51.4602,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-10,131498,8.91,Wearable Transmitter KR,Lifestyle
+2009-11-11,131512,4.57,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-08,131512,19.5315,Action Camera Pro,Lifestyle
+2010-01-14,131512,22,Strapless Heart Rate Monitor,Medical
+2010-01-14,131512,4.49,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-20,131512,25.1,Microcontroller ES,Fitness
+2010-01-27,131512,43.6027,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-27,131512,3.58,Wearable AUSG with Calorie Counter,Medical
+2010-02-04,131512,46.545,Step and Distance Pedometer TL Pro,Industrial
+2010-02-11,131512,29.29,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-19,131512,29.155,Wearable Transmitter KR,Lifestyle
+2010-02-25,131512,11.59,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-04,131512,17.58,Action Camera Pro,Lifestyle
+2009-11-11,131524,9.47,Strapless Heart Rate Monitor,Medical
+2009-11-11,131540,37.1538,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-12,131563,27.6575,Microcontroller ES,Fitness
+2009-12-04,131563,41.53,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-17,131563,29.71,Wearable AUSG with Calorie Counter,Medical
+2009-11-11,131620,10.23,Step and Distance Pedometer TL Pro,Industrial
+2009-11-12,131626,223.66,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-10,131626,98.62,Wearable Transmitter KR,Lifestyle
+2009-12-17,131626,79.79,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-24,131626,96.08,Action Camera Pro,Lifestyle
+2010-01-08,131626,85.53,Strapless Heart Rate Monitor,Medical
+2010-01-16,131626,71.9312,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-11,131742,2.62,Microcontroller ES,Fitness
+2009-11-11,131750,4.67,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-30,131763,74.2802,Wearable AUSG with Calorie Counter,Medical
+2009-12-09,131763,53.38,Step and Distance Pedometer TL Pro,Industrial
+2009-12-18,131763,54.62,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-21,131763,120.9652,Wearable Transmitter KR,Lifestyle
+2009-12-31,131763,56.3752,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-19,131763,69.93,Action Camera Pro,Lifestyle
+2010-01-19,131763,118.75,Strapless Heart Rate Monitor,Medical
+2009-11-12,131795,56.67,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-11,131808,49.4128,Microcontroller ES,Fitness
+2009-11-22,131808,42.3,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-12,131892,83.27,Wearable AUSG with Calorie Counter,Medical
+2009-11-20,131892,95.5628,Step and Distance Pedometer TL Pro,Industrial
+2009-11-12,131905,33.46,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-03,131905,27.01,Wearable Transmitter KR,Lifestyle
+2009-11-12,131930,22.07,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-12,131961,31.22,Action Camera Pro,Lifestyle
+2009-11-12,132008,15.1337,Strapless Heart Rate Monitor,Medical
+2009-11-16,132016,44.36,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-12,132072,74.26,Microcontroller ES,Fitness
+2009-12-30,132072,72.1495,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-17,132072,127.6642,Wearable AUSG with Calorie Counter,Medical
+2010-02-23,132072,82.61,Step and Distance Pedometer TL Pro,Industrial
+2010-03-05,132072,99.32,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-12,132301,18.53,Wearable Transmitter KR,Lifestyle
+2009-11-13,132490,114.1752,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-23,132591,56.31,Action Camera Pro,Lifestyle
+2010-02-15,132591,35.28,Strapless Heart Rate Monitor,Medical
+2009-11-13,133498,41.59,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-21,133498,83.46,Microcontroller ES,Fitness
+2009-12-01,133525,129.4,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-16,133525,89.8327,Wearable AUSG with Calorie Counter,Medical
+2010-01-13,133525,115.1867,Step and Distance Pedometer TL Pro,Industrial
+2010-01-20,133525,79.6578,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,133525,58.955,Wearable Transmitter KR,Lifestyle
+2010-02-18,133525,41.03,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-24,133525,115.907,Action Camera Pro,Lifestyle
+2010-03-03,133525,146.53,Strapless Heart Rate Monitor,Medical
+2009-11-19,133686,61.54,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-14,134462,126.05,Microcontroller ES,Fitness
+2009-11-15,134462,12.73,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-22,134462,83.1077,Wearable AUSG with Calorie Counter,Medical
+2009-11-29,134462,81.9828,Step and Distance Pedometer TL Pro,Industrial
+2009-11-29,134462,11.08,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-06,134462,83.814,Wearable Transmitter KR,Lifestyle
+2009-12-08,134462,6.14,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-13,134462,142.1248,Action Camera Pro,Lifestyle
+2009-12-20,134462,122.4874,Strapless Heart Rate Monitor,Medical
+2009-12-28,134462,53.314,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-28,134462,17.3277,Microcontroller ES,Fitness
+2010-01-03,134462,61.97,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-10,134462,44.37,Wearable AUSG with Calorie Counter,Medical
+2010-01-11,134462,18.78,Step and Distance Pedometer TL Pro,Industrial
+2010-01-18,134462,88.5802,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-24,134462,98.0052,Wearable Transmitter KR,Lifestyle
+2010-01-31,134462,92.0212,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-01,134462,19.266,Action Camera Pro,Lifestyle
+2010-02-08,134462,65.627,Strapless Heart Rate Monitor,Medical
+2010-02-14,134462,62.0775,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-20,134462,62.5,Microcontroller ES,Fitness
+2010-02-28,134462,85.6102,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-06,134462,82.18,Wearable AUSG with Calorie Counter,Medical
+2010-03-08,134462,25.49,Step and Distance Pedometer TL Pro,Industrial
+2009-11-14,134501,17.16,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-18,134646,29.0852,Wearable Transmitter KR,Lifestyle
+2010-01-28,134646,140.47,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-29,134646,23.2212,Action Camera Pro,Lifestyle
+2010-02-02,134646,129.4345,Strapless Heart Rate Monitor,Medical
+2010-02-04,134646,45.13,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-05,134646,17.96,Microcontroller ES,Fitness
+2010-02-10,134646,69.82,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-24,134646,89.9,Wearable AUSG with Calorie Counter,Medical
+2010-03-01,134646,89.1098,Step and Distance Pedometer TL Pro,Industrial
+2010-03-06,134646,34.58,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,134975,18.16,Wearable Transmitter KR,Lifestyle
+2009-11-17,135070,23.12,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-30,135293,95.8075,Action Camera Pro,Lifestyle
+2009-11-15,135473,55.2212,Strapless Heart Rate Monitor,Medical
+2009-11-15,135485,20.29,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-15,135487,83.1,Microcontroller ES,Fitness
+2009-11-19,135487,100.8442,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-22,135487,115.0525,Wearable AUSG with Calorie Counter,Medical
+2009-11-30,135487,67.1175,Step and Distance Pedometer TL Pro,Industrial
+2009-12-07,135487,146.3835,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-14,135487,117.5498,Wearable Transmitter KR,Lifestyle
+2009-12-29,135487,166.3232,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,135487,155.0032,Action Camera Pro,Lifestyle
+2010-01-18,135487,148.7185,Strapless Heart Rate Monitor,Medical
+2010-01-25,135487,122.1254,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,135487,168.05,Microcontroller ES,Fitness
+2009-11-15,135551,22.28,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-15,135602,37.49,Wearable AUSG with Calorie Counter,Medical
+2009-11-30,135602,20.2,Step and Distance Pedometer TL Pro,Industrial
+2009-12-28,135602,49.6,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-11,135602,34.0202,Wearable Transmitter KR,Lifestyle
+2010-03-01,135602,29.5402,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-15,135615,23.73,Action Camera Pro,Lifestyle
+2009-11-15,135619,11.92,Strapless Heart Rate Monitor,Medical
+2009-11-16,135774,43.15,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-16,135796,48.35,Microcontroller ES,Fitness
+2009-12-04,135796,56.389,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,135796,10.3355,Wearable AUSG with Calorie Counter,Medical
+2010-02-07,135796,31.52,Step and Distance Pedometer TL Pro,Industrial
+2009-11-16,135847,9.17,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-22,135847,16.15,Wearable Transmitter KR,Lifestyle
+2009-12-06,135847,14.29,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-16,135847,25.41,Action Camera Pro,Lifestyle
+2010-01-28,135847,2.99,Strapless Heart Rate Monitor,Medical
+2010-01-28,135847,22.9802,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-04,135847,70.8675,Microcontroller ES,Fitness
+2010-02-08,135847,44.41,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-14,135847,12.88,Wearable AUSG with Calorie Counter,Medical
+2010-02-21,135847,33.665,Step and Distance Pedometer TL Pro,Industrial
+2010-02-26,135847,17.9095,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-15,135874,49.66,Wearable Transmitter KR,Lifestyle
+2009-11-16,135877,60.5828,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-11-16,136548,119.3667,Action Camera Pro,Lifestyle
+2009-12-02,136548,25.0977,Strapless Heart Rate Monitor,Medical
+2009-12-07,136548,38.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-17,136548,110.5587,Microcontroller ES,Fitness
+2010-01-26,136548,110.856,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-04,136548,81.4457,Wearable AUSG with Calorie Counter,Medical
+2010-02-05,136548,81.31,Step and Distance Pedometer TL Pro,Industrial
+2009-11-24,136879,232.1315,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-01,136879,256.73,Wearable Transmitter KR,Lifestyle
+2009-12-08,136879,121.1252,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-15,136879,192.3055,Action Camera Pro,Lifestyle
+2009-12-22,136879,350.5324,Strapless Heart Rate Monitor,Medical
+2009-12-30,136879,199.7698,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-05,136879,176.1127,Microcontroller ES,Fitness
+2010-01-13,136879,231.8135,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-21,136879,284.71,Wearable AUSG with Calorie Counter,Medical
+2010-01-28,136879,285.1947,Step and Distance Pedometer TL Pro,Industrial
+2010-02-03,136879,303.2022,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-10,136879,303.721,Wearable Transmitter KR,Lifestyle
+2010-02-17,136879,172.04,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-24,136879,314.6425,Action Camera Pro,Lifestyle
+2010-03-03,136879,191.6572,Strapless Heart Rate Monitor,Medical
+2009-11-16,136891,29.14,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-04,136891,117.92,Microcontroller ES,Fitness
+2010-01-11,136891,71.71,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-15,136891,35.42,Wearable AUSG with Calorie Counter,Medical
+2010-02-01,136891,19.53,Step and Distance Pedometer TL Pro,Industrial
+2010-02-09,136891,23.65,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,136891,11.81,Wearable Transmitter KR,Lifestyle
+2010-03-01,136891,58.3502,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,136891,46.29,Action Camera Pro,Lifestyle
+2009-11-17,137941,8.17,Strapless Heart Rate Monitor,Medical
+2009-11-17,137966,60.91,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-27,137966,94.63,Microcontroller ES,Fitness
+2009-11-17,138183,22.5,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-22,138203,52.5987,Wearable AUSG with Calorie Counter,Medical
+2009-11-24,138203,15.017,Step and Distance Pedometer TL Pro,Industrial
+2009-11-17,138348,54.6,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-18,138901,7.57,Wearable Transmitter KR,Lifestyle
+2010-01-21,139805,29.243,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-28,139805,141.13,Action Camera Pro,Lifestyle
+2010-02-12,139805,152.3397,Strapless Heart Rate Monitor,Medical
+2010-02-15,139805,67.0652,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-28,139805,78.243,Microcontroller ES,Fitness
+2009-11-18,140781,112.69,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-18,140781,42.65,Wearable AUSG with Calorie Counter,Medical
+2009-11-18,141079,160.211,Step and Distance Pedometer TL Pro,Industrial
+2010-01-08,143954,7.96,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-11-20,147357,106.31,Wearable Transmitter KR,Lifestyle
+2009-11-20,147680,2.99,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-02,147680,28.87,Action Camera Pro,Lifestyle
+2010-02-02,147680,2.36,Strapless Heart Rate Monitor,Medical
+2009-11-20,147838,75.0177,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-28,147838,133.297,Microcontroller ES,Fitness
+2010-02-08,147838,14.6158,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-11-21,150877,51.7,Wearable AUSG with Calorie Counter,Medical
+2009-11-22,150877,59.68,Step and Distance Pedometer TL Pro,Industrial
+2010-01-26,150877,72.4387,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-07,151959,83.91,Wearable Transmitter KR,Lifestyle
+2010-01-21,151959,78.5228,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-29,151959,58.2822,Action Camera Pro,Lifestyle
+2010-03-03,151959,64.68,Strapless Heart Rate Monitor,Medical
+2009-11-22,152287,27.6105,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-23,152287,3.75,Microcontroller ES,Fitness
+2009-12-07,152287,8.6962,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-08,152441,65.5772,Wearable AUSG with Calorie Counter,Medical
+2009-11-23,153501,167.2454,Step and Distance Pedometer TL Pro,Industrial
+2009-12-02,153501,100.094,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-02,153501,34.63,Wearable Transmitter KR,Lifestyle
+2009-12-08,153501,152.2977,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-15,153501,83.11,Action Camera Pro,Lifestyle
+2010-01-06,153501,149.4352,Strapless Heart Rate Monitor,Medical
+2010-01-27,153501,186.2612,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-29,154853,15.1,Microcontroller ES,Fitness
+2009-11-29,163430,30.84,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,163430,21.9925,Wearable AUSG with Calorie Counter,Medical
+2010-01-17,163430,40.97,Step and Distance Pedometer TL Pro,Industrial
+2010-01-25,163430,20.24,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-31,163430,18.59,Wearable Transmitter KR,Lifestyle
+2010-02-19,163430,42.62,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-01,163430,13.55,Action Camera Pro,Lifestyle
+2010-03-08,163430,13.8,Strapless Heart Rate Monitor,Medical
+2009-11-30,163697,22.625,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-11-30,164188,50.51,Microcontroller ES,Fitness
+2009-12-07,164188,36.96,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-09,164188,61.72,Wearable AUSG with Calorie Counter,Medical
+2009-11-30,164894,86.3178,Step and Distance Pedometer TL Pro,Industrial
+2009-12-01,166847,47.9835,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-03,166847,14.04,Wearable Transmitter KR,Lifestyle
+2009-12-29,166847,37.8682,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-22,166847,24.0375,Action Camera Pro,Lifestyle
+2010-03-02,166847,29.29,Strapless Heart Rate Monitor,Medical
+2009-12-02,168030,95,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-02,168652,44.15,Microcontroller ES,Fitness
+2009-12-03,168756,54.62,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-13,168756,67.9702,Wearable AUSG with Calorie Counter,Medical
+2009-12-26,168756,46.0092,Step and Distance Pedometer TL Pro,Industrial
+2010-02-14,168756,45.87,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,168756,50.9,Wearable Transmitter KR,Lifestyle
+2009-12-05,168850,96.17,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-07,168865,132.8092,Action Camera Pro,Lifestyle
+2009-12-14,168865,89.6322,Strapless Heart Rate Monitor,Medical
+2010-01-04,168865,79.9252,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-15,168865,112.6018,Microcontroller ES,Fitness
+2009-12-06,169008,54.72,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-14,169008,12.54,Wearable AUSG with Calorie Counter,Medical
+2010-01-18,169008,17.03,Step and Distance Pedometer TL Pro,Industrial
+2010-01-30,169008,17.34,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-07,169008,22.7,Wearable Transmitter KR,Lifestyle
+2010-02-14,169008,14.89,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-03,169347,12.03,Action Camera Pro,Lifestyle
+2009-12-03,170460,21.44,Strapless Heart Rate Monitor,Medical
+2009-12-30,170460,35.6902,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-03,170690,18.415,Microcontroller ES,Fitness
+2009-12-04,171080,32.8,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,173006,67.6325,Wearable AUSG with Calorie Counter,Medical
+2009-12-04,173141,10.58,Step and Distance Pedometer TL Pro,Industrial
+2009-12-06,177092,11.04,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-06,177820,52.04,Wearable Transmitter KR,Lifestyle
+2009-12-20,177820,112.2977,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-04,177820,30.086,Action Camera Pro,Lifestyle
+2009-12-06,177830,130.44,Strapless Heart Rate Monitor,Medical
+2009-12-14,177830,89.6968,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-04,177830,231.496,Microcontroller ES,Fitness
+2010-01-04,177830,14.095,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-19,177830,117.5775,Wearable AUSG with Calorie Counter,Medical
+2010-01-19,177830,47.7,Step and Distance Pedometer TL Pro,Industrial
+2010-01-26,177830,95,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-27,177830,134.14,Wearable Transmitter KR,Lifestyle
+2010-02-10,177830,51.655,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-17,177830,90.8302,Action Camera Pro,Lifestyle
+2010-02-24,177830,115.0597,Strapless Heart Rate Monitor,Medical
+2009-12-17,177888,70.89,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-29,177888,47.4882,Microcontroller ES,Fitness
+2010-01-07,177888,25.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-14,177888,32.57,Wearable AUSG with Calorie Counter,Medical
+2010-01-21,177888,35.44,Step and Distance Pedometer TL Pro,Industrial
+2010-01-29,177888,13.46,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-12,177888,16.5,Wearable Transmitter KR,Lifestyle
+2009-12-06,177890,11.2,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-07,177929,27.43,Action Camera Pro,Lifestyle
+2010-02-21,177929,20.35,Strapless Heart Rate Monitor,Medical
+2009-12-06,178147,16.1778,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-07,178253,8.439,Microcontroller ES,Fitness
+2009-12-07,178266,20.33,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-07,178315,20.1545,Wearable AUSG with Calorie Counter,Medical
+2009-12-15,178315,20.14,Step and Distance Pedometer TL Pro,Industrial
+2009-12-07,178319,74.145,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,178319,90.65,Wearable Transmitter KR,Lifestyle
+2009-12-07,178373,31.86,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-24,178713,30.5932,Action Camera Pro,Lifestyle
+2010-02-01,178713,176.4675,Strapless Heart Rate Monitor,Medical
+2010-03-04,178713,126.981,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-07,178719,5.99,Microcontroller ES,Fitness
+2009-12-13,178719,5.99,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-04,178719,23.6,Wearable AUSG with Calorie Counter,Medical
+2010-01-12,178719,7.63,Step and Distance Pedometer TL Pro,Industrial
+2010-01-17,178719,5.7,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,178719,13.49,Wearable Transmitter KR,Lifestyle
+2010-02-11,178719,2.92,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,178719,17.82,Action Camera Pro,Lifestyle
+2009-12-07,178724,10.23,Strapless Heart Rate Monitor,Medical
+2009-12-14,178735,116.8617,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-18,178748,4.081,Microcontroller ES,Fitness
+2009-12-14,178762,54.0785,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-29,178762,218.5882,Wearable AUSG with Calorie Counter,Medical
+2010-01-04,178762,193.8672,Step and Distance Pedometer TL Pro,Industrial
+2010-01-11,178762,140.74,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-18,178762,182.2527,Wearable Transmitter KR,Lifestyle
+2010-01-25,178762,142.9547,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-16,178762,184.0077,Action Camera Pro,Lifestyle
+2010-02-24,178762,213.7187,Strapless Heart Rate Monitor,Medical
+2009-12-08,178773,64.5577,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-05,178773,35.6365,Microcontroller ES,Fitness
+2010-01-03,179082,120.17,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-08,180056,10.84,Wearable AUSG with Calorie Counter,Medical
+2009-12-09,180839,56.27,Step and Distance Pedometer TL Pro,Industrial
+2009-12-09,181222,45.44,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-16,181222,75.32,Wearable Transmitter KR,Lifestyle
+2009-12-30,181222,56.0815,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-06,181222,83.419,Action Camera Pro,Lifestyle
+2010-01-20,181222,44.3035,Strapless Heart Rate Monitor,Medical
+2010-02-17,181222,118.634,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-24,181222,57.36,Microcontroller ES,Fitness
+2010-03-03,181222,90.13,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-10,182300,7.36,Wearable AUSG with Calorie Counter,Medical
+2009-12-10,182646,9.78,Step and Distance Pedometer TL Pro,Industrial
+2009-12-10,182695,15.84,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-29,182695,13.59,Wearable Transmitter KR,Lifestyle
+2010-02-05,182695,32.266,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-11,184243,102.8227,Action Camera Pro,Lifestyle
+2009-12-21,184243,149.2885,Strapless Heart Rate Monitor,Medical
+2010-02-04,184243,164.955,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-13,188649,24.6,Microcontroller ES,Fitness
+2010-01-17,188649,22.29,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-08,188649,68.2752,Wearable AUSG with Calorie Counter,Medical
+2009-12-13,189273,46.63,Step and Distance Pedometer TL Pro,Industrial
+2010-01-11,189706,62.2,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-11,189706,57.8182,Wearable Transmitter KR,Lifestyle
+2010-01-29,189706,90.8792,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-08,190148,57.906,Action Camera Pro,Lifestyle
+2010-02-18,190148,88.27,Strapless Heart Rate Monitor,Medical
+2010-02-25,190148,66.8887,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-04,190148,61.69,Microcontroller ES,Fitness
+2010-01-03,190444,61.184,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-18,190444,46.6868,Wearable AUSG with Calorie Counter,Medical
+2010-01-24,190444,68.8772,Step and Distance Pedometer TL Pro,Industrial
+2010-02-21,190444,114.9302,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,190470,43.22,Wearable Transmitter KR,Lifestyle
+2010-01-20,191636,57.594,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-15,192617,9.84,Action Camera Pro,Lifestyle
+2010-02-04,192617,25.37,Strapless Heart Rate Monitor,Medical
+2009-12-16,192833,65.23,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-11,192833,21.51,Microcontroller ES,Fitness
+2009-12-15,193130,162.9037,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-18,193130,48.7085,Wearable AUSG with Calorie Counter,Medical
+2009-12-15,193203,35.569,Step and Distance Pedometer TL Pro,Industrial
+2009-12-30,193203,68.08,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-16,193372,13.68,Wearable Transmitter KR,Lifestyle
+2009-12-17,195357,50.45,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-28,195392,27.59,Action Camera Pro,Lifestyle
+2009-12-18,197382,11.25,Strapless Heart Rate Monitor,Medical
+2009-12-22,203074,28.876,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2009-12-22,203074,95,Microcontroller ES,Fitness
+2009-12-21,204098,103.298,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2009-12-22,204711,98.79,Wearable AUSG with Calorie Counter,Medical
+2010-01-23,204711,159.7328,Step and Distance Pedometer TL Pro,Industrial
+2009-12-22,204965,8.19,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2009-12-23,207644,135.95,Wearable Transmitter KR,Lifestyle
+2009-12-23,209418,9,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-29,213237,24.0168,Action Camera Pro,Lifestyle
+2009-12-30,219046,34.39,Strapless Heart Rate Monitor,Medical
+2010-01-07,219046,40.31,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-13,219046,47.65,Microcontroller ES,Fitness
+2010-01-21,219046,85.23,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-28,219046,15.5477,Wearable AUSG with Calorie Counter,Medical
+2010-02-12,219046,38.17,Step and Distance Pedometer TL Pro,Industrial
+2010-02-17,219046,52.7052,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-05,219046,126.0677,Wearable Transmitter KR,Lifestyle
+2010-03-05,219046,5.08,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2009-12-28,221384,20.45,Action Camera Pro,Lifestyle
+2010-01-05,221405,5.63,Strapless Heart Rate Monitor,Medical
+2010-01-10,221405,10.51,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-31,221405,25.06,Microcontroller ES,Fitness
+2010-02-09,221405,18.4,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-04,222278,39.54,Wearable AUSG with Calorie Counter,Medical
+2010-01-11,222278,28.7,Step and Distance Pedometer TL Pro,Industrial
+2010-01-31,222278,87.2602,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-08,222278,6.2488,Wearable Transmitter KR,Lifestyle
+2010-02-15,222278,67.0835,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-05,225475,46.7177,Action Camera Pro,Lifestyle
+2010-01-02,227868,68.02,Strapless Heart Rate Monitor,Medical
+2010-01-04,229312,54.05,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-03,229312,49.8302,Microcontroller ES,Fitness
+2010-03-03,229312,51.7,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-03,229411,109.86,Wearable AUSG with Calorie Counter,Medical
+2010-01-03,229411,2.35,Step and Distance Pedometer TL Pro,Industrial
+2010-01-11,229411,129.379,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-29,229411,96.9412,Wearable Transmitter KR,Lifestyle
+2010-02-05,229411,105.735,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-05,229411,121.476,Action Camera Pro,Lifestyle
+2010-01-03,229448,26.25,Strapless Heart Rate Monitor,Medical
+2010-03-04,229448,21.65,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-04,230242,37.24,Microcontroller ES,Fitness
+2010-01-11,230242,29.9,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-25,230242,50.1858,Wearable AUSG with Calorie Counter,Medical
+2010-01-04,231090,72.9922,Step and Distance Pedometer TL Pro,Industrial
+2010-01-11,231090,53.6937,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-14,231090,120.59,Wearable Transmitter KR,Lifestyle
+2010-01-26,231090,34.85,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-01,231090,71.85,Action Camera Pro,Lifestyle
+2010-02-08,231090,53.19,Strapless Heart Rate Monitor,Medical
+2010-01-04,231319,37.21,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-18,231319,47.433,Microcontroller ES,Fitness
+2010-01-25,231319,38.339,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-15,231319,36.11,Wearable AUSG with Calorie Counter,Medical
+2010-02-23,231319,32.4,Step and Distance Pedometer TL Pro,Industrial
+2010-03-02,231319,26.93,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-08,231319,35.77,Wearable Transmitter KR,Lifestyle
+2010-01-05,231450,49.24,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-16,231450,113.5237,Action Camera Pro,Lifestyle
+2010-02-01,231450,78.0385,Strapless Heart Rate Monitor,Medical
+2010-02-09,231450,149.1185,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-02,231450,117.4625,Microcontroller ES,Fitness
+2010-01-05,232795,47.33,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-15,233679,28.72,Wearable AUSG with Calorie Counter,Medical
+2010-01-06,233720,33.95,Step and Distance Pedometer TL Pro,Industrial
+2010-01-09,233720,78.64,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-30,233720,88.0755,Wearable Transmitter KR,Lifestyle
+2010-01-06,233908,15.7562,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-06,237740,104.38,Action Camera Pro,Lifestyle
+2010-01-06,237740,104.913,Strapless Heart Rate Monitor,Medical
+2010-01-20,237740,56.0015,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-06,237765,6.8992,Microcontroller ES,Fitness
+2010-01-19,237765,21.88,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-08,237765,12.28,Wearable AUSG with Calorie Counter,Medical
+2010-01-06,238245,87.55,Step and Distance Pedometer TL Pro,Industrial
+2010-01-30,238245,74.46,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-17,238245,69.07,Wearable Transmitter KR,Lifestyle
+2010-03-02,238245,98.9152,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,238375,65.76,Action Camera Pro,Lifestyle
+2010-01-19,238375,64.41,Strapless Heart Rate Monitor,Medical
+2010-02-03,238375,97.1355,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-18,238375,87.8578,Microcontroller ES,Fitness
+2010-01-17,238584,50.14,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-20,239549,46.73,Wearable AUSG with Calorie Counter,Medical
+2010-03-02,239549,20.77,Step and Distance Pedometer TL Pro,Industrial
+2010-01-07,240005,176.91,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-15,240005,282.76,Wearable Transmitter KR,Lifestyle
+2010-02-03,240005,290.3959,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-08,240327,89.2965,Action Camera Pro,Lifestyle
+2010-02-22,240334,41.56,Strapless Heart Rate Monitor,Medical
+2010-01-08,241434,87.4062,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-21,241489,21.9805,Microcontroller ES,Fitness
+2010-01-26,241489,19.787,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-02,241489,18.0802,Wearable AUSG with Calorie Counter,Medical
+2010-02-05,241489,20.4,Step and Distance Pedometer TL Pro,Industrial
+2010-02-12,241489,21.422,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-24,241489,23.9252,Wearable Transmitter KR,Lifestyle
+2010-01-08,241688,95.539,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-07,241688,81.14,Action Camera Pro,Lifestyle
+2010-01-09,243684,88.4072,Strapless Heart Rate Monitor,Medical
+2010-01-27,243684,134.588,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-09,243875,90.3285,Microcontroller ES,Fitness
+2010-01-24,243875,49.9887,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-01,243875,181.0887,Wearable AUSG with Calorie Counter,Medical
+2010-02-07,243875,113.613,Step and Distance Pedometer TL Pro,Industrial
+2010-02-14,243875,136.5884,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,243875,158.8035,Wearable Transmitter KR,Lifestyle
+2010-03-02,243875,147.8505,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-10,244285,26.2078,Action Camera Pro,Lifestyle
+2010-01-10,244383,63.0427,Strapless Heart Rate Monitor,Medical
+2010-01-28,244383,86.667,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-03,244383,64.903,Microcontroller ES,Fitness
+2010-02-22,244383,57.21,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-08,244383,37.515,Wearable AUSG with Calorie Counter,Medical
+2010-01-10,244425,20.5857,Step and Distance Pedometer TL Pro,Industrial
+2010-01-10,246164,82.97,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-18,246164,45,Wearable Transmitter KR,Lifestyle
+2010-02-01,246164,193.78,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-11,246330,86.0925,Action Camera Pro,Lifestyle
+2010-02-03,246330,52.5988,Strapless Heart Rate Monitor,Medical
+2010-02-22,246330,41.7702,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-08,246330,58.5778,Microcontroller ES,Fitness
+2010-01-11,246769,27.75,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-11,246791,45.6078,Wearable AUSG with Calorie Counter,Medical
+2010-01-25,246791,33.25,Step and Distance Pedometer TL Pro,Industrial
+2010-02-01,246791,61.2778,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-08,246791,58.519,Wearable Transmitter KR,Lifestyle
+2010-02-22,246791,72.4685,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-08,246791,30.24,Action Camera Pro,Lifestyle
+2010-01-14,247885,54.5,Strapless Heart Rate Monitor,Medical
+2010-01-18,247885,39.7,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-25,247885,94.2612,Microcontroller ES,Fitness
+2010-02-01,247885,49.3709,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-08,247885,51.9395,Wearable AUSG with Calorie Counter,Medical
+2010-02-22,247885,77.414,Step and Distance Pedometer TL Pro,Industrial
+2010-03-01,247885,85.5002,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-11,248283,21.06,Wearable Transmitter KR,Lifestyle
+2010-01-11,248349,14.39,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-12,249357,32.9205,Action Camera Pro,Lifestyle
+2010-02-12,251887,105.25,Strapless Heart Rate Monitor,Medical
+2010-02-12,251887,7.93,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-12,251957,49.33,Microcontroller ES,Fitness
+2010-01-17,251957,38.7575,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-26,251957,52.08,Wearable AUSG with Calorie Counter,Medical
+2010-03-05,251957,81.56,Step and Distance Pedometer TL Pro,Industrial
+2010-01-12,252159,78.19,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,252159,78.81,Wearable Transmitter KR,Lifestyle
+2010-01-13,252654,29.6012,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-21,252654,47.6882,Action Camera Pro,Lifestyle
+2010-01-28,252654,51.9398,Strapless Heart Rate Monitor,Medical
+2010-02-04,252654,50.4735,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-14,252654,47.2262,Microcontroller ES,Fitness
+2010-02-18,252654,53.58,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-25,252654,41.99,Wearable AUSG with Calorie Counter,Medical
+2010-01-13,254235,155.236,Step and Distance Pedometer TL Pro,Industrial
+2010-01-25,254235,165.8357,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-01,254235,186.786,Wearable Transmitter KR,Lifestyle
+2010-02-02,254235,25.05,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-08,254235,139.11,Action Camera Pro,Lifestyle
+2010-02-22,254235,85.21,Strapless Heart Rate Monitor,Medical
+2010-03-02,254235,182.1,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-09,254235,230.81,Microcontroller ES,Fitness
+2010-01-15,256071,213.9295,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-25,256071,170.688,Wearable AUSG with Calorie Counter,Medical
+2010-02-02,256071,214.3599,Step and Distance Pedometer TL Pro,Industrial
+2010-02-16,256071,108.06,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-24,256071,276.6225,Wearable Transmitter KR,Lifestyle
+2010-03-05,256071,268.4127,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-15,257659,11.25,Action Camera Pro,Lifestyle
+2010-01-20,258710,85.8867,Strapless Heart Rate Monitor,Medical
+2010-02-03,258710,83.0982,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-11,258710,69.0995,Microcontroller ES,Fitness
+2010-02-19,258710,53.61,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-02,258710,69.846,Wearable AUSG with Calorie Counter,Medical
+2010-01-16,258846,9.19,Step and Distance Pedometer TL Pro,Industrial
+2010-01-17,262545,22.03,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-17,264483,7.686,Wearable Transmitter KR,Lifestyle
+2010-01-28,264483,37.6,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-11,264483,26.71,Action Camera Pro,Lifestyle
+2010-02-19,264483,13.189,Strapless Heart Rate Monitor,Medical
+2010-02-25,264483,8.64,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,264483,5.63,Microcontroller ES,Fitness
+2010-02-06,264509,49.73,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-18,265294,10.84,Wearable AUSG with Calorie Counter,Medical
+2010-02-21,265294,30.17,Step and Distance Pedometer TL Pro,Industrial
+2010-01-18,267734,15.62,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-14,267876,48.9675,Wearable Transmitter KR,Lifestyle
+2010-02-22,267876,39.9238,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-03,267876,22.58,Action Camera Pro,Lifestyle
+2010-01-18,267958,27.3472,Strapless Heart Rate Monitor,Medical
+2010-01-18,268328,25.1872,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-18,268484,23.36,Microcontroller ES,Fitness
+2010-01-19,270032,128.206,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-20,270032,20.36,Wearable AUSG with Calorie Counter,Medical
+2010-01-27,270032,75.0242,Step and Distance Pedometer TL Pro,Industrial
+2010-02-03,270032,180.3492,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-01,273321,19.2252,Wearable Transmitter KR,Lifestyle
+2010-02-15,273321,18.97,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-22,273321,33.4,Action Camera Pro,Lifestyle
+2010-02-28,273321,34.08,Strapless Heart Rate Monitor,Medical
+2010-03-08,273321,43.66,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-01-21,274016,34.35,Microcontroller ES,Fitness
+2010-01-27,274016,19.74,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-04,274016,47.16,Wearable AUSG with Calorie Counter,Medical
+2010-02-04,274016,11.59,Step and Distance Pedometer TL Pro,Industrial
+2010-02-11,274016,29.79,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-18,274016,29.33,Wearable Transmitter KR,Lifestyle
+2010-02-26,274016,28.2,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-31,274066,20.0375,Action Camera Pro,Lifestyle
+2010-02-07,274066,17.79,Strapless Heart Rate Monitor,Medical
+2010-02-14,274066,21.98,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-01,274066,5.85,Microcontroller ES,Fitness
+2010-01-22,274891,20.64,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-12,274891,75.08,Wearable AUSG with Calorie Counter,Medical
+2010-01-22,275793,128.83,Step and Distance Pedometer TL Pro,Industrial
+2010-02-08,275793,103.7125,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,275793,31.4492,Wearable Transmitter KR,Lifestyle
+2010-01-25,276307,13.37,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-08,276307,53.6,Action Camera Pro,Lifestyle
+2010-02-15,276307,49.66,Strapless Heart Rate Monitor,Medical
+2010-03-01,276307,28.58,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-01,276307,9,Microcontroller ES,Fitness
+2010-03-08,276307,9.08,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-22,276878,128.32,Wearable AUSG with Calorie Counter,Medical
+2010-02-22,276878,5.01,Step and Distance Pedometer TL Pro,Industrial
+2010-03-03,276878,92.745,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-01-24,277827,25.61,Wearable Transmitter KR,Lifestyle
+2010-03-01,277827,2.03,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-24,277861,14.49,Action Camera Pro,Lifestyle
+2010-02-04,277861,17.77,Strapless Heart Rate Monitor,Medical
+2010-02-15,277861,10.97,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-22,277861,5.51,Microcontroller ES,Fitness
+2010-01-31,277987,161.6417,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-17,277987,45.8802,Wearable AUSG with Calorie Counter,Medical
+2010-01-24,278112,103.3202,Step and Distance Pedometer TL Pro,Industrial
+2010-02-26,278112,96.8005,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,281167,36.42,Wearable Transmitter KR,Lifestyle
+2010-01-25,281334,27.05,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-01-26,281788,65.65,Action Camera Pro,Lifestyle
+2010-02-01,281788,72.84,Strapless Heart Rate Monitor,Medical
+2010-02-02,282299,28.27,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-10,282299,41.27,Microcontroller ES,Fitness
+2010-01-26,283017,74.0378,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-20,283017,196.82,Wearable AUSG with Calorie Counter,Medical
+2010-02-27,283017,129.25,Step and Distance Pedometer TL Pro,Industrial
+2010-01-27,283168,182.6075,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-02,283168,250.2832,Wearable Transmitter KR,Lifestyle
+2010-02-08,283168,169.226,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-16,283168,188.7135,Action Camera Pro,Lifestyle
+2010-02-22,283168,173.45,Strapless Heart Rate Monitor,Medical
+2010-01-27,283232,20.04,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-10,283232,41.6425,Microcontroller ES,Fitness
+2010-01-28,284054,22.51,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-28,284206,100.47,Wearable AUSG with Calorie Counter,Medical
+2010-02-04,284206,82.5995,Step and Distance Pedometer TL Pro,Industrial
+2010-02-11,284206,71.9225,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-18,284206,63.0932,Wearable Transmitter KR,Lifestyle
+2010-01-28,285531,87.9197,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-16,285533,20.97,Action Camera Pro,Lifestyle
+2010-01-29,286258,56.673,Strapless Heart Rate Monitor,Medical
+2010-01-30,287135,88.75,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-27,288545,65.72,Microcontroller ES,Fitness
+2010-02-28,288545,7.15,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-01-31,289425,39.438,Wearable AUSG with Calorie Counter,Medical
+2010-01-31,292670,37.78,Step and Distance Pedometer TL Pro,Industrial
+2010-02-08,292670,41.1,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-01,293300,57.187,Wearable Transmitter KR,Lifestyle
+2010-02-17,293300,96.64,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-01,296448,22.79,Action Camera Pro,Lifestyle
+2010-02-01,297082,77.09,Strapless Heart Rate Monitor,Medical
+2010-02-25,297082,120.57,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-02,299260,690.9827,Microcontroller ES,Fitness
+2010-02-08,299260,187.8325,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-18,302034,6.79,Wearable AUSG with Calorie Counter,Medical
+2010-02-03,303090,54.94,Step and Distance Pedometer TL Pro,Industrial
+2010-02-03,303380,175.945,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-03,304082,16.95,Wearable Transmitter KR,Lifestyle
+2010-02-03,304841,2.92,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-27,304841,11.6687,Action Camera Pro,Lifestyle
+2010-02-06,305126,107.73,Strapless Heart Rate Monitor,Medical
+2010-02-03,305879,76.56,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-11,305879,208.4095,Microcontroller ES,Fitness
+2010-02-04,310896,8.65,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-16,310896,13.65,Wearable AUSG with Calorie Counter,Medical
+2010-02-24,310896,12,Step and Distance Pedometer TL Pro,Industrial
+2010-02-04,311452,106.49,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-05,311731,4.9,Wearable Transmitter KR,Lifestyle
+2010-02-04,312058,52.9445,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-05,312247,6.7,Action Camera Pro,Lifestyle
+2010-02-07,319091,87.035,Strapless Heart Rate Monitor,Medical
+2010-02-07,319162,20.7115,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-15,319162,8.25,Microcontroller ES,Fitness
+2010-02-21,319162,19.7232,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-28,319162,6.94,Wearable AUSG with Calorie Counter,Medical
+2010-02-08,319350,16.78,Step and Distance Pedometer TL Pro,Industrial
+2010-02-08,319471,14.18,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-08,322554,138.62,Wearable Transmitter KR,Lifestyle
+2010-02-17,322554,18.54,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-09,325028,52,Action Camera Pro,Lifestyle
+2010-02-16,325028,63.91,Strapless Heart Rate Monitor,Medical
+2010-03-05,325028,47.93,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-09,325209,35.88,Microcontroller ES,Fitness
+2010-02-09,326067,22.06,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-09,326302,5.8615,Wearable AUSG with Calorie Counter,Medical
+2010-02-16,326302,20.8,Step and Distance Pedometer TL Pro,Industrial
+2010-02-16,326320,56.73,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-09,326416,97.25,Wearable Transmitter KR,Lifestyle
+2010-02-17,326416,114.8752,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-09,326427,30.6,Action Camera Pro,Lifestyle
+2010-02-09,326450,46.1475,Strapless Heart Rate Monitor,Medical
+2010-02-10,326567,29.7195,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-10,326605,91.905,Microcontroller ES,Fitness
+2010-02-10,326664,25.56,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-10,326822,48.84,Wearable AUSG with Calorie Counter,Medical
+2010-03-03,326822,46.2152,Step and Distance Pedometer TL Pro,Industrial
+2010-02-10,326850,26.22,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-17,326850,5.5202,Wearable Transmitter KR,Lifestyle
+2010-02-10,326853,28.77,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-17,326853,9.12,Action Camera Pro,Lifestyle
+2010-02-24,326853,19.95,Strapless Heart Rate Monitor,Medical
+2010-03-03,326853,51.71,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-10,327712,50.21,Microcontroller ES,Fitness
+2010-02-17,327712,38.79,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-19,327791,33.02,Wearable AUSG with Calorie Counter,Medical
+2010-03-02,327791,35.47,Step and Distance Pedometer TL Pro,Industrial
+2010-02-11,328919,40.22,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-11,330280,51.24,Wearable Transmitter KR,Lifestyle
+2010-02-18,333236,46.51,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-28,333236,30.2,Action Camera Pro,Lifestyle
+2010-02-13,336236,183.55,Strapless Heart Rate Monitor,Medical
+2010-02-14,339282,49.85,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-14,340060,7.34,Microcontroller ES,Fitness
+2010-02-14,340188,23.96,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-14,340188,23.96,Wearable AUSG with Calorie Counter,Medical
+2010-02-14,340195,81.01,Step and Distance Pedometer TL Pro,Industrial
+2010-02-15,341576,15.65,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,342064,57.3,Wearable Transmitter KR,Lifestyle
+2010-02-15,342222,5.62,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-15,343412,6.66,Action Camera Pro,Lifestyle
+2010-02-16,345520,27.5485,Strapless Heart Rate Monitor,Medical
+2010-02-25,345520,22.44,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-04,345520,45.6942,Microcontroller ES,Fitness
+2010-02-16,347125,51.89,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-16,347521,21.99,Wearable AUSG with Calorie Counter,Medical
+2010-02-17,348555,7.349,Step and Distance Pedometer TL Pro,Industrial
+2010-02-17,350475,31.5965,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-23,350475,91.08,Wearable Transmitter KR,Lifestyle
+2010-03-04,350475,63.2147,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-19,354474,51.29,Action Camera Pro,Lifestyle
+2010-03-02,354474,62.43,Strapless Heart Rate Monitor,Medical
+2010-02-19,356329,162.615,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-04,356329,41.5425,Microcontroller ES,Fitness
+2010-02-20,360816,103.4602,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-07,360816,76.05,Wearable AUSG with Calorie Counter,Medical
+2010-02-21,363819,2.93,Step and Distance Pedometer TL Pro,Industrial
+2010-02-22,365257,15.72,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-22,365784,17.31,Wearable Transmitter KR,Lifestyle
+2010-03-01,366448,27.1592,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-07,366448,29.81,Action Camera Pro,Lifestyle
+2010-02-23,369133,41.22,Strapless Heart Rate Monitor,Medical
+2010-03-01,369133,17.79,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-23,370402,40.215,Microcontroller ES,Fitness
+2010-03-02,370402,37.3552,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-23,370571,40.93,Wearable AUSG with Calorie Counter,Medical
+2010-02-23,370758,37.25,Step and Distance Pedometer TL Pro,Industrial
+2010-02-24,370990,22.95,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-24,371554,55.1478,Wearable Transmitter KR,Lifestyle
+2010-02-27,372652,35.77,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-25,374957,112.09,Action Camera Pro,Lifestyle
+2010-03-02,375224,61.95,Strapless Heart Rate Monitor,Medical
+2010-03-07,375224,77.76,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-02-25,375272,74.8452,Microcontroller ES,Fitness
+2010-02-25,375446,13.3,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-02-26,375939,23.74,Wearable AUSG with Calorie Counter,Medical
+2010-02-26,376775,57.4302,Step and Distance Pedometer TL Pro,Industrial
+2010-03-08,376775,43.7,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-02-26,376959,99.3175,Wearable Transmitter KR,Lifestyle
+2010-02-26,377434,43.568,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-02-27,378828,88.69,Action Camera Pro,Lifestyle
+2010-02-27,379370,53.508,Strapless Heart Rate Monitor,Medical
+2010-02-28,380119,85.8902,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-08,380119,56.7115,Microcontroller ES,Fitness
+2010-02-28,382629,46.45,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-07,382629,81.15,Wearable AUSG with Calorie Counter,Medical
+2010-02-28,382783,60.19,Step and Distance Pedometer TL Pro,Industrial
+2010-03-04,382790,66.6002,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-01,384031,63.3352,Wearable Transmitter KR,Lifestyle
+2010-03-01,384623,19.08,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-05,384698,44.8518,Action Camera Pro,Lifestyle
+2010-03-02,385388,63.44,Strapless Heart Rate Monitor,Medical
+2010-03-02,385641,14.89,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-03,387360,47.5,Microcontroller ES,Fitness
+2010-03-04,388120,28.79,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-04,389345,26.26,Wearable AUSG with Calorie Counter,Medical
+2010-03-05,390162,57.41,Step and Distance Pedometer TL Pro,Industrial
+2010-03-05,390777,5.17,Biking Tracker U Pro with MP3 Player,Pets and Animals
+2010-03-05,390901,17.77,Wearable Transmitter KR,Lifestyle
+2010-03-05,390953,30.12,Multifunction Tracker MG Pro with heart rate sensor,Lifestyle
+2010-03-07,391715,38.2952,Action Camera Pro,Lifestyle
+2010-03-08,393616,60.0155,Strapless Heart Rate Monitor,Medical
+2010-03-07,394290,45.43,Action Camera RE Pro with Wi-Fi and GPS,Entertainment
+2010-03-07,394346,14.21,Microcontroller ES,Fitness
+2010-03-08,395039,34.62,Microcontroller OGBE with Wi-Fi and GPS,Awesome
+2010-03-08,396551,127.28,Wearable AUSG with Calorie Counter,Medical

@@ -14,15 +14,41 @@ mod_tabDashboardData_ui <- function(id){
     tabName = "tabData",
     fluidRow(
       box(
-        fileInput(
-          ns("csvFile"),
-          label = "Import Transaction Log",
-          multiple = F,
-          width = "250px",
-          accept = ".csv"
+        fluidRow(
+          column(4, 
+            fileInput(
+              ns("translogCSV"),
+              label = "Import Transaction Log",
+              multiple = F,
+              width = "250px",
+              accept = ".csv"
+            )
+          ),
+          column(4,
+            fileInput(
+              ns("otherCSV1"),
+              label = "Other CSV 1",
+              multiple = F,
+              width = "250px",
+              accept = ".csv"
+            ),
+            selectInput(ns("otherData1joinVars"), label = "Join on...", choices = NULL, multiple = T),
+            actionButton(ns("joinWithTranslog1"), label = "Append to Translog")
+          ),
+          column(4,
+            fileInput(
+              ns("otherCSV2"),
+              label = "Other CSV 2",
+              multiple = F,
+              width = "250px",
+              accept = ".csv"
+            ),
+            selectInput(ns("otherData2joinVars"), label = "Join on...", choices = NULL, multiple = T),
+            actionButton(ns("joinWithTranslog2"), label = "Append to Translog")
+          )
         ),
         width = 12,
-        title = "Hello"
+        title = "Import Datasets"
       ),
       box(
         fluidRow(
@@ -58,14 +84,27 @@ mod_tabDashboardData_ui <- function(id){
 #' @import shinipsum
 mod_tabDashboardData_server <- function(input, output, session){
   ns <- session$ns
-
-  data <- reactive({
-    csvFile <- input$csvFile
-    if (is.null(csvFile)) {
-      return(NULL)
-    } else {
-      return(as.data.table(read.csv(csvFile$datapath, header = TRUE)))
-    }
+  
+  data <- reactiveVal(value = NULL, label = "data")
+  
+  observe({
+    translog <- GetCSVFromUserInput(input = input$translogCSV)
+    data(translog)
+  })
+  
+  otherData1 <- reactive({
+    GetCSVFromUserInput(input = input$otherCSV1)
+  })
+  
+  otherData2 <- reactive({
+    GetCSVFromUserInput(input = input$otherCSV2)
+  })
+  
+  output$colnames <- renderUI({
+    tagList(
+      tags$h2("Available Columns"),
+      GenerateHtmlList(colnames(data()))
+    )
   })
   
   observe({
@@ -77,16 +116,31 @@ mod_tabDashboardData_server <- function(input, output, session){
     updateSelectizeInput(session, "productName",    choices = newChoices, selected = newChoices[1])
   })
   
-  output$colnames <- renderUI({
-    tagList(
-      tags$h2("Available Columns"),
-      GenerateHtmlList(colnames(data()))
-    )
+  observe({
+    newChoices <- colnames(otherData1())
+    commonCols <- FindCommonColumns(dt1 = data(), dt2 = otherData1())
+    updateSelectInput(session, "otherData1joinVars", choices = newChoices, selected = commonCols)
+  })
+  
+  observe({
+    newChoices <- colnames(otherData2())
+    commonCols <- FindCommonColumns(dt1 = data(), dt2 = otherData2())
+    updateSelectInput(session, "otherData2joinVars", choices = newChoices, selected = commonCols)
+  })
+  
+  observeEvent(input$joinWithTranslog1, {
+    data(JoinTranslogWithData(translog = data(), data = otherData1(), by = input$otherData1joinVars))
+  })
+  
+  observeEvent(input$joinWithTranslog2, {
+    data(JoinTranslogWithData(translog = data(), data = otherData2(), by = input$otherData2joinVars))
   })
   
   output$rawData <- renderDT({
     DT::datatable(data()[1:20]) 
   })
+  
+  
   
   return(data)
 }
