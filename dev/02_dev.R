@@ -37,6 +37,7 @@ usethis::use_package("R6")
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module( name = "dashboard" ) # Name of the module
+golem::add_module( name = "tabDashboardData" ) # Name of the module
 golem::add_module( name = "tabDashboardMain" ) # Name of the module
 golem::add_module( name = "tabDashboardCohortAnalysis" ) # Name of the module
 

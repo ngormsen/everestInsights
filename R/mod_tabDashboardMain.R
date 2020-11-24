@@ -20,17 +20,23 @@ mod_tabDashboardMain_ui <- function(id){
     box(plotOutput(ns("revenuePerCustomerCohortDevelopment"))),
     box(plotOutput(ns("plotC3"))),
     box(plotlyOutput(ns("uniqueCustomerPerMonth"))),
-    DTOutput(outputId=ns("plotTranslogRaw")),
+    DTOutput(ns("plotTranslogRaw")),
+    box(verbatimTextOutput(ns("mydata")))
   )
 }
     
 #' tabDashboardMain Server Function
 #' 
 #' @noRd 
-mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean){
+mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean, mydata){
   ns <- session$ns
+  
   output$plotTranslogRaw <- renderDT({
     PlotTranslog(translogClean())
+  })
+  
+  output$mydata <- renderText({
+    mydata()
   })
   
   output$myvaluebox <- renderValueBox({
