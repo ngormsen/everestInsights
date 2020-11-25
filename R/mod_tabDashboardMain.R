@@ -20,7 +20,8 @@ mod_tabDashboardMain_ui <- function(id){
     box(plotOutput(ns("revenuePerCustomerCohortDevelopment"))),
     box(plotOutput(ns("plotC3"))),
     box(plotlyOutput(ns("uniqueCustomerPerMonth"))),
-    DTOutput(outputId=ns("plotTranslogRaw")),
+    DTOutput(ns("plotTranslogRaw")),
+    box(verbatimTextOutput(ns("mydata")))
   )
 }
     
@@ -29,6 +30,7 @@ mod_tabDashboardMain_ui <- function(id){
 #' @noRd 
 mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean){
   ns <- session$ns
+  
   output$plotTranslogRaw <- renderDT({
     PlotTranslog(translogClean())
   })
@@ -81,7 +83,6 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
       icon = icon("credit-card")
     )
   })
-  
   
   output$plotC3 <- renderPlot({
     PlotC3(dt(), "Monthly Cohorts")

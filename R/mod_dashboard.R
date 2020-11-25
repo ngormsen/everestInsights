@@ -16,7 +16,6 @@
 mod_dashboard_ui <- function(id){
   ns <- NS(id)
   
-  
   sidebar = dashboardSidebar(
     sidebarMenuOutput(ns("menu"))
   )
@@ -29,9 +28,8 @@ mod_dashboard_ui <- function(id){
         uiOutput(ns("tabItems"))
       ),
       title = "Hello Dashboard"
-    ),
+    )
   )
-  
 }
     
 #' dashboard Server Function
@@ -88,6 +86,7 @@ mod_dashboard_server <- function(input, output, session){
     sidebarMenu(
       id = ns("tabsMenu"),
       # Static menu entries
+      menuItem("Data", tabName = "tabData"),
       menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
       menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
       
@@ -100,6 +99,7 @@ mod_dashboard_server <- function(input, output, session){
   })
   
   reportsTabs <- list(
+    mod_tabDashboardData_ui(ns("tabData")),
     mod_tabDashboardMain_ui(ns("tabDashboardMain")),
     mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
     mod_tabDashboardReport_ui(ns("tabDashboardReport"))
@@ -117,6 +117,7 @@ mod_dashboard_server <- function(input, output, session){
     )})
   
   # Call to submodules
+  data <- callModule(mod_tabDashboardData_server, "tabData")
   callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
