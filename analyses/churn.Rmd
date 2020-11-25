@@ -1,0 +1,94 @@
+---
+title: "Customer Churn Analysis"
+author: "Nils Gandlau"
+date: "25 11 2020"
+output: 
+  rmdformats::html_clean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, include = FALSE)
+```
+
+## Research Questions
+
+**Question:** Who is churning? Which are common characteristics among customers who stay longer?
+
+**Implications:** Deciding which advertisement channels is the best to acquire long-term customers. Discovery of customer characteristics associated with long-term relationships allows you to better choose your target groups when advertising.
+
+------------------------------------------------------------------------
+
+**Question:** Do coupons improve customer churn?
+
+**Implications:** Decide whether coupons are a investment with a positive return.
+
+------------------------------------------------------------------------
+
+**Question:** How long are customers staying?
+
+**Implications:** Understand the long-term growth capabilities of your business.
+
+## Prerequisites
+
+-   Definition of Churn: Customers who have not bought in the previous 1 month. (chosen by the user)
+
+-   Choosing covariates for the regression (outsourced to us)
+
+-   Choosing the right model (outsourced to us)
+
+## Data
+
+```{r}
+library(glue)
+library(data.table)
+data <- fread(file = glue("../data/fake_data.csv"))
+```
+
+We define a *churned customer* as a customer who has not bought anything in the last 2 months.
+
+```{r}
+#DefineChurners <- function(data, notBoughtForDays = 60){
+data[, lastPurchaseDate := max(orderTimestamp), by = customerId]
+data[, endOfStudyDate := max(orderTimestamp)]
+data[, isChurn := ifelse(endOfStudyDate - lastPurchaseDate >= 60, 1, 0)]
+
+# Length of relationship
+data[, survTime := endOfStudyDate - min(orderTimestamp), by = customerId]
+data[isChurn == 1, 
+     survTime := max(orderTimestamp) - min(orderTimestamp),
+     by = customerId]
+#}
+```
+
+## Who is churning?
+
+**Method:** Survival Analysis; Cox Model; Parametric Proportional Hazards Model
+
+**User:** Filter for min. number of purchases (e.g. remove one-time buyers who would bias the results)
+
+```{r echo=FALSE, include=TRUE}
+library(survival)
+cox <- coxph(Surv(survTime, isChurn) ~ acqChannel + age + salary, data = data)
+summary(cox)
+```
+
+**🗻Insights**
+
+-   Customers with a high income are associated with having a 1.53 times longer relationships than those with low or medium income. \
+    =\> You should target those.
+
+-   Young customers stay longer than older ones. In fact, a 1 year older customer has a 0.99 times shorter survival duration. \
+    =\>Young customers are better!
+
+-   The differences between customers coming from Google Ads versus Facebook ads are neglectable. There is a small tendency for Google Customers to have a 0.95 times lower customer-relationship, but this is not statistically significant. \
+    =\> It doesn't matter where you advertise!
+
+**🤴🏼Your best performing customer profile:**
+
+-   High income
+
+-   20-30 years old
+
+**📈You should advertise on:**
+
+-   Google or Facebook - it does not matter for churn
