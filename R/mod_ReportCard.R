@@ -36,7 +36,7 @@ mod_ReportCard_ui <- function(id){
 #' ReportCard Server Function
 #'
 #' @noRd 
-mod_ReportCard_server <- function(input, output, session, report){
+mod_ReportCard_server <- function(input, output, session, report, dashboardSession, reportIdx){
   ns <- session$ns
   output$image <- renderPlot({
     report$image
@@ -47,6 +47,15 @@ mod_ReportCard_server <- function(input, output, session, report){
   output$title <- renderText({
     report$title
   })
+  
+  observeEvent(input$dashboardButton, {
+    report$activateDashboard()
+  })
+  
+  observeEvent(input$reportButton, {
+    updateTabItems(session = dashboardSession, "tabsMenu", paste0("report_", reportIdx))
+  })
+  
   
   
 }

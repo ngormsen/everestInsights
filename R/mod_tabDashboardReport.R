@@ -6,29 +6,30 @@
 #'
 #' @noRd 
 #' @import shinipsum
-#' @importFrom shiny NS tagList 
+#' @importFrom shiny NS tagList observeEvent
 mod_tabDashboardReport_ui <- function(id){
   ns <- NS(id)
   
-
+  
   tabItem(
     tabName = "tabReports",
-    uiOutput(ns("content"))
+    uiOutput(ns("content")),
+    actionButton(ns("do"), "Click Me")
+    
   )
 }
     
 #' tabDashboardReport Server Function
 #'
 #' @noRd 
-mod_tabDashboardReport_server <- function(input, output, session){
+mod_tabDashboardReport_server <- function(input, output, session, dashboardSession, reports){
   ns <- session$ns
   
-  reports <- c(
-    Report$new("Cohort Analysis"), 
-    Report$new("CLV Analysis"), 
-    Report$new("Another Analysis"),
-    Report$new("Last Analysis")
-    )
+  
+  observeEvent(input$do, {
+    print("Hello World")
+    print(reports)
+  })
   
   reportsUI <- list()
   
@@ -41,13 +42,17 @@ mod_tabDashboardReport_server <- function(input, output, session){
            callModule(
              mod_ReportCard_server, 
              paste0("ReportCard_ui_", i), 
-             reports[[i]]
+             reports[[i]],
+             dashboardSession,
+             i
            )
          })
 
   output$content <- renderUI({
     reportsUI
   }
+  
+  
   )
   
   
