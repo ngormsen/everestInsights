@@ -17,30 +17,15 @@ mod_dashboard_ui <- function(id){
   ns <- NS(id)
   
   sidebar = dashboardSidebar(
-    sidebarMenu(
-      menuItem("Data", tabName = "tabData"),
-      menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
-      menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
-      menuItem("Reports", tabName = "tabReports", icon = icon("file-alt"))
-    )
+    sidebarMenuOutput(ns("menu"))
   )
-  
-  tabData <- mod_tabDashboardData_ui(ns("tabData"))
-  tabDashboard <- mod_tabDashboardMain_ui(ns("tabDashboardMain"))
-  tabCohortAnalysis <- mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis"))
-  tabReports <- mod_tabDashboardReport_ui(ns("tabDashboardReport"))
-  
+
   tagList(
     shinydashboard::dashboardPage(
       header = dashboardHeader( ),
       sidebar = sidebar,
       body = dashboardBody(
-        tabItems(
-          tabData,
-          tabDashboard,
-          tabCohortAnalysis,
-          tabReports
-        )
+        uiOutput(ns("tabItems"))
       ),
       title = "Hello Dashboard"
     )
@@ -80,11 +65,73 @@ mod_dashboard_server <- function(input, output, session){
     CreateCohortCols(data = translogClean(), cohortType = "Monthly Cohorts")
   })
 
+  # Generate Menu entries -----------------------------------------------------
+  
+  reports <- c(
+    Report$new("Cohort Analysis"), 
+    Report$new("CLV Analysis"), 
+    Report$new("Another Analysis"),
+    Report$new("Last Analysis"),
+    Report$new("Deine Mudda")
+  )
+  
+  reportsSubMenuEntries <- list()
+  for(i in 1:length(reports)){
+    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title, tabName = paste0("report_",i), icon = icon('line-chart'))
+  }
+
+
+  # Adding the menu items of the sidebar
+  output$menu <- renderMenu({
+    sidebarMenu(
+      id = ns("tabsMenu"),
+      # Static menu entries
+      menuItem("Data", tabName = "tabData"),
+      menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
+      menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
+      
+      # The Reports menu item has several dynamically generated sub menu entries
+      menuItem("Reports", tabName = "tabReports", icon = icon("file-alt"),
+               menuSubItem("Cards", tabName = "tabReports", icon = icon("file-alt")),
+               reportsSubMenuEntries # list with dynamically generated sub menu entries
+         )
+      )
+  })
+  
+  reportsTabs <- list(
+    mod_tabDashboardData_ui(ns("tabData")),
+    mod_tabDashboardMain_ui(ns("tabDashboardMain")),
+    mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
+    mod_tabDashboardReport_ui(ns("tabDashboardReport"))
+  )
+  
+  reportIdx <- 1
+  for(i in (length(reportsTabs) + 1):(length(reportsTabs) + length(reports))){
+    reportsTabs[[i]] <- mod_reportView_ui(ns(paste0("reportView_ui_",reportIdx)), reportIdx)
+    reportIdx <- reportIdx + 1
+  }
+  
+  output$tabItems <- renderUI({
+    do.call(tabItems,
+            reportsTabs
+    )})
+  
   # Call to submodules
   data <- callModule(mod_tabDashboardData_server, "tabData")
   callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
-  callModule(mod_tabDashboardReport_server, "tabDashboardReport")
+  callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
+  
+  # Call all dynamically generated report submodules
+  lapply(seq_along(reports),
+         function(i){
+           callModule(
+             mod_reportView_server,
+             paste0("reportView_ui_", i),
+             reports[[i]]
+           )
+       })
+
 }
     
 ## To be copied in the UI
