@@ -539,3 +539,25 @@ ThemeGG <- function(){
       legend.text = element_text(color = "grey50")
     )
 }
+
+GenerateHtmlList <- function(xs){
+  out <- lapply(xs, function(x){
+    tags$li(x)
+  })
+  return(tags$ul(out))
+}
+
+
+# Dummy GGPlots -----------------------------------------------------------
+
+ggfake_fit <- function(){
+  n <- 50
+  x <- 1:50
+  y <- x^(1.5) + rnorm(n, sd = 50)
+  data <- data.table(x = x, y = y)
+  
+  ggplot(data, aes(x = x, y = y)) +
+    geom_point() +
+    geom_smooth(formula = y ~ poly(x, 2), method = "glm", color = "red") +
+    ThemeGG()
+}

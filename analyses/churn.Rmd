@@ -74,13 +74,13 @@ summary(cox)
 
 **🗻Insights**
 
--   Customers with a high income are associated with having a 1.53 times longer relationships than those with low or medium income. \
+-   Customers with a high income are associated with having a 1.53 times longer relationships than those with low or medium income.\
     =\> You should target those.
 
--   Young customers stay longer than older ones. In fact, a 1 year older customer has a 0.99 times shorter survival duration. \
+-   Young customers stay longer than older ones. In fact, a 1 year older customer has a 0.99 times shorter survival duration.\
     =\>Young customers are better!
 
--   The differences between customers coming from Google Ads versus Facebook ads are neglectable. There is a small tendency for Google Customers to have a 0.95 times lower customer-relationship, but this is not statistically significant. \
+-   The differences between customers coming from Google Ads versus Facebook ads are neglectable. There is a small tendency for Google Customers to have a 0.95 times lower customer-relationship, but this is not statistically significant.\
     =\> It doesn't matter where you advertise!
 
 **🤴🏼Your best performing customer profile:**

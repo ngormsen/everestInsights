@@ -145,12 +145,7 @@ mod_tabDashboardData_server <- function(input, output, session){
   return(data)
 }
 
-GenerateHtmlList <- function(xs){
-  out <- lapply(xs, function(x){
-    tags$li(x)
-  })
-  return(tags$ul(out))
-}
+
     
 ## To be copied in the UI
 # mod_tabDashboardData_ui("tabDashboardData_ui_1")

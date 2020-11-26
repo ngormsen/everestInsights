@@ -41,3 +41,9 @@ GetCSVFromUserInput <- function(input){
   }
 }
 
+GenerateHtmlList <- function(xs){
+  out <- lapply(xs, function(x){
+    tags$li(x)
+  })
+  return(tags$ul(out))
+}
