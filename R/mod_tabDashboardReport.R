@@ -10,7 +10,6 @@
 mod_tabDashboardReport_ui <- function(id){
   ns <- NS(id)
   
-  
   tabItem(
     tabName = "tabReports",
     uiOutput(ns("content")),

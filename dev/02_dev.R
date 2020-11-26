@@ -31,6 +31,8 @@ usethis::use_package("sjmisc")
 usethis::use_package("sjlabelled")
 usethis::use_package("R6")
 usethis::use_package("knitr")
+usethis::use_package("shinyjs")
+usethis::use_package("stargazer")
 
 
 
@@ -44,19 +46,20 @@ golem::add_module( name = "tabDashboardCohortAnalysis" ) # Name of the module
 golem::add_module( name = "tabDashboardReport" ) # Name of the module
 golem::add_module( name = "ReportCard" ) # Name of the module
 golem::add_module( name = "reportView" ) # Name of the module
+golem::add_module( name = "analysisChurn")
 
 
 
 ## Add helper functions ----
 ## Creates ftc_* and utils_*
-golem::add_fct( "helpers" ) 
+golem::add_fct( "", module = "analysisChurn") 
 golem::add_utils( "helpers" )
 
 ## External resources
 ## Creates .js and .css files at inst/app/www
 golem::add_js_file( "script" )
 golem::add_js_handler( "handlers" )
-golem::add_css_file( "custom" )
+golem::add_css_file( "", name = "analysisChurn")
 
 ## Add internal datasets ----
 ## If you have data in your package
