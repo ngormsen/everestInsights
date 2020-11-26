@@ -15,7 +15,6 @@ mod_tabDashboardReport_ui <- function(id){
     tabName = "tabReports",
     uiOutput(ns("content")),
     actionButton(ns("do"), "Click Me")
-    
   )
 }
     
@@ -24,12 +23,6 @@ mod_tabDashboardReport_ui <- function(id){
 #' @noRd 
 mod_tabDashboardReport_server <- function(input, output, session, dashboardSession, reports){
   ns <- session$ns
-  
-  
-  observeEvent(input$do, {
-    print("Hello World")
-    print(reports)
-  })
   
   reportsUI <- list()
   

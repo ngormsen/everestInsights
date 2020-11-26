@@ -17,7 +17,8 @@ mod_dashboard_ui <- function(id){
   ns <- NS(id)
   
   sidebar = dashboardSidebar(
-    sidebarMenuOutput(ns("menu"))
+    sidebarMenuOutput(ns("menu")),
+    textOutput(ns("text") )
   )
 
   tagList(
@@ -67,19 +68,22 @@ mod_dashboard_server <- function(input, output, session){
 
   # Generate Menu entries -----------------------------------------------------
   
-  reports <- c(
+
+  reports <- list(
     Report$new("Cohort Analysis"), 
-    Report$new("CLV Analysis"), 
-    Report$new("Another Analysis"),
-    Report$new("Last Analysis"),
-    Report$new("Deine Mudda")
+    Report$new("CLV Analysis"),
+    Report$new("New Analysis")
   )
   
+  
   reportsSubMenuEntries <- list()
-  for(i in 1:length(reports)){
-    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title, tabName = paste0("report_",i), icon = icon('line-chart'))
-  }
 
+  for(i in 1:length(reports)){
+    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title, 
+                                              tabName = paste0("report_",i), 
+                                              icon = icon('line-chart'))
+  }
+    
 
   # Adding the menu items of the sidebar
   output$menu <- renderMenu({
@@ -116,9 +120,10 @@ mod_dashboard_server <- function(input, output, session){
             reportsTabs
     )})
   
+  
   # Call to submodules
   data <- callModule(mod_tabDashboardData_server, "tabData")
-  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean)
+  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
   
@@ -131,7 +136,9 @@ mod_dashboard_server <- function(input, output, session){
              reports[[i]]
            )
        })
+  
 
+  
 }
     
 ## To be copied in the UI

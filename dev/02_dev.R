@@ -31,6 +31,7 @@ usethis::use_package("sjmisc")
 usethis::use_package("sjlabelled")
 usethis::use_package("R6")
 usethis::use_package("knitr")
+usethis::use_package("shinycssloaders")
 
 
 

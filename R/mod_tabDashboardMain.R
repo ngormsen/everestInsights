@@ -13,13 +13,14 @@ mod_tabDashboardMain_ui <- function(id){
   
   tabItem(
     tabName = "tabDashboard",
+    uiOutput(ns("reportElements")),
     valueBoxOutput(ns("myvaluebox")),
     valueBoxOutput(ns("numberOfCustomers")),
-    box(plotOutput(ns("customerPerMonth"))),
-    box(plotOutput(ns("revenuePerMonth"))),
-    box(plotOutput(ns("revenuePerCustomerCohortDevelopment"))),
-    box(plotOutput(ns("plotC3"))),
-    box(plotlyOutput(ns("uniqueCustomerPerMonth"))),
+    box(shinycssloaders::withSpinner(plotOutput(ns("customerPerMonth")))),
+    box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerMonth")))),
+    box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerCustomerCohortDevelopment")))),
+    box(shinycssloaders::withSpinner(plotOutput(ns("plotC3")))),
+    box(shinycssloaders::withSpinner(plotlyOutput(ns("uniqueCustomerPerMonth")))),
     DTOutput(ns("plotTranslogRaw")),
     box(verbatimTextOutput(ns("mydata")))
   )
@@ -28,7 +29,7 @@ mod_tabDashboardMain_ui <- function(id){
 #' tabDashboardMain Server Function
 #' 
 #' @noRd 
-mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean){
+mod_tabDashboardMain_server <- function(input, output, session, translog, translogClean, reports){
   ns <- session$ns
   
   output$plotTranslogRaw <- renderDT({
@@ -88,6 +89,15 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
     PlotC3(dt(), "Monthly Cohorts")
   })
   
+  output$reportElements <- renderUI({
+    elements <- list()
+    for(i in seq_along(reports)){
+      if(reports[[i]]$getObject()$getDashboard() == TRUE){
+        elements[[i]] <- box(reports[[i]]$getTitle()) # Link to submodule comes here
+      }
+    }
+    return(elements)
+  })
   
 }
     
