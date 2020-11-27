@@ -52,7 +52,14 @@ mod_ReportCard_server <- function(input, output, session, report, dashboardSessi
   })
   
   observeEvent(input$dashboardButton, {
-    report$activateDashboard()
+    if(report$getDashboard() == FALSE){
+      report$activateDashboard()
+      updateActionButton(session, "dashboardButton", label = "Remove from Dashboard")
+    }
+    else{
+      report$deactivateDashboard()
+      updateActionButton(session, "dashboardButton", label = "Add to Dashboard")
+    }
   })
   
   observeEvent(input$reportButton, {

@@ -48,6 +48,10 @@ Report <- R6Class("Report",
        private$rxTrigger$trigger()
        private$.dashboard <- TRUE
      }, 
+     deactivateDashboard = function(){
+        private$rxTrigger$trigger()
+        private$.dashboard <- FALSE
+     }, 
      getDashboard = function(){
         private$.dashboard
      },
