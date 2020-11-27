@@ -70,9 +70,12 @@ mod_dashboard_server <- function(input, output, session){
   
 
   reports <- list(
-    Report$new("Cohort Analysis"), 
-    Report$new("CLV Analysis"),
-    Report$new("New Analysis")
+    # Report$new("Cohort Analysis")
+    Report$new("Churn Analysis", 
+               mod_analysisChurnDashboard_server, 
+               mod_analysisChurnDashboard_ui, 
+               ns("analysisChurnDashboard_ui"), # Find another solution. This works but is formally incorrect.
+               "analysisChurnDashboard_ui")
   )
   
   

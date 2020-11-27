@@ -6,7 +6,9 @@ Report <- R6Class("Report",
      .title = NULL,
      .text = NULL,
      .dashboard = NULL,
-     .image = NULL
+     .image = NULL,
+     submoduleUi = NULL, 
+     submoduleServer = NULL
    ),
    active = list(
      text = function() {
@@ -22,8 +24,11 @@ Report <- R6Class("Report",
        private$.title
      }
    ),
+   # callModule(mod_analysisChurnDashboard_server, "analysisChurnDashboard_ui"),
+   # mod_analysisChurnDashboard_ui(ns("analysisChurnDashboard_ui")))
+
    public = list(
-     initialize = function( title ) {
+     initialize = function( title, submoduleServer, submoduleUi, nsId, id ) {
        private$rxTrigger = reactiveTrigger()
         
        private$.title <- title
@@ -32,6 +37,8 @@ Report <- R6Class("Report",
        private$.image <- random_ggplot(type = "col") + 
          labs(title = "Random plot") + 
          theme_bw()
+       private$submoduleServer = callModule(submoduleServer, id, self)
+       private$submoduleUi = submoduleUi(nsId)
      },
      getObject = function(){
         private$rxTrigger$depend()
@@ -39,17 +46,28 @@ Report <- R6Class("Report",
      },
      activateDashboard = function(){
        private$rxTrigger$trigger()
-       print("dashboard ist now true")
        private$.dashboard <- TRUE
-       print(private$.dashboard)
-       
      }, 
      getDashboard = function(){
         private$.dashboard
      },
      getTitle = function(){
         private$.title
+     },
+     getServer = function(){
+        private$submoduleServer
+     },
+     getUi = function(){
+        private$submoduleUi
+     },
+     setServer = function(submoduleServer){
+        private$submoduleServer = submoduleServer
+     },
+     setUi = function(submoduleUi){
+        private$submoduleUi = submoduleUi
      }
+     
+     
    )
 )
 

@@ -48,6 +48,7 @@ golem::add_module( name = "tabDashboardReport" ) # Name of the module
 golem::add_module( name = "ReportCard" ) # Name of the module
 golem::add_module( name = "reportView" ) # Name of the module
 golem::add_module( name = "analysisChurn")
+golem::add_module( name = "analysisChurnDashboard")
 
 
 

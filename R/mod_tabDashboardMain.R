@@ -89,11 +89,14 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
     PlotC3(dt(), "Monthly Cohorts")
   })
   
+  
   output$reportElements <- renderUI({
     elements <- list()
     for(i in seq_along(reports)){
       if(reports[[i]]$getObject()$getDashboard() == TRUE){
-        elements[[i]] <- box(reports[[i]]$getTitle()) # Link to submodule comes here
+        reports[[i]]$getServer()
+        elements[[i]] <- reports[[i]]$getUi() # Link to submodule comes here
+        
       }
     }
     return(elements)
