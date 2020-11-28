@@ -93,9 +93,9 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
   output$reportElements <- renderUI({
     elements <- list()
     for(i in seq_along(reports)){
-      if(reports[[i]]$getObject()$getDashboard() == TRUE){
-        reports[[i]]$getServer()
-        elements[[i]] <- reports[[i]]$getUi() # Link to submodule comes here
+      if(reports[[i]]$getObject()$getDashboard() == TRUE){ # Reactive
+        reports[[i]]$getInsightServer()
+        elements[[i]] <- reports[[i]]$getInsightUi() # Link to submodule
         
       }
     }

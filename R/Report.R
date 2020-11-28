@@ -7,8 +7,10 @@ Report <- R6Class("Report",
      .text = NULL,
      .dashboard = NULL,
      .image = NULL,
-     submoduleUi = NULL, 
-     submoduleServer = NULL
+     insightServer = NULL,
+     insightUi = NULL,
+     viewServer = NULL,
+     viewUi = NULL
    ),
    active = list(
      text = function() {
@@ -24,21 +26,23 @@ Report <- R6Class("Report",
        private$.title
      }
    ),
-   # callModule(mod_analysisChurnDashboard_server, "analysisChurnDashboard_ui"),
-   # mod_analysisChurnDashboard_ui(ns("analysisChurnDashboard_ui")))
 
    public = list(
-     initialize = function( title, submoduleServer, submoduleUi, nsId, id ) {
+     initialize = function( title, ns, 
+                            insightServer, insightUi, insightId, 
+                            viewServer, viewUi, viewId ) {
        private$rxTrigger = reactiveTrigger()
-        
        private$.title <- title
        private$.text <- random_text(nwords=50)
        private$.dashboard <- FALSE
        private$.image <- random_ggplot(type = "col") + 
          labs(title = "Random plot") + 
          theme_bw()
-       private$submoduleServer = callModule(submoduleServer, id, self)
-       private$submoduleUi = submoduleUi(nsId)
+       private$insightServer = callModule(insightServer, insightId, self)
+       private$insightUi = insightUi(ns(insightId))
+       private$viewServer = callModule(viewServer, viewId, self)
+       private$viewUi = viewUi(ns(viewId))
+       
      },
      getObject = function(){
         private$rxTrigger$depend()
@@ -58,19 +62,24 @@ Report <- R6Class("Report",
      getTitle = function(){
         private$.title
      },
-     getServer = function(){
-        private$submoduleServer
+     getInsightServer = function(){
+        private$insightServer
      },
-     getUi = function(){
-        private$submoduleUi
+     getInsightUi = function(){
+        private$insightUi
      },
-     setServer = function(submoduleServer){
-        private$submoduleServer = submoduleServer
+     setInsightServer = function(insightServer){
+        private$insightServer = insightServer
      },
-     setUi = function(submoduleUi){
-        private$submoduleUi = submoduleUi
+     setInsightUi = function(insightUi){
+        private$insightUi = insightUi
+     }, 
+     getViewServer = function(){
+        private$viewServer
+     },
+     getViewUi = function(){
+        private$viewUi
      }
-     
      
    )
 )

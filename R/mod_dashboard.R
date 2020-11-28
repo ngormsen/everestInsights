@@ -72,10 +72,14 @@ mod_dashboard_server <- function(input, output, session){
   reports <- list(
     # Report$new("Cohort Analysis")
     Report$new("Churn Analysis", 
+               ns, 
                mod_analysisChurnDashboard_server, 
-               mod_analysisChurnDashboard_ui, 
-               ns("analysisChurnDashboard_ui"), # Find another solution. This works but is formally incorrect.
-               "analysisChurnDashboard_ui")
+               mod_analysisChurnDashboard_ui,   
+               "analysisChurnDashboard_ui",
+               mod_analysisChurn_server,
+               mod_analysisChurn_ui,
+               "analysisChurn"
+               )
   )
   
   
@@ -96,7 +100,7 @@ mod_dashboard_server <- function(input, output, session){
       menuItem("Data", tabName = "tabData"),
       menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
       menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
-      menuItem("Churn Analysis", tabName = "analysisChurn"),
+      # menuItem("Churn Analysis", tabName = "analysisChurn"),
       
       # The Reports menu item has several dynamically generated sub menu entries
       menuItem("Reports", tabName = "tabReports", icon = icon("file-alt"),
@@ -110,8 +114,8 @@ mod_dashboard_server <- function(input, output, session){
     mod_tabDashboardData_ui(ns("tabData")),
     mod_tabDashboardMain_ui(ns("tabDashboardMain")),
     mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
-    mod_tabDashboardReport_ui(ns("tabDashboardReport")),
-    mod_analysisChurn_ui(ns("analysisChurn"))
+    mod_tabDashboardReport_ui(ns("tabDashboardReport"))
+    # mod_analysisChurn_ui(ns("analysisChurn"))
   )
   
   reportIdx <- 1
@@ -131,7 +135,7 @@ mod_dashboard_server <- function(input, output, session){
   callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
-  callModule(mod_analysisChurn_server, "analysisChurn")
+  # callModule(mod_analysisChurn_server, "analysisChurn")
   
   # Call all dynamically generated report submodules
   lapply(seq_along(reports),

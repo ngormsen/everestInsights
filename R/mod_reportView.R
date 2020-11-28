@@ -14,7 +14,9 @@ mod_reportView_ui <- function(id, idx){
   
   tabItem(
     tabName = paste0("report_",idx),
-    uiOutput(ns("markdown"))
+    uiOutput(ns("insight")),
+    uiOutput(ns("view"))
+    
   )
 }
     
@@ -24,9 +26,14 @@ mod_reportView_ui <- function(id, idx){
 mod_reportView_server <- function(input, output, session, report){
   ns <- session$ns
   
-  output$markdown <- renderUI({
-    # HTML(markdown::markdownToHTML(knit('Untitled1.Rmd', quiet = TRUE)))
-    # includeMarkdown(rmarkdown::render('Untitled1.Rmd'))
+  output$insight <- renderUI({
+    report$getInsightServer()
+    report$getInsightUi()
+  })
+  output$view <- renderUI({
+    report$getViewServer()
+    report$getViewUi()
+    
   })
   
 }
