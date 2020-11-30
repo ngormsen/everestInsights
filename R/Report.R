@@ -6,6 +6,8 @@ Report <- R6Class("Report",
      .text = NULL,
      .dashboard = NULL,
      .image = NULL,
+     cardServer = NULL,
+     cardUi = NULL,
      insightServer = NULL,
      insightUi = NULL,
      viewServer = NULL,
@@ -31,6 +33,7 @@ Report <- R6Class("Report",
 
    public = list(
      initialize = function( title, ns, reportData,
+                            cardServer, cardUi, cardId,
                             insightServer, insightUi, insightId, 
                             viewServer, viewUi, viewId ) {
        private$rxTrigger = reactiveTrigger()
@@ -43,16 +46,22 @@ Report <- R6Class("Report",
          theme_bw()
        private$reportData = reportData
        
+       private$cardServer = callModule(cardServer, cardId, self)
+       private$cardUi = cardUi(ns(cardId))
        private$insightServer = callModule(insightServer, insightId, self)
        private$insightUi = insightUi(ns(insightId))
        private$viewServer = callModule(viewServer, viewId, self)
        private$viewUi = viewUi(ns(viewId))
        private$viewInsightServer = callModule(insightServer, paste0(insightId, "_"), self)
        private$viewInsightUi = insightUi(ns(paste0(insightId, "_")))
+       
      },
      getObject = function(){
         private$rxTrigger$depend()
         return(self)
+     },
+     getReportData = function(){
+       private$reportData
      },
      activateDashboard = function(){
        private$rxTrigger$trigger()
@@ -67,6 +76,12 @@ Report <- R6Class("Report",
      },
      getTitle = function(){
         private$.title
+     },
+     getCardServer = function(){
+       private$cardServer
+     },
+     getCardUi = function(){
+       private$cardUi
      },
      getInsightServer = function(){
         private$insightServer
@@ -91,9 +106,6 @@ Report <- R6Class("Report",
      },
      getViewInsightUi = function(){
        private$viewInsightUi
-     },
-     getReportData = function(){
-       private$reportData
      }
      
    )

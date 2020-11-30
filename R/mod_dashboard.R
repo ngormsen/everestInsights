@@ -72,9 +72,9 @@ mod_dashboard_server <- function(input, output, session){
   #   1. Create a new object report with
   #     a. Title
   #     b. ns
-  #     c. insight element submodule (server, ui, id)
-  #     d. report view submodule (server, ui, id)
-  #     e. card submodule (server, ui, id)
+  #     c. card submodule (server, ui, id)
+  #     d. insight element submodule (server, ui, id)
+  #     e. report view submodule (server, ui, id)
   #     f. data object which holds the shared data between insight and view submodules (for each report different)
   # Implement the logic in the respective submodules
 
@@ -85,6 +85,9 @@ mod_dashboard_server <- function(input, output, session){
     Report$new("Churn Analysis", 
                ns, 
                ChurnData$new(),
+               mod_analysisChurnCard_server,
+               mod_analysisChurnCard_ui,
+               "analysisChurnCard",
                mod_analysisChurnInsight_server,
                mod_analysisChurnInsight_ui,   
                "analysisChurnInsight_ui",
@@ -98,8 +101,8 @@ mod_dashboard_server <- function(input, output, session){
   reportsSubMenuEntries <- list()
 
   for(i in 1:length(reports)){
-    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title, 
-                                              tabName = paste0("report_",i), 
+    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title,
+                                              tabName = paste0("report_",i),
                                               icon = icon('line-chart'))
   }
     
