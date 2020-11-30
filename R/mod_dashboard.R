@@ -85,11 +85,11 @@ mod_dashboard_server <- function(input, output, session){
     Report$new("Churn Analysis", 
                ns, 
                ChurnData$new(),
-               mod_analysisChurnDashboard_server,
-               mod_analysisChurnDashboard_ui,   
-               "analysisChurnDashboard_ui",
-               mod_analysisChurn_server,
-               mod_analysisChurn_ui,
+               mod_analysisChurnInsight_server,
+               mod_analysisChurnInsight_ui,   
+               "analysisChurnInsight_ui",
+               mod_analysisChurnView_server,
+               mod_analysisChurnView_ui,
                "analysisChurn"
                )
   )
@@ -132,7 +132,7 @@ mod_dashboard_server <- function(input, output, session){
   
   reportIdx <- 1
   for(i in (length(reportsTabs) + 1):(length(reportsTabs) + length(reports))){
-    reportsTabs[[i]] <- mod_reportView_ui(ns(paste0("reportView_ui_",reportIdx)), reportIdx)
+    reportsTabs[[i]] <- mod_reportViewHolder_ui(ns(paste0("reportViewHolder_ui_",reportIdx)), reportIdx)
     reportIdx <- reportIdx + 1
   }
   
@@ -153,8 +153,8 @@ mod_dashboard_server <- function(input, output, session){
   lapply(seq_along(reports),
          function(i){
            callModule(
-             mod_reportView_server,
-             paste0("reportView_ui_", i),
+             mod_reportViewHolder_server,
+             paste0("reportViewHolder_ui_", i),
              reports[[i]]
            )
        })

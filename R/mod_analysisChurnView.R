@@ -7,7 +7,7 @@
 #' @noRd 
 #' @import shinyjs stargazer
 #' @importFrom shiny NS tagList 
-mod_analysisChurn_ui <- function(id){
+mod_analysisChurnView_ui <- function(id){
   ns <- NS(id)
   
 
@@ -33,7 +33,7 @@ mod_analysisChurn_ui <- function(id){
 #' analysisChurn Server Function
 #'
 #' @noRd 
-mod_analysisChurn_server <- function(input, output, session, report){
+mod_analysisChurnView_server <- function(input, output, session, report){
   ns <- session$ns
   reportData <- report$getReportData()
   output$researchQuestions <- renderUI({ResearchQuestionText()})
@@ -62,8 +62,8 @@ mod_analysisChurn_server <- function(input, output, session, report){
 
     
 ## To be copied in the UI
-# mod_analysisChurn_ui("analysisChurn_ui")
+# mod_analysisChurnView_ui("analysisChurn_ui")
     
 ## To be copied in the server
-# callModule(mod_analysisChurn_server, "analysisChurn")
+# callModule(mod_analysisChurnView_server, "analysisChurn")
  

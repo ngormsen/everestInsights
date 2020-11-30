@@ -7,7 +7,7 @@
 #' @noRd 
 #' 
 #' @importFrom shiny NS tagList 
-mod_analysisChurnDashboard_ui <- function(id){
+mod_analysisChurnInsight_ui <- function(id){
   ns <- NS(id)
   fluidRow(
     box(
@@ -34,7 +34,7 @@ mod_analysisChurnDashboard_ui <- function(id){
 #' analysisChurnDashboard Server Function
 #'
 #' @noRd 
-mod_analysisChurnDashboard_server <- function(input, output, session, report){
+mod_analysisChurnInsight_server <- function(input, output, session, report){
   ns <- session$ns
   reportData <- report$getReportData()
   output$title <- renderText({
@@ -59,8 +59,8 @@ mod_analysisChurnDashboard_server <- function(input, output, session, report){
 }
     
 ## To be copied in the UI
-# mod_analysisChurnDashboard_ui("analysisChurnDashboard_ui_1")
+# mod_analysisChurnInsight_ui("analysisChurnDashboard_ui_1")
     
 ## To be copied in the server
-# callModule(mod_analysisChurnDashboard_server, "analysisChurnDashboard_ui_1")
+# callModule(mod_analysisChurnInsight_server, "analysisChurnDashboard_ui_1")
  
