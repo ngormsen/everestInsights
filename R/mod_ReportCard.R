@@ -25,7 +25,7 @@ mod_ReportCard_ui <- function(id){
                  column(3, actionButton(ns("reportButton"), "Open Report"))
                )
         ),
-        column(4,plotOutput(ns("image"), height = "200px"))
+        column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
       ),
       width = 12,
       height = "250px"
@@ -38,18 +38,28 @@ mod_ReportCard_ui <- function(id){
 #' @noRd 
 mod_ReportCard_server <- function(input, output, session, report, dashboardSession, reportIdx){
   ns <- session$ns
-  output$image <- renderPlot({
-    report$image
-  })
-  output$text <- renderText({
-    report$text
-  })
+  
   output$title <- renderText({
     report$title
   })
   
+  output$text <- renderText({
+    report$text
+  })
+
+  output$image <- renderPlot({
+    report$image
+  })
+  
   observeEvent(input$dashboardButton, {
-    report$activateDashboard()
+    if(report$getDashboard() == FALSE){
+      report$activateDashboard()
+      updateActionButton(session, "dashboardButton", label = "Remove from Dashboard")
+    }
+    else{
+      report$deactivateDashboard()
+      updateActionButton(session, "dashboardButton", label = "Add to Dashboard")
+    }
   })
   
   observeEvent(input$reportButton, {

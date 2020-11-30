@@ -17,7 +17,8 @@ mod_dashboard_ui <- function(id){
   ns <- NS(id)
   
   sidebar = dashboardSidebar(
-    sidebarMenuOutput(ns("menu"))
+    sidebarMenuOutput(ns("menu")),
+    textOutput(ns("text") )
   )
 
   tagList(
@@ -67,19 +68,39 @@ mod_dashboard_server <- function(input, output, session){
 
   # Generate Menu entries -----------------------------------------------------
   
-  reports <- c(
-    Report$new("Cohort Analysis"), 
-    Report$new("CLV Analysis"), 
-    Report$new("Another Analysis"),
-    Report$new("Last Analysis"),
-    Report$new("Deine Mudda")
+  # Creating a new report:
+  #   1. Create a new object report with
+  #     a. Title
+  #     b. ns
+  #     c. card submodule (server, ui, id)
+  #     d. insight element submodule (server, ui, id)
+  #     e. report view submodule (server, ui, id)
+  #     f. data object which holds the shared data between insight and view submodules (for each report different)
+  # Implement the logic in the respective submodules
+
+  
+  reports <- list(
+    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(),
+               mod_analysisChurnCard_server,
+               mod_analysisChurnCard_ui,
+               "analysisChurnCard",
+               mod_analysisChurnInsight_server,
+               mod_analysisChurnInsight_ui,   
+               "analysisChurnInsight",
+               mod_analysisChurnView_server,
+               mod_analysisChurnView_ui,
+               "analysisChurnView"
+               )
   )
+  
   
   reportsSubMenuEntries <- list()
   for(i in 1:length(reports)){
-    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title, tabName = paste0("report_",i), icon = icon('line-chart'))
+    reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title,
+                                              tabName = reports[[i]]$getId(),
+                                              icon = icon('line-chart'))
   }
-
+    
 
   # Adding the menu items of the sidebar
   output$menu <- renderMenu({
@@ -89,7 +110,7 @@ mod_dashboard_server <- function(input, output, session){
       menuItem("Data", tabName = "tabData"),
       menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
       menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
-      menuItem("Churn Analysis", tabName = "analysisChurn"),
+      # menuItem("Churn Analysis", tabName = "analysisChurn"),
       
       # The Reports menu item has several dynamically generated sub menu entries
       menuItem("Reports", tabName = "tabReports", icon = icon("file-alt"),
@@ -103,13 +124,14 @@ mod_dashboard_server <- function(input, output, session){
     mod_tabDashboardData_ui(ns("tabData")),
     mod_tabDashboardMain_ui(ns("tabDashboardMain")),
     mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
-    mod_tabDashboardReport_ui(ns("tabDashboardReport")),
-    mod_analysisChurn_ui(ns("analysisChurn"))
+    mod_tabDashboardReport_ui(ns("tabDashboardReport"))
+    # mod_analysisChurn_ui(ns("analysisChurn"))
   )
   
   reportIdx <- 1
   for(i in (length(reportsTabs) + 1):(length(reportsTabs) + length(reports))){
-    reportsTabs[[i]] <- mod_reportView_ui(ns(paste0("reportView_ui_",reportIdx)), reportIdx)
+    report <- reports[[reportIdx]]
+    reportsTabs[[i]] <- mod_reportViewHolder_ui(ns(report$getId()), report$getId())
     reportIdx <- reportIdx + 1
   }
   
@@ -118,23 +140,24 @@ mod_dashboard_server <- function(input, output, session){
             reportsTabs
   )})
   
+  
   # Call to submodules
   data <- callModule(mod_tabDashboardData_server, "tabData")
-  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean)
+  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
   callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
-  callModule(mod_analysisChurn_server, "analysisChurn")
+  # callModule(mod_analysisChurn_server, "analysisChurn")
   
   # Call all dynamically generated report submodules
   lapply(seq_along(reports),
          function(i){
            callModule(
-             mod_reportView_server,
-             paste0("reportView_ui_", i),
+             mod_reportViewHolder_server,
+             reports[[i]]$getId(),
              reports[[i]]
            )
        })
-
+  
 }
     
 ## To be copied in the UI
