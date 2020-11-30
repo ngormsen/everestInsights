@@ -27,13 +27,12 @@ mod_reportView_server <- function(input, output, session, report){
   ns <- session$ns
   
   output$insight <- renderUI({
-    report$getInsightServer()
-    report$getInsightUi()
+    report$getViewInsightServer()
+    report$getViewInsightUi()
   })
   output$view <- renderUI({
     report$getViewServer()
     report$getViewUi()
-    
   })
   
 }

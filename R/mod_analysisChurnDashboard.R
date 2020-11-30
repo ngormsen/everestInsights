@@ -5,7 +5,7 @@
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd 
-#'
+#' 
 #' @importFrom shiny NS tagList 
 mod_analysisChurnDashboard_ui <- function(id){
   ns <- NS(id)
@@ -18,7 +18,8 @@ mod_analysisChurnDashboard_ui <- function(id){
                  textOutput(ns("title"))
                ),
                fluidRow(
-                 textOutput(ns("text"))
+                 textOutput(ns("text")),
+                 textOutput(ns("randomText"))
                ),
         ),
         column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
@@ -35,6 +36,7 @@ mod_analysisChurnDashboard_ui <- function(id){
 #' @noRd 
 mod_analysisChurnDashboard_server <- function(input, output, session, report){
   ns <- session$ns
+  reportData <- report$getReportData()
   output$title <- renderText({
     report$title
   })
@@ -45,6 +47,13 @@ mod_analysisChurnDashboard_server <- function(input, output, session, report){
 
   output$image <- renderPlot({
     report$image
+  })
+  
+  output$randomText <- renderText({
+    if(!is.null(reportData$getRandomText())){
+      reportData$getRandomText()
+    }
+    
   })
 
 }

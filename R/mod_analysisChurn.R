@@ -14,6 +14,7 @@ mod_analysisChurn_ui <- function(id){
   tabItem(
     tabName = "analysisChurn",
     fluidRow(
+      actionButton(ns("randomTextButton"), "Activate Random Text"),
       box(title = "Actionable Insights", width = 12),
       box(width = 12, htmlOutput(ns("researchQuestions"))),
       box(width = 12,
@@ -34,7 +35,7 @@ mod_analysisChurn_ui <- function(id){
 #' @noRd 
 mod_analysisChurn_server <- function(input, output, session, report){
   ns <- session$ns
-  
+  reportData <- report$getReportData()
   output$researchQuestions <- renderUI({ResearchQuestionText()})
 
   output$survTimeDist <- renderPlot({
@@ -49,6 +50,10 @@ mod_analysisChurn_server <- function(input, output, session, report){
     ggfake_fit()
   })
 
+  observeEvent(input$randomTextButton, {
+    reportData$setRandomText("Roadrunner") 
+  })
+  
   updateSelectizeInput(session = session, inputId = "predictors", choices = c("hello", "world", "of", "science"))
   
 }

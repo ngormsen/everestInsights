@@ -1,5 +1,4 @@
 #' @import R6 
-#' @export
 Report <- R6Class("Report",
    private = list(
       rxTrigger = NULL,
@@ -10,7 +9,10 @@ Report <- R6Class("Report",
      insightServer = NULL,
      insightUi = NULL,
      viewServer = NULL,
-     viewUi = NULL
+     viewUi = NULL, 
+     viewInsightServer = NULL,
+     viewInsightUi = NULL,
+     reportData = NULL
    ),
    active = list(
      text = function() {
@@ -28,21 +30,25 @@ Report <- R6Class("Report",
    ),
 
    public = list(
-     initialize = function( title, ns, 
+     initialize = function( title, ns, reportData,
                             insightServer, insightUi, insightId, 
                             viewServer, viewUi, viewId ) {
        private$rxTrigger = reactiveTrigger()
+       
        private$.title <- title
        private$.text <- random_text(nwords=50)
        private$.dashboard <- FALSE
        private$.image <- random_ggplot(type = "col") + 
          labs(title = "Random plot") + 
          theme_bw()
+       private$reportData = reportData
+       
        private$insightServer = callModule(insightServer, insightId, self)
        private$insightUi = insightUi(ns(insightId))
        private$viewServer = callModule(viewServer, viewId, self)
        private$viewUi = viewUi(ns(viewId))
-       
+       private$viewInsightServer = callModule(insightServer, paste0(insightId, "_"), self)
+       private$viewInsightUi = insightUi(ns(paste0(insightId, "_")))
      },
      getObject = function(){
         private$rxTrigger$depend()
@@ -79,6 +85,15 @@ Report <- R6Class("Report",
      },
      getViewUi = function(){
         private$viewUi
+     },
+     getViewInsightServer = function(){
+       private$viewInsightServer
+     },
+     getViewInsightUi = function(){
+       private$viewInsightUi
+     },
+     getReportData = function(){
+       private$reportData
      }
      
    )

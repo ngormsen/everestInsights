@@ -68,12 +68,24 @@ mod_dashboard_server <- function(input, output, session){
 
   # Generate Menu entries -----------------------------------------------------
   
+  # Creating a new report:
+  #   1. Create a new object report with
+  #     a. Title
+  #     b. ns
+  #     c. insight element submodule (server, ui, id)
+  #     d. report view submodule (server, ui, id)
+  #     e. card submodule (server, ui, id)
+  #     f. data object which holds the shared data between insight and view submodules (for each report different)
+  # Implement the logic in the respective submodules
 
+  
+  
+  
   reports <- list(
-    # Report$new("Cohort Analysis")
     Report$new("Churn Analysis", 
                ns, 
-               mod_analysisChurnDashboard_server, 
+               ChurnData$new(),
+               mod_analysisChurnDashboard_server,
                mod_analysisChurnDashboard_ui,   
                "analysisChurnDashboard_ui",
                mod_analysisChurn_server,
@@ -146,8 +158,6 @@ mod_dashboard_server <- function(input, output, session){
              reports[[i]]
            )
        })
-  
-
   
 }
     

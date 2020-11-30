@@ -38,6 +38,7 @@ usethis::use_package("stargazer")
 
 
 
+
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module( name = "dashboard" ) # Name of the module
