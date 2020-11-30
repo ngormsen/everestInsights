@@ -12,8 +12,7 @@ mod_tabDashboardReport_ui <- function(id){
   
   tabItem(
     tabName = "tabReports",
-    uiOutput(ns("content")),
-    actionButton(ns("do"), "Click Me")
+    uiOutput(ns("content"))
   )
 }
     
@@ -24,28 +23,48 @@ mod_tabDashboardReport_server <- function(input, output, session, dashboardSessi
   ns <- session$ns
   
   reportsUI <- list()
-  
   for(i in 1:length(reports)){
-    reportsUI[[i]] <- mod_ReportCard_ui(ns(paste0("ReportCard_ui_", i)))
+    
+    reportsUI[[i]] <- fluidRow(
+      box(
+        reports[[i]]$getCardUi(),
+        fluidRow(
+          column(2, actionButton(ns("reportButton"), "Open Report")),
+          column(4, actionButton(ns("dashboardButton"), "Add to Dashboard"))
+        ),
+        width = 12,
+        height = "250px"
+      )
+    )
+    
   }
   
   lapply(seq_along(reports),
          function(i){
-           callModule(
-             mod_ReportCard_server, 
-             paste0("ReportCard_ui_", i), 
-             reports[[i]],
-             dashboardSession,
-             i
-           )
+           report <- reports[[i]]
+           report$getCardServer()
+           
+           observeEvent(input$dashboardButton, {
+             if(report$getDashboard() == FALSE){
+               report$activateDashboard()
+               updateActionButton(session, "dashboardButton", label = "Remove from Dashboard")
+             }
+             else{
+               report$deactivateDashboard()
+               updateActionButton(session, "dashboardButton", label = "Add to Dashboard")
+             }
+           })
+           
+           observeEvent(input$reportButton, {
+             updateTabItems(session = dashboardSession, "tabsMenu", report$getId())
+           })
          })
 
   output$content <- renderUI({
     reportsUI
-  }
+  })
   
   
-  )
   
   
 }

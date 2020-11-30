@@ -79,30 +79,25 @@ mod_dashboard_server <- function(input, output, session){
   # Implement the logic in the respective submodules
 
   
-  
-  
   reports <- list(
-    Report$new("Churn Analysis", 
-               ns, 
-               ChurnData$new(),
+    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(),
                mod_analysisChurnCard_server,
                mod_analysisChurnCard_ui,
                "analysisChurnCard",
                mod_analysisChurnInsight_server,
                mod_analysisChurnInsight_ui,   
-               "analysisChurnInsight_ui",
+               "analysisChurnInsight",
                mod_analysisChurnView_server,
                mod_analysisChurnView_ui,
-               "analysisChurn"
+               "analysisChurnView"
                )
   )
   
   
   reportsSubMenuEntries <- list()
-
   for(i in 1:length(reports)){
     reportsSubMenuEntries[[i]] <- menuSubItem(reports[[i]]$title,
-                                              tabName = paste0("report_",i),
+                                              tabName = reports[[i]]$getId(),
                                               icon = icon('line-chart'))
   }
     
@@ -135,7 +130,8 @@ mod_dashboard_server <- function(input, output, session){
   
   reportIdx <- 1
   for(i in (length(reportsTabs) + 1):(length(reportsTabs) + length(reports))){
-    reportsTabs[[i]] <- mod_reportViewHolder_ui(ns(paste0("reportViewHolder_ui_",reportIdx)), reportIdx)
+    report <- reports[[reportIdx]]
+    reportsTabs[[i]] <- mod_reportViewHolder_ui(ns(report$getId()), report$getId())
     reportIdx <- reportIdx + 1
   }
   
@@ -157,7 +153,7 @@ mod_dashboard_server <- function(input, output, session){
          function(i){
            callModule(
              mod_reportViewHolder_server,
-             paste0("reportViewHolder_ui_", i),
+             reports[[i]]$getId(),
              reports[[i]]
            )
        })

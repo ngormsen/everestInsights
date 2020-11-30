@@ -6,6 +6,7 @@ Report <- R6Class("Report",
      .text = NULL,
      .dashboard = NULL,
      .image = NULL,
+     id = NULL,
      cardServer = NULL,
      cardUi = NULL,
      insightServer = NULL,
@@ -32,12 +33,13 @@ Report <- R6Class("Report",
    ),
 
    public = list(
-     initialize = function( title, ns, reportData,
+     initialize = function( title, id, ns, reportData,
                             cardServer, cardUi, cardId,
                             insightServer, insightUi, insightId, 
                             viewServer, viewUi, viewId ) {
        private$rxTrigger = reactiveTrigger()
        
+       private$id <- id
        private$.title <- title
        private$.text <- random_text(nwords=50)
        private$.dashboard <- FALSE
@@ -62,6 +64,9 @@ Report <- R6Class("Report",
      },
      getReportData = function(){
        private$reportData
+     },
+     getId = function(){
+       private$id
      },
      activateDashboard = function(){
        private$rxTrigger$trigger()

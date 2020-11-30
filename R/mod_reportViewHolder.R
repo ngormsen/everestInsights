@@ -9,11 +9,11 @@
 #' @noRd 
 #' @import knitr
 #' @importFrom shiny NS tagList 
-mod_reportViewHolder_ui <- function(id, idx){
+mod_reportViewHolder_ui <- function(id, reportId){
   ns <- NS(id)
   
   tabItem(
-    tabName = paste0("report_",idx),
+    tabName = reportId,
     uiOutput(ns("insight")),
     uiOutput(ns("view"))
     
@@ -25,7 +25,6 @@ mod_reportViewHolder_ui <- function(id, idx){
 #' @noRd 
 mod_reportViewHolder_server <- function(input, output, session, report){
   ns <- session$ns
-  
   output$insight <- renderUI({
     report$getViewInsightServer()
     report$getViewInsightUi()
