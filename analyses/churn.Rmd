@@ -8,6 +8,8 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, include = FALSE)
+library(data.table)
+library(tidyverse)
 ```
 
 ## Research Questions
@@ -57,7 +59,21 @@ data[, survTime := endOfStudyDate - min(orderTimestamp), by = customerId]
 data[isChurn == 1, 
      survTime := max(orderTimestamp) - min(orderTimestamp),
      by = customerId]
-#}
+```
+
+```{r}
+# product category of First-Purchase
+data <- data %>% 
+  group_by(customerId) %>%
+  summarise(
+    orderTimestamp = min(orderTimestamp)
+  ) %>% 
+  left_join(data, by = c("customerId", "orderTimestamp")) %>% 
+  select(customerId, productCategory) %>% 
+  rename(firstPurchaseProductCategory = productCategory) %>% 
+  right_join(data, by = "customerId") %>% 
+  setDT()
+  
 ```
 
 ## Who is churning?
@@ -68,20 +84,22 @@ data[isChurn == 1,
 
 ```{r echo=FALSE, include=TRUE}
 library(survival)
-cox <- coxph(Surv(survTime, isChurn) ~ acqChannel + age + salary, data = data)
+cox <- coxph(Surv(survTime, isChurn) ~ acqChannel + age + salary + productCategory, data = data)
 summary(cox)
 ```
 
 **🗻Insights**
 
--   Customers with a high income are associated with having a 1.53 times longer relationships than those with low or medium income.\
-    =\> You should target those.
+-   Customers with a high income are associated with having a 1.53 times higher risk of churning than those with low or medium income.\
+    =\> You should target low to medium income customers.
 
--   Young customers stay longer than older ones. In fact, a 1 year older customer has a 0.99 times shorter survival duration.\
-    =\>Young customers are better!
+-   Young customers stay longer than older ones: A 1 year older customer is associated with a 0.99 times lower risk of churning.\
+    =\>Older customers are better!
 
--   The differences between customers coming from Google Ads versus Facebook ads are neglectable. There is a small tendency for Google Customers to have a 0.95 times lower customer-relationship, but this is not statistically significant.\
-    =\> It doesn't matter where you advertise!
+-   The differences between customers coming from Google Ads versus Facebook ads are neglectable. There is a tendency for Google Customers to have a 0.95 times lower risk of churning, but this difference may have likely arisen by chance.\
+    =\> It doesn't matter on which channel you advertise!
+
+-   Which product you lead with does not matter for the retention of a user.
 
 **🤴🏼Your best performing customer profile:**
 
@@ -92,3 +110,134 @@ summary(cox)
 **📈You should advertise on:**
 
 -   Google or Facebook - it does not matter for churn
+
+### Visual Inspection
+
+The model found that high-income customers have longer relationships. So let's plot the survival rates of the different segments (low, medium, high income).
+
+```{r}
+library(survminer) # plotting survival curves
+km <- survfit(Surv(survTime, isChurn) ~ salary, data = data, type = "kaplan-meier")
+```
+
+```{r echo=FALSE, include=TRUE, fig.height=5, fig.width=9}
+ggsurvplot(fit = km, data = data, linetype = "solid")
+```
+
+Survival Time Distribution for each category.
+
+```{r echo=FALSE, include=TRUE, fig.width=9, fig.height=5}
+ggplot(data, aes(x = survTime)) +
+  geom_histogram(fill = "lightblue", alpha = 0.5, color = "blue") +
+  #geom_density(fill = "lightblue", alpha = 0.5) +
+  facet_wrap(~ salary) +
+  theme_classic()
+```
+
+```{r echo=FALSE, include=TRUE, fig.width=9, fig.height=5}
+ggplot(data, aes(x = survTime)) +
+  geom_density(fill = "lightblue", alpha = 0.5) +
+  facet_wrap(~ salary) +
+  theme_classic()
+```
+
+## Which Product To Lead With?
+
+The goal is to identify the products that are best to lead with. We want to identify products (product categories) that customers have bought first are good to introduce customers with. Customers who purchase these products have a higher chance to come back.
+
+To begin the analysis we have to define a time interval within which customers *usually* make their second purchases. This time interval is different for each firm. One way to come up with a good time interval is to compute quantiles. An 80%-quantile will tell you the number of days within which 80% of your customers have made a second purchase. For example, if your 80%-quantile is 35 days, you know that 80% of your customers have made their second purchase within 35 days after making their first purchase.
+
+```{r}
+data[, numPurchases := .N, by = customerId]
+data[, made2ndPurchase := ifelse(numPurchases >= 2, T, F)]
+```
+
+```{r}
+secondPurchases <- data %>% 
+  group_by(customerId) %>% 
+  summarise(
+    firstPurchaseDate = min(orderTimestamp),
+    secondPurchaseDate = sort(orderTimestamp, decreasing = T)[2]
+  ) %>% 
+  mutate(
+    daysUntil2ndPurchase = as.numeric(secondPurchaseDate - firstPurchaseDate)
+  )
+secondPurchases
+```
+
+```{r echo=FALSE, include=TRUE}
+quantile(secondPurchases$daysUntil2ndPurchase,
+         probs = c(0.2, 0.4, 0.6, 0.8),
+         na.rm = T)
+```
+
+-   20% of customers make their second purchase on the same day they make their first
+
+-   40% of customers make their second purchase within 14 days after making their first.
+
+-   60% of customers make their second purchase within 43 days (\~1.5 months) after making their first.
+
+-   80% of customers make their seocnd purchase within 121 days (\~4 months) after making their first.
+
+**=\> Customers who did not purchase a second time after 120 days are classified as One-Timers**.
+
+------------------------------------------------------------------------
+
+To find out which product to lead with, we have two options which vary in the degree of complexity.
+
+**Option 1:** The easiest method is to to a descriptive variant and compute `num2ndPurchases / num1stPurchases` by product category.
+
+**Option 2:** The advanced method would be to fit a logistic regression that models Pr(2nd purchase \| product category), which would give you an *option to control for other variables*.
+
+Option 1 yields the following:
+
+```{r }
+dataPlt <- data %>% 
+  group_by(productCategory) %>%
+  summarise(
+    productCategory = unique(productCategory),
+    numCustomers = n(),
+    numCustomersWith2ndPurchase = sum(made2ndPurchase),
+    avgAmountSpent = mean(amountSpent)
+  ) %>% 
+  mutate(
+    shareOfCustomersThatMade2ndPurchase = numCustomersWith2ndPurchase / numCustomers
+  )
+```
+
+```{r echo=FALSE, include=TRUE, fig.width=10}
+ggplot(dataPlt, aes(x = avgAmountSpent, y = shareOfCustomersThatMade2ndPurchase)) +
+  geom_point(aes(color = productCategory, size = numCustomers), alpha = 0.5) +
+  geom_text(
+    mapping = aes(label = productCategory),
+    size = 3,
+    vjust = -1,
+  ) +
+  theme_classic() +
+  ggtitle("Simple Method")
+  #geom_hline(yintercept = 0.5, linetype = "dashed") +
+  #geom_vline(xintercept = max(dataPlt$avgAmountSpent), linetype = "dashed")
+```
+
+Insights:
+
+-   Product categories "Awesome", "Medical", and "Fitness" are the best 3 product categories to lead with. Customers whose first purchase is a product from one of these categories have a \>85% chance of making a second purchase.
+
+-   15% of customers whose first purchase was a product from the "Lifestyle"-category have remained One-Timers. They did not make a 2nd purchase (within the usual 2nd-purchase-timeframe).\
+    =\> You should not introduce customers to the brand with products from your Lifestyle category!
+
+Option 2 is to run a logistic regression. This allows us to control for other variables. In this analysis, we compute the probability of a customer making a second purchachase given that he first buys a product from category X, while controlling for salary, age and acquisition channel.
+
+```{r echo=FALSE, include=TRUE}
+logreg <- glm(
+  formula = made2ndPurchase ~ productCategory + salary + age + acqChannel,
+  data = data,
+  family = "binomial")
+summary(logreg)
+```
+
+Insights:
+
+-   There is no difference in the probability of making a second purchase when the first purchase was made in one of Entertainment, Fitness, Industrial, Medical or Pets&Animals categories.
+
+-   But customers who made their first purchase with a Lifestyle product decreases the odds of making a second purchase by a factor of `exp(-0.38) = 0.68` compared to the other product categories. This finding is consistent with the plot above. (that number seems quite high?)
