@@ -11,18 +11,19 @@
 mod_tabDashboardMain_ui <- function(id){
   ns <- NS(id)
   
+  
   tabItem(
     tabName = "tabDashboard",
-    uiOutput(ns("reportElements")),
-    valueBoxOutput(ns("myvaluebox")),
-    valueBoxOutput(ns("numberOfCustomers")),
-    box(shinycssloaders::withSpinner(plotOutput(ns("customerPerMonth")))),
-    box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerMonth")))),
-    box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerCustomerCohortDevelopment")))),
-    box(shinycssloaders::withSpinner(plotOutput(ns("plotC3")))),
-    box(shinycssloaders::withSpinner(plotlyOutput(ns("uniqueCustomerPerMonth")))),
-    DTOutput(ns("plotTranslogRaw")),
-    box(verbatimTextOutput(ns("mydata")))
+    uiOutput(ns("reportElements"))
+    # valueBoxOutput(ns("myvaluebox")),
+    # valueBoxOutput(ns("numberOfCustomers")),
+    # box(shinycssloaders::withSpinner(plotOutput(ns("customerPerMonth")))),
+    # box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerMonth")))),
+    # box(shinycssloaders::withSpinner(plotOutput(ns("revenuePerCustomerCohortDevelopment")))),
+    # box(shinycssloaders::withSpinner(plotOutput(ns("plotC3")))),
+    # box(shinycssloaders::withSpinner(plotlyOutput(ns("uniqueCustomerPerMonth")))),
+    # DTOutput(ns("plotTranslogRaw")),
+    # box(verbatimTextOutput(ns("mydata")))
   )
 }
     
@@ -101,7 +102,6 @@ mod_tabDashboardMain_server <- function(input, output, session, translog, transl
     }
     return(elements)
   })
-  
 }
     
 ## To be copied in the UI

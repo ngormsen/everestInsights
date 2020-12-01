@@ -2,11 +2,13 @@
 ChurnData <- R6Class("ChurnData",
                   private = list(
                     rxTrigger = NULL,
-                    randomText = NULL
+                    randomText = NULL,
+                    translog = NULL
                     ),
                   public = list(
-                    initialize = function( ) {
+                    initialize = function( translog ) {
                       private$rxTrigger = reactiveTrigger()
+                      private$translog = translog
                     },
                     getObject = function(){
                       private$rxTrigger$depend()
@@ -19,6 +21,9 @@ ChurnData <- R6Class("ChurnData",
                     getRandomText = function(){
                       private$rxTrigger$depend()
                       private$randomText
+                    },
+                    getTranslog = function(){
+                      private$translog
                     }
                   )
 )

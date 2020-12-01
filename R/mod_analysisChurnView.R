@@ -24,7 +24,9 @@ mod_analysisChurnView_ui <- function(id){
           tags$h4("Model Results"),
           fluidRow(
             column(6, htmlOutput(ns("regTable"))),
-            column(6, plotOutput(ns("pltFit")))
+            column(6, plotOutput(ns("pltFit"))),
+            column(6, plotOutput(ns("newPlot")))
+            
           )
       )
   ))
@@ -36,12 +38,18 @@ mod_analysisChurnView_ui <- function(id){
 mod_analysisChurnView_server <- function(input, output, session, report){
   ns <- session$ns
   reportData <- report$getReportData()
+  translog <- reportData$getTranslog()
+  
   output$researchQuestions <- renderUI({ResearchQuestionText()})
 
   output$survTimeDist <- renderPlot({
     hist(rnorm(20))
   })
 
+  output$newPlot <- renderPlot({
+    hist(translog()$amountSpent)
+  })
+  
   output$regTable <- renderUI({
     HTML(stargazer(lm(Sepal.Length ~ Species, data = iris), type = "html"))
   })

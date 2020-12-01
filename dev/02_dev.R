@@ -65,6 +65,9 @@ golem::add_utils( "helpers" )
 golem::add_js_file( "script" )
 golem::add_js_handler( "handlers" )
 golem::add_css_file( "", name = "analysisChurn")
+golem::add_css_file( "", name = "custom")
+golem::add_css_file( "", name = "analysisChurnCard")
+
 
 ## Add internal datasets ----
 ## If you have data in your package

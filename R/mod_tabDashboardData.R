@@ -141,7 +141,6 @@ mod_tabDashboardData_server <- function(input, output, session){
   })
   
   
-  
   return(data)
 }
 

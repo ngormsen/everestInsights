@@ -39,33 +39,6 @@ mod_dashboard_ui <- function(id){
 mod_dashboard_server <- function(input, output, session){
   ns <- session$ns
   
-  # Data Import + Preprocessing --------------------------------------------------------------------
-
-  createDataObject <- reactive({
-    dataHandler <- DataHandler$new()
-    dataHandler$preprocessTransactionLog()
-    dataHandler$createCohortStructure()
-  })
-  
-  translogRaw <- reactive({
-    dataObject <- createDataObject()
-    csvTable <- as.data.table(read.csv("data/retail_relay2.csv"))
-  })
-
-  # for dev: translogClean is already loaded into environment
-  translogClean <- reactive({
-    PreprocessRawTransactionLog(
-      data = translogRaw(),
-      columns = list("custId" = "customerId",
-                     "amountSpent" = "amountSpent",
-                     "orderTimestamp" = "orderTimestamp")
-    )
-  })
-
-  translog <- reactive({
-    CreateCohortCols(data = translogClean(), cohortType = "Monthly Cohorts")
-  })
-
   # Generate Menu entries -----------------------------------------------------
   
   # Creating a new report:
@@ -78,9 +51,11 @@ mod_dashboard_server <- function(input, output, session){
   #     f. data object which holds the shared data between insight and view submodules (for each report different)
   # Implement the logic in the respective submodules
 
+  # Call to static submodules
+  translog <- callModule(mod_tabDashboardData_server, "tabData")
   
   reports <- list(
-    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(),
+    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translog),
                mod_analysisChurnCard_server,
                mod_analysisChurnCard_ui,
                "analysisChurnCard",
@@ -92,6 +67,11 @@ mod_dashboard_server <- function(input, output, session){
                "analysisChurnView"
                )
   )
+  
+  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
+  callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog)
+  callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
+  
   
   
   reportsSubMenuEntries <- list()
@@ -125,7 +105,6 @@ mod_dashboard_server <- function(input, output, session){
     mod_tabDashboardMain_ui(ns("tabDashboardMain")),
     mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
     mod_tabDashboardReport_ui(ns("tabDashboardReport"))
-    # mod_analysisChurn_ui(ns("analysisChurn"))
   )
   
   reportIdx <- 1
@@ -141,13 +120,7 @@ mod_dashboard_server <- function(input, output, session){
   )})
   
   
-  # Call to submodules
-  data <- callModule(mod_tabDashboardData_server, "tabData")
-  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
-  callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog, translogClean=translogClean)
-  callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
-  # callModule(mod_analysisChurn_server, "analysisChurn")
-  
+
   # Call all dynamically generated report submodules
   lapply(seq_along(reports),
          function(i){

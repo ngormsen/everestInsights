@@ -36,7 +36,7 @@ Report <- R6Class("Report",
      initialize = function( title, id, ns, reportData,
                             cardServer, cardUi, cardId,
                             insightServer, insightUi, insightId, 
-                            viewServer, viewUi, viewId ) {
+                            viewServer, viewUi, viewId) {
        private$rxTrigger = reactiveTrigger()
        
        private$id <- id
