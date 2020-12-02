@@ -1,0 +1,103 @@
+---
+title: "Report_CohortAnalysis"
+author: "Nils Gandlau"
+date: "2 12 2020"
+output: html_document
+---
+
+## Cohort Analysis of Customer Churn
+
+```{r}
+library(data.table)
+library(tidyverse)
+library(magrittr)
+```
+
+```{r}
+source("functions.R")
+translog <- readRDS("fake_data.rds")
+translog <- AddAcquisitionTimestamp(data, "orderTimestamp", "customerId")
+```
+
+### Goal
+
+Explore and understand the current stand of customer churn. Through cohort analysis, we can investigate the age, period, and cohort effects that make up customer churn.
+
+## 1. Visual Exploration
+
+**User Input 0**: Choose the metric he wants to look at.
+
+**User Input 1**: Choose among *monthly, quarterly*, or *yearly* cohorts using `AddMonthlyCohorts(), AddQuarterlyCohorts(), AddYearlyCohorts()`
+
+**User Input 2**: Choose whether to display the metric *1) absolute 2) relative to previous period or 3) relative to acquisition period. (TODO)*
+
+**User Input 3**: Choose whether to display *1) Cohort-Age* or *2) Cohort-Period* View specifying `view = "CA"` or `view = "CP"` in `PlotCohortTable()`.
+
+UserInput 4: Choose the type of plot he wants to display. Either `PlotCohortTable()` or `PlotCohortLinechart()`.
+
+```{r}
+CohortMetric <- function(data, metric = "nCustomers"){
+  if (metric == "nCustomers"){
+    CohortCustomers(data)  
+  } else if (metric == "revenue"){
+    CohortRevenue(data)
+  } else if (metric == "LTV30") {
+    CohortLTV(data, days = 30, summarise = "mean")
+  } else if (metric == "LTV60") {
+    CohortLTV(data, days = 60, summarise = "mean")
+  } else if (metric == "LTV30/CAC") {
+    CohortLTVCAC(data, days = 30, summarise = "mean")
+  } else if (metric == "LTV60/CAC") {
+    CohortLTVCAC(data, days = 60, summarise = "mean")
+  }
+}
+```
+
+```{r}
+CohortType <- function(data, cohortType = "m",
+                       orderTimestampCol = "orderTimestamp",
+                       acqTimestampCol = "acqTimestamp",
+                       customerIdCol = "customerId"){
+  # Args:
+  #   cohortType %in% c("m", "q", "y") (corresponding to month, quarter, year)
+  if (cohortType == "m"){
+    AddMonthlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  } else if (cohortType == "q"){
+    AddQuarterlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  } else if (cohortType == "y"){
+    AddYearlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  }
+}
+```
+
+```{r}
+# User Inputs
+cohortType <- "m"
+metric <- "nCustomers"
+plotType <- "table"
+view <- "CP"
+
+# Output
+translog %>% 
+  CohortType(cohortType = cohortType) %>% 
+  CohortMetric(metric = metric) %>% 
+  PlotCohort(plotType = plotType, view = view)
+```
+
+```{r}
+# User Inputs
+cohortType <- "q"
+metric <- "revenue"
+plotType <- "linechart"
+view <- "CA"
+
+# Output
+translog %>% 
+  CohortType(cohortType = cohortType) %>% 
+  CohortMetric(metric = metric) %>% 
+  PlotCohort(plotType = plotType, view = view)
+```
+
+## 2. APC Regression
+
+...
