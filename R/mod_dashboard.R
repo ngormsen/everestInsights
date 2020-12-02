@@ -55,7 +55,7 @@ mod_dashboard_server <- function(input, output, session){
   translog <- callModule(mod_tabDashboardData_server, "tabData")
   
   reports <- list(
-    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translog),
+    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translog), session,
                mod_analysisChurnCard_server,
                mod_analysisChurnCard_ui,
                "analysisChurnCard",

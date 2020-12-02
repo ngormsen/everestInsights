@@ -33,10 +33,10 @@ Report <- R6Class("Report",
    ),
 
    public = list(
-     initialize = function( title, id, ns, reportData,
+     initialize = function( title, id, ns, reportData, dashboardSession,
                             cardServer, cardUi, cardId,
                             insightServer, insightUi, insightId, 
-                            viewServer, viewUi, viewId) {
+                            viewServer, viewUi, viewId ) {
        private$rxTrigger = reactiveTrigger()
        
        private$id <- id
@@ -48,7 +48,7 @@ Report <- R6Class("Report",
          theme_bw()
        private$reportData = reportData
        
-       private$cardServer = callModule(cardServer, cardId, self)
+       private$cardServer = callModule(cardServer, cardId, self, dashboardSession)
        private$cardUi = cardUi(ns(cardId))
        private$insightServer = callModule(insightServer, insightId, self)
        private$insightUi = insightUi(ns(insightId))
