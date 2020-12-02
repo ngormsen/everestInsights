@@ -11,6 +11,7 @@
 #'
 #' @import data.table
 #' @import utils RColorBrewer dplyr 
+#' @import dashboardthemes
 #' @import shinydashboard
 #' @importFrom shiny NS tagList 
 mod_dashboard_ui <- function(id){
@@ -23,9 +24,13 @@ mod_dashboard_ui <- function(id){
 
   tagList(
     shinydashboard::dashboardPage(
-      header = dashboardHeader( ),
+      header = dashboardHeader( title = "EVEREST INSIGHT" ),
       sidebar = sidebar,
       body = dashboardBody(
+        shinyDashboardThemes(
+          theme = "poor_mans_flatly"
+        ),
+        
         uiOutput(ns("tabItems"))
       ),
       title = "Hello Dashboard"
@@ -51,11 +56,13 @@ mod_dashboard_server <- function(input, output, session){
   #     f. data object which holds the shared data between insight and view submodules (for each report different)
   # Implement the logic in the respective submodules
 
-  # Call to static submodules
-  translog <- callModule(mod_tabDashboardData_server, "tabData")
+  # Call to static submodulest
+  translogChurn <- callModule(mod_tabDashboardData_server, "tabData")
+  translogCohort <- read_csv("data/fake_data.csv") %>%
+    setDT()
   
   reports <- list(
-    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translog), session,
+    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translogChurn), session,
                mod_analysisChurnCard_server,
                mod_analysisChurnCard_ui,
                "analysisChurnCard",
@@ -65,11 +72,22 @@ mod_dashboard_server <- function(input, output, session){
                mod_analysisChurnView_server,
                mod_analysisChurnView_ui,
                "analysisChurnView"
+               ),
+    Report$new("Cohort Analysis", "cohortAnaysis", ns, CohortData$new(translogCohort), session,
+               mod_analysisCohortCard_server,
+               mod_analysisCohortCard_ui,
+               "analysisCohortCard",
+               mod_analysisCohortInsight_server,
+               mod_analysisCohortInsight_ui,
+               "analysisCohortInsight",
+               mod_analysisCohortView_server,
+               mod_analysisCohortView_ui,
+               "analysisCohortView"
                )
   )
   
-  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translog, translogClean=translogClean, reports=reports)
-  callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translog)
+  callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translogChurn, translogClean=translogClean, reports=reports)
+  callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translogChurn)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
   
   

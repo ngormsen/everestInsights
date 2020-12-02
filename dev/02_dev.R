@@ -34,6 +34,8 @@ usethis::use_package("knitr")
 usethis::use_package("shinycssloaders")
 usethis::use_package("shinyjs")
 usethis::use_package("stargazer")
+usethis::use_package("dashboardthemes")
+
 
 
 
@@ -51,6 +53,10 @@ golem::add_module( name = "reportViewHolder" ) # Name of the module
 golem::add_module( name = "analysisChurnView")
 golem::add_module( name = "analysisChurnInsight")
 golem::add_module( name = "analysisChurnCard")
+golem::add_module( name = "analysisCohortView")
+golem::add_module( name = "analysisCohortInsight")
+golem::add_module( name = "analysisCohortCard")
+
 
 
 
@@ -58,6 +64,7 @@ golem::add_module( name = "analysisChurnCard")
 ## Add helper functions ----
 ## Creates ftc_* and utils_*
 golem::add_fct( "", module = "analysisChurn") 
+golem::add_fct( "", module = "analysisCohort") 
 golem::add_utils( "helpers" )
 
 ## External resources
