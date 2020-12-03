@@ -186,6 +186,38 @@ CohortLTVCAC <- function(data, days = 30){
   return(LTV %>% inner_join(CAC) %>% mutate(LTVCAC = LTV / CAC))
 }
 
+CohortType <- function(data, cohortType = "m",
+                       orderTimestampCol = "orderTimestamp",
+                       acqTimestampCol = "acqTimestamp",
+                       customerIdCol = "customerId"){
+  # Args:
+  #   cohortType %in% c("m", "q", "y") (corresponding to month, quarter, year)
+  if (cohortType == "m"){
+    AddMonthlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  } else if (cohortType == "q"){
+    AddQuarterlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  } else if (cohortType == "y"){
+    AddYearlyCohorts(data, orderTimestampCol, acqTimestampCol, customerIdCol)
+  }
+}
+
+CohortMetric <- function(data, metric = "nCustomers"){
+  if (metric == "nCustomers"){
+    CohortCustomers(data)  
+  } else if (metric == "revenue"){
+    CohortRevenue(data)
+  } else if (metric == "LTV30") {
+    CohortLTV(data, days = 30, summarise = "mean")
+  } else if (metric == "LTV60") {
+    CohortLTV(data, days = 60, summarise = "mean")
+  } else if (metric == "LTV30/CAC") {
+    CohortLTVCAC(data, days = 30, summarise = "mean")
+  } else if (metric == "LTV60/CAC") {
+    CohortLTVCAC(data, days = 60, summarise = "mean")
+  }
+}
+
+
 # 4_visualisation ---------------------------------------------------------
 
 PlotCohort <- function(data, plotType = "table", view = "CA"){
@@ -239,7 +271,7 @@ PlotCohortLinechart <- function(data, view = "CA"){
   }
   ggplot(data, aes_string(x = x, y = "y", color = "cohortName")) +
     geom_line() +
-    theme_gg()
+    theme_everest()
 }
 
 theme_everest <- function(){
