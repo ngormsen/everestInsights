@@ -417,18 +417,28 @@ SetLabelForDepVar <- function(summariseVar, summariseFunc, relativeTo){
   return(depVarLabel)
 }
 
-CreateRegressionHTMLTable <- function(model, depVarLabel) {
-  regTbl <- stargazer::stargazer(
-    model,
-    type = "html",
-    report = "vc*", # removes standard errors
-    dep.var.labels = depVarLabel
-  )
+CreateRegressionHTMLTable <- function(model, depVarLabel = NULL) {
+  if (!is.null(depVarLabel)){
+    regTbl <- stargazer::stargazer(
+      model,
+      type = "html",
+      report = "vc*", # removes standard errors
+      dep.var.labels = depVarLabel
+    )
+  } else {
+    regTbl <- stargazer::stargazer(
+      model,
+      type = "html",
+      report = "vc*" # removes standard errors
+    )
+  }
+  
   regTbl <- paste(regTbl, collapse = "")
   return(regTbl)
 }
 
-InterpretCoefficients <- function(model){
+
+InterpretCoefficients <- function(model, depVar){
   coefs <- as.matrix(round(coef(model), 2))
   coefNames <- rownames(coefs)
   nCoefs <- nrow(coefs)
@@ -440,24 +450,24 @@ InterpretCoefficients <- function(model){
     out <- ""
     if (predictor == "age"){
       if (coef < 0) {
-        out <- glue("Every additional age {Bold('decreases')} the dependent variable by {Bold(coef)}.")
+        out <- glue("Every additional age {Bold('decreases')} {Bold(depVar)} by {Bold(coef)}.")
       } else {
-        out <- glue("Every additional age {Bold('increases')} the dependent variable by {Bold(coef)}")
+        out <- glue("Every additional age {Bold('increases')} {Bold(depVar)} by {Bold(coef)}")
       }
     } else if (predictor == "cohort") {
       if (coef < 0) {
-        out <- glue("Every subsequent cohort {Bold('decreases')} the dependent variable by {Bold(coef)}")
+        out <- glue("Every subsequent cohort {Bold('decreases')} {Bold(depVar)} by {Bold(coef)}")
       } else {
-        out <- glue("Every subsequent cohort {Bold('decreases')} the dependent variable by {Bold(coef)}")
+        out <- glue("Every subsequent cohort {Bold('increases')} {Bold(depVar)} by {Bold(coef)}")
       }
     } else if (predictor == "period") {
       if (coef < 0) {
-        out <- glue("Every additional period is expected to {Bold('decreases')} the dependent variable by {Bold(coef)}.")
+        out <- glue("Every additional period is expected to {Bold('decreases')} {Bold(depVar)} by {Bold(coef)}.")
       } else {
-        out <- glue("Every additional period is expected to {Bold('increases')} the dependent variable by {Bold(coef)}")
+        out <- glue("Every additional period is expected to {Bold('increases')} {Bold(depVar)} by {Bold(coef)}")
       }
     } else if (predictor == "(Intercept)"){
-      out <- glue("The average value of the dependent variable when all predictors are 0 is {Bold(coef)}")
+      out <- glue("The average value of {Bold(depVar)} when all predictors are 0 is {Bold(coef)}")
     }
     out <- glue("<p>{out}</p>")
     return(out)
@@ -465,14 +475,14 @@ InterpretCoefficients <- function(model){
   return(paste(interpretations, collapse = ""))
 }
 
-CreateDataForLinearModelFit <- function(model, data){
+CreateDataForLinearModelFit <- function(data, model){
   preds <- predict.lm(object = model, newdata = data)
   
   dtActual <- copy(data)
   dtActual[, label := "actual"]
   
   dtModel <- copy(data)
-  dtModel[, Y := preds]
+  dtModel[, y := preds]
   dtModel[, label := "model"]
   
   dtPlt <- rbind(dtActual, dtModel)
@@ -486,16 +496,16 @@ PlotLinearModelFit <- function(dtPlt) {
   ggplot() +
     geom_line(
       data = dtActual,
-      mapping = aes(x = age, y = Y, color = as.factor(cohort))
+      mapping = aes(x = age, y = y, color = as.factor(cohort))
     ) +
     geom_line(
       data = dtModel,
-      mapping = aes(x = age, y = Y, color = as.factor(cohort)),
+      mapping = aes(x = age, y = y, color = as.factor(cohort)),
       linetype = "dashed",
       size = 1,
       alpha = 0.5
     ) +
-    ThemeGG()
+    theme_everest()
 }
 
 # Small Help Functions ---------------------------------------------------------------
@@ -545,6 +555,10 @@ GenerateHtmlList <- function(xs){
     tags$li(x)
   })
   return(tags$ul(out))
+}
+
+RandomHTMLElement <- function(){
+  HTML("<div style='width: 100px; height:100px; background-color: yellow;'><h1>Hello world</h1></div>")
 }
 
 
