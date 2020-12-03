@@ -1,4 +1,4 @@
-#' analysisChurnCard UI Function
+#' analysisCohortCard UI Function
 #'
 #' @description A shiny Module.
 #'
@@ -7,23 +7,23 @@
 #' @noRd 
 #'
 #' @importFrom shiny NS tagList 
-mod_analysisChurnCard_ui <- function(id){
+mod_analysisCohortCard_ui <- function(id){
   ns <- NS(id)
   uiOutput(ns("somehing"))
   uiOutput(ns("htmlOutput"))
 }
-
-#' analysisChurnCard Server Function
+    
+#' analysisCohortCard Server Function
 #'
 #' @noRd 
-mod_analysisChurnCard_server <- function(input, output, session, report, dashboardSession){
+mod_analysisCohortCard_server <- function(input, output, session, report, dashboardSession){
   ns <- session$ns
   output$title <- renderUI({
     tags$h2(report$title)
   })
   
   output$text <- renderUI({
-    paste0(report$text, sep = "\n")
+    report$text
   })
   
   output$image <- renderPlot({
@@ -52,6 +52,17 @@ mod_analysisChurnCard_server <- function(input, output, session, report, dashboa
         width = 12
       )
     )
+    
+    # tags$div(class="tile", 
+    #          tags$img(src = 'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'),
+    #          tags$div(class = "text",
+    #                   tags$h1("Lorem ipsum"),
+    #                   tags$h2(class="animate-text", "More lorem ipsum bacon ipsum."),
+    #                   tags$p(class = "animate-text", "Bacon ipsum dolor amet pork belly tri-tip turd"),
+    #                   actionButton(ns("reportButton"), "Open Report", class="animate-text"),
+    #                   actionButton(ns("dashboardButton"), "Add to Dashboard", class="animate-text")
+    #          )
+    # )
   })
   
   observeEvent(input$dashboardButton, {
@@ -64,17 +75,15 @@ mod_analysisChurnCard_server <- function(input, output, session, report, dashboa
       updateActionButton(session, "dashboardButton", label = "Add to Dashboard")
     }
   })
-
+  
   observeEvent(input$reportButton, {
     updateTabItems(session = dashboardSession, "tabsMenu", report$getId())
   })
   
-  
 }
-    
 ## To be copied in the UI
-# mod_analysisChurnCard_ui("analysisChurnCard_ui_1")
+# mod_analysisCohortCard_ui("analysisCohortCard_ui_1")
     
 ## To be copied in the server
-# callModule(mod_analysisChurnCard_server, "analysisChurnCard_ui_1")
+# callModule(mod_analysisCohortCard_server, "analysisCohortCard_ui_1")
  

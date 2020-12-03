@@ -15,8 +15,9 @@ library(magrittr)
 
 ```{r}
 source("functions.R")
-translog <- readRDS("fake_data.rds")
-translog <- AddAcquisitionTimestamp(data, "orderTimestamp", "customerId")
+translog <- read_csv("../data/fake_data.csv") %>%
+  setDT()
+translog <- AddAcquisitionTimestamp(translog, "orderTimestamp", "customerId")
 ```
 
 ### Goal
