@@ -10,14 +10,19 @@
 mod_analysisChurnView_ui <- function(id){
   ns <- NS(id)
   
-
   tabItem(
     tabName = "analysisChurn",
     fluidRow(
       actionButton(ns("randomTextButton"), "Activate Random Text"),
-      box(title = "Actionable Insights", width = 12),
+      box(title = "Actionable Insights", width = 12,
+          img(src = "www/report_churn_1.png", width = "100%")
+          ),
       box(width = 12, htmlOutput(ns("researchQuestions"))),
       box(width = 12,
+          img(src = "www/report_churn_2.png", width = "100%"),
+          img(src = "www/report_churn_3.png", width = "100%"),
+          img(src = "www/report_churn_4.png", width = "100%"),
+          
           ChurnDefinition(inputId = ns("churnDefinition")),
           LookAtData(pltOutputId = ns("survTimeDist")),
           SelectPredictors(selectPredictorsInputId = ns("predictors")),
@@ -26,7 +31,6 @@ mod_analysisChurnView_ui <- function(id){
             column(6, htmlOutput(ns("regTable"))),
             column(6, plotOutput(ns("pltFit"))),
             column(6, plotOutput(ns("newPlot")))
-            
           )
       )
   ))

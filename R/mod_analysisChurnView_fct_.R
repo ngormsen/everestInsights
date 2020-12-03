@@ -14,38 +14,11 @@ ResearchQuestionText <- function(){
   )
 }
 
-DefiningChurnText <- function(){
-  shiny::tagList(
-    tags$h4("Defining Customer Churn"),
-    tags$p("First, we have to specify which customers are considered churners.")
-  )
-}
-
-
-numericInput2 <- function(id, value, label){
-  glue("
-      <div class='myclass'>
-        <label class='control-label' for='{label}'></label>
-        <input id='{id}' type='number' class='form-control' value='{value}'/>
-        </div>
-      ")
-}
-
-ChurnDefinitionLabel <- function(nDays){
-  glue("Number of Customers who have not made a purchase in the last {nDays} days")
-}
-
 ChurnDefinition <- function(inputId){
   tagList(
     tags$h4("Defining Churn"),
-    tags$table(
-      tags$tr(width = "100%",
-              tags$td(tags$p("Customers who have not made a purchase in the last")),
-              tags$td(tags$p(style = "padding: 0 4px", " ")),
-              tags$td(numericInput(inputId = inputId, label = NULL, value = 60)),
-              tags$td(tags$p(style = "padding: 0 4px", " ")),
-              tags$td(tags$p("days.")))
-    )
+    tags$p("Customers who have not made a purchase in the last ... days."),
+    numericInput(inputId = inputId, label = "Number of Days", value = 60)
   )
 }
 
