@@ -34,9 +34,7 @@ mod_tabDashboardReport_server <- function(input, output, session, dashboardSessi
          })
 
   output$content <- renderUI({
-    tags$div(class="wrap",
-             reportsUI)
-    
+     reportsUI
   })
   
   

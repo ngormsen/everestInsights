@@ -18,11 +18,11 @@ mod_analysisCohortCard_ui <- function(id){
 #' @noRd 
 mod_analysisCohortCard_server <- function(input, output, session, report, dashboardSession){
   ns <- session$ns
-  output$title <- renderText({
-    report$title
+  output$title <- renderUI({
+    tags$h2(report$title)
   })
   
-  output$text <- renderText({
+  output$text <- renderUI({
     report$text
   })
   
@@ -32,16 +32,37 @@ mod_analysisCohortCard_server <- function(input, output, session, report, dashbo
   
   
   output$htmlOutput <- renderUI({
-    tags$div(class="tile", 
-             tags$img(src = 'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'),
-             tags$div(class = "text",
-                      tags$h1("Lorem ipsum"),
-                      tags$h2(class="animate-text", "More lorem ipsum bacon ipsum."),
-                      tags$p(class = "animate-text", "Bacon ipsum dolor amet pork belly tri-tip turd"),
-                      actionButton(ns("reportButton"), "Open Report", class="animate-text"),
-                      actionButton(ns("dashboardButton"), "Add to Dashboard", class="animate-text")
-             )
+    fluidRow(
+      box(
+        fluidRow(
+          column(8,
+                 tags$div(
+                   style = "height:170px",
+                   uiOutput(ns("title")),
+                   tags$br(),
+                   uiOutput(ns("text")),
+                   tags$br()
+                 ),
+                 tags$span(
+                   actionButton(ns("reportButton"), "Open Report"),
+                   actionButton(ns("dashboardButton"), "Add to Dashboard"))
+          ),
+          column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
+        ),
+        width = 12
+      )
     )
+    
+    # tags$div(class="tile", 
+    #          tags$img(src = 'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'),
+    #          tags$div(class = "text",
+    #                   tags$h1("Lorem ipsum"),
+    #                   tags$h2(class="animate-text", "More lorem ipsum bacon ipsum."),
+    #                   tags$p(class = "animate-text", "Bacon ipsum dolor amet pork belly tri-tip turd"),
+    #                   actionButton(ns("reportButton"), "Open Report", class="animate-text"),
+    #                   actionButton(ns("dashboardButton"), "Add to Dashboard", class="animate-text")
+    #          )
+    # )
   })
   
   observeEvent(input$dashboardButton, {

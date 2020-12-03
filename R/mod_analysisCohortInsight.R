@@ -9,8 +9,24 @@
 #' @importFrom shiny NS tagList 
 mod_analysisCohortInsight_ui <- function(id){
   ns <- NS(id)
-  tagList(
- 
+  fluidRow(
+    box(
+      fluidRow(
+        column(1),
+        column(7,
+               fluidRow(
+                 textOutput(ns("title"))
+               ),
+               fluidRow(
+                 textOutput(ns("text")),
+                 textOutput(ns("randomText"))
+               ),
+        ),
+        column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
+      ),
+      width = 12,
+      height = "250px"
+    )
   )
 }
     
@@ -19,7 +35,27 @@ mod_analysisCohortInsight_ui <- function(id){
 #' @noRd 
 mod_analysisCohortInsight_server <- function(input, output, session, report){
   ns <- session$ns
- 
+  reportData <- report$getReportData()
+  
+  output$title <- renderText({
+    report$title
+  })
+  
+  output$text <- renderText({
+    report$text
+  })
+  
+  output$image <- renderPlot({
+    report$image
+  })
+  
+  output$randomText <- renderText({
+    if(!is.null(reportData$getRandomText())){
+      reportData$getRandomText()
+    }
+    
+  })
+  
 }
     
 ## To be copied in the UI
