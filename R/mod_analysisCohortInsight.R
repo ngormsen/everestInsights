@@ -11,7 +11,7 @@ mod_analysisCohortInsight_ui <- function(id){
   ns <- NS(id)
   fluidRow(
     box(width = 12,
-        img(src = "www/report_churn_1.png", width = "100%")
+        img(src = "www/cohort_insights.png", width = "100%")
     )
   )
 }
