@@ -61,7 +61,8 @@ mod_dashboard_server <- function(input, output, session){
   translogCohort <- read_csv("data/fake_data.csv") %>% setDT()
   
   reports <- list(
-    Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translogChurn), session,
+    Report$new("Churn Analysis", "churnAnalysis", ns, 
+               ChurnData$new(translogChurn), session, "www/churnChart.png",
                mod_analysisChurnCard_server,
                mod_analysisChurnCard_ui,
                "analysisChurnCard",
@@ -72,7 +73,8 @@ mod_dashboard_server <- function(input, output, session){
                mod_analysisChurnView_ui,
                "analysisChurnView"
                ),
-    Report$new("Cohort Analysis", "cohortAnaysis", ns, CohortData$new(translogCohort), session,
+    Report$new("Cohort Analysis", "cohortAnaysis", ns, 
+               CohortData$new(translogCohort), session,"www/cohortChart.png",
                mod_analysisCohortCard_server,
                mod_analysisCohortCard_ui,
                "analysisCohortCard",
@@ -86,7 +88,7 @@ mod_dashboard_server <- function(input, output, session){
   )
   
   callModule(mod_tabDashboardMain_server, "tabDashboardMain", translog=translogChurn, translogClean=translogClean, reports=reports)
-  callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translogChurn)
+  # callModule(mod_tabDashboardCohortAnalysis_server, "tabDashboardCohortAnalysis", translog=translogChurn)
   callModule(mod_tabDashboardReport_server, "tabDashboardReport", reports=reports, dashboardSession=session)
   
   
@@ -104,9 +106,9 @@ mod_dashboard_server <- function(input, output, session){
     sidebarMenu(
       id = ns("tabsMenu"),
       # Static menu entries
-      menuItem("Data", tabName = "tabData"),
+      menuItem("Data", tabName = "tabData", icon = icon("database")),
       menuItem("Dashboard", tabName = "tabDashboard", icon = icon("dashboard")),
-      menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
+      # menuItem("Cohort Analysis", tabName = "tabCohortAnalysis", icon = icon("th")),
       # menuItem("Churn Analysis", tabName = "analysisChurn"),
       
       # The Reports menu item has several dynamically generated sub menu entries
@@ -120,7 +122,7 @@ mod_dashboard_server <- function(input, output, session){
   reportsTabs <- list(
     mod_tabDashboardData_ui(ns("tabData")),
     mod_tabDashboardMain_ui(ns("tabDashboardMain")),
-    mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
+    # mod_tabDashboardCohortAnalysis_ui(ns("tabDashboardCohortAnalysis")),
     mod_tabDashboardReport_ui(ns("tabDashboardReport"))
   )
   

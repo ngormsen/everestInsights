@@ -10,22 +10,8 @@
 mod_analysisCohortInsight_ui <- function(id){
   ns <- NS(id)
   fluidRow(
-    box(
-      fluidRow(
-        column(1),
-        column(7,
-               fluidRow(
-                 textOutput(ns("title"))
-               ),
-               fluidRow(
-                 textOutput(ns("text")),
-                 textOutput(ns("randomText"))
-               ),
-        ),
-        column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
-      ),
-      width = 12,
-      height = "250px"
+    box(width = 12,
+        img(src = "www/report_churn_1.png", width = "100%")
     )
   )
 }

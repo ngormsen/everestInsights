@@ -47,7 +47,7 @@ mod_analysisCohortCard_server <- function(input, output, session, report, dashbo
                    actionButton(ns("reportButton"), "Open Report"),
                    actionButton(ns("dashboardButton"), "Add to Dashboard"))
           ),
-          column(4,shinycssloaders::withSpinner(plotOutput(ns("image"), height = "200px"), type = 7))
+          column(4,img(src = report$getImage() , width = "100%"))
         ),
         width = 12
       )

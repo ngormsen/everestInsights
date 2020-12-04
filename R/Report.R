@@ -5,7 +5,7 @@ Report <- R6Class("Report",
      .title = NULL,
      .text = NULL,
      .dashboard = NULL,
-     .image = NULL,
+     image = NULL,
      id = NULL,
      cardServer = NULL,
      cardUi = NULL,
@@ -24,16 +24,13 @@ Report <- R6Class("Report",
      dasboard = function(){
        private$.dashboard
      },
-     image = function(){
-       private$.image
-     },
      title = function(){
        private$.title
      }
    ),
 
    public = list(
-     initialize = function( title, id, ns, reportData, dashboardSession,
+     initialize = function( title, id, ns, reportData, dashboardSession, image,
                             cardServer, cardUi, cardId,
                             insightServer, insightUi, insightId, 
                             viewServer, viewUi, viewId ) {
@@ -43,9 +40,7 @@ Report <- R6Class("Report",
        private$.title <- title
        private$.text <- random_text(nwords=50)
        private$.dashboard <- FALSE
-       private$.image <- random_ggplot(type = "col") + 
-         labs(title = "Random plot") + 
-         theme_bw()
+       private$image <- image
        private$reportData = reportData
        
        private$cardServer = callModule(cardServer, cardId, self, dashboardSession)
@@ -81,6 +76,9 @@ Report <- R6Class("Report",
      },
      getTitle = function(){
         private$.title
+     },
+     getImage = function(){
+       private$image
      },
      getCardServer = function(){
        private$cardServer

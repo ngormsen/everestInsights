@@ -13,10 +13,6 @@ mod_analysisChurnView_ui <- function(id){
   tabItem(
     tabName = "analysisChurn",
     fluidRow(
-      actionButton(ns("randomTextButton"), "Activate Random Text"),
-      box(title = "Actionable Insights", width = 12,
-          img(src = "www/report_churn_1.png", width = "100%")
-          ),
       box(width = 12, htmlOutput(ns("researchQuestions"))),
       box(width = 12,
           img(src = "www/report_churn_2.png", width = "100%"),
