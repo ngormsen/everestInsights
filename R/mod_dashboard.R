@@ -57,9 +57,8 @@ mod_dashboard_server <- function(input, output, session){
   # Implement the logic in the respective submodules
 
   # Call to static submodulest
-  translogChurn <- callModule(mod_tabDashboardData_server, "tabData")
-  translogCohort <- read_csv("data/fake_data.csv") %>%
-    setDT()
+  translogChurn <- read_csv("data/fake_data.csv") %>% setDT()
+  translogCohort <- read_csv("data/fake_data.csv") %>% setDT()
   
   reports <- list(
     Report$new("Churn Analysis", "churnAnalysis", ns, ChurnData$new(translogChurn), session,

@@ -5,7 +5,7 @@
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd 
-#' @import shinyjs stargazer
+#' @import shinyjs stargazer survival survminer ggfortify
 #' @importFrom shiny NS tagList 
 mod_analysisChurnView_ui <- function(id){
   ns <- NS(id)
@@ -24,14 +24,14 @@ mod_analysisChurnView_ui <- function(id){
           img(src = "www/report_churn_4.png", width = "100%"),
           
           ChurnDefinition(inputId = ns("churnDefinition")),
-          LookAtData(pltOutputId = ns("survTimeDist")),
-          SelectPredictors(selectPredictorsInputId = ns("predictors")),
-          tags$h4("Model Results"),
-          fluidRow(
-            column(6, htmlOutput(ns("regTable"))),
-            column(6, plotOutput(ns("pltFit"))),
-            column(6, plotOutput(ns("newPlot")))
-          )
+          LookAtData(pltOutputId = ns("survTimeDist"))
+      ),
+      box(width = 12,
+          tags$h3("Survival Model"),
+          selectInput(ns("regressors"), label = "Select Regressors", choices = c("age", "salary", "acqChannel"), selected = "acqChannel", multiple = TRUE),
+          verbatimTextOutput(ns("regressionTable")),
+          selectInput(ns("survivalCurvesVariable"), label = "Filter", choices = c("age", "salary", "acqChannel"), selected = "acqChannel"),
+          plotOutput(ns("survivalCurves"))
       )
   ))
 }
@@ -44,30 +44,40 @@ mod_analysisChurnView_server <- function(input, output, session, report){
   reportData <- report$getReportData()
   translog <- reportData$getTranslog()
   
-  output$researchQuestions <- renderUI({ResearchQuestionText()})
-
-  output$survTimeDist <- renderPlot({
-    hist(rnorm(20))
-  })
-
-  output$newPlot <- renderPlot({
-    hist(translog()$amountSpent)
+  survivalData <- reactive({
+    translog <- AddSurvivalColumns(translog, churnDef = input$churnDefinition)
+    translog <- AddFirstPurchaseProductCategoryColumn(translog)
+    translog
   })
   
-  output$regTable <- renderUI({
-    HTML(stargazer(lm(Sepal.Length ~ Species, data = iris), type = "html"))
-  })
-
-  output$pltFit <- renderPlot({
-    ggfake_fit()
-  })
-
-  observeEvent(input$randomTextButton, {
-    reportData$setRandomText("Roadrunner") 
+  observe({
+    updateSelectInput(session = session,
+                      inputId = "regressors",
+                      choices = names(survivalData()),
+                      selected = "acqChannel")
+    updateSelectInput(session = session,
+                      inputId = "survivalCurvesVariable",
+                      choices = names(survivalData()),
+                      selected = "acqChannel")
   })
   
-  updateSelectizeInput(session = session, inputId = "predictors", choices = c("hello", "world", "of", "science"))
+  survivalModel <- reactive({
+    regressors <- paste(input$regressors, collapse = "+")
+    model <- coxph(formula = as.formula(paste0("Surv(survTime, isChurn) ~", regressors)),
+                   data = survivalData())
+  })
   
+  output$regressionTable <- renderPrint({
+    summary(survivalModel())
+  })
+  
+  output$survivalCurves <- renderPlot({
+    fit <- survfit(formula = as.formula(paste0("Surv(survTime, isChurn) ~", input$survivalCurvesVariable)),
+                  data = survivalData())
+    autoplot(fit)
+  })
+  
+  output$researchQuestions <- renderUI(ResearchQuestionText())
 }
 
 

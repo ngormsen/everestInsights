@@ -35,8 +35,9 @@ usethis::use_package("shinycssloaders")
 usethis::use_package("shinyjs")
 usethis::use_package("stargazer")
 usethis::use_package("dashboardthemes")
-
-
+usethis::use_package("survival")
+usethis::use_package("survminer")
+usethis::use_package("ggfortify")
 
 
 
@@ -71,7 +72,6 @@ golem::add_utils( "helpers" )
 ## Creates .js and .css files at inst/app/www
 golem::add_js_file( "script" )
 golem::add_js_handler( "handlers" )
-golem::add_css_file( "", name = "analysisChurn")
 golem::add_css_file( "", name = "custom")
 golem::add_css_file( "", name = "analysisChurnCard")
 

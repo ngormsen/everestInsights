@@ -49,6 +49,7 @@ mod_analysisCohortView_server <- function(input, output, session, report){
       CohortMetric(metric = input$metric) 
   })
   
+  
   output$cohortTable <- renderPlot({
     cohortData() %>% 
       PlotCohort(plotType = input$plotType, view = input$view)

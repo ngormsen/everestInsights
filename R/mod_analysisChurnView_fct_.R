@@ -45,3 +45,30 @@ SurvivalModel <- function(pltRegTableInputId, pltFitInputId){
     
   )
 }
+
+AddSurvivalColumns <- function(translog, churnDef){
+  translog[, lastPurchaseDate := max(orderTimestamp), by = customerId]
+  translog[, endOfStudyDate := max(orderTimestamp)]
+  translog[, isChurn := ifelse(endOfStudyDate - lastPurchaseDate >= churnDef, 1, 0)]
+  
+  # Length of relationship
+  translog[, survTime := endOfStudyDate - min(orderTimestamp), by = customerId]
+  translog[isChurn == 1, 
+           survTime := as.numeric(max(orderTimestamp) - min(orderTimestamp)),
+           by = customerId]
+  return(translog)
+}
+
+AddFirstPurchaseProductCategoryColumn <- function(translog){
+  translog <- translog %>% 
+    group_by(customerId) %>%
+    summarise(
+      orderTimestamp = min(orderTimestamp)
+    ) %>% 
+    left_join(translog, by = c("customerId", "orderTimestamp")) %>% 
+    select(customerId, productCategory) %>% 
+    rename(firstPurchaseProductCategory = productCategory) %>% 
+    right_join(translog, by = "customerId") %>% 
+    setDT()
+  return(translog)
+}
